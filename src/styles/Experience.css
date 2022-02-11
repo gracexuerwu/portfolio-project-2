@@ -15,29 +15,43 @@
     flex-grow: 1;
     margin-left: 200px;
 } */
-hr {
-    margin-bottom: 80px
+.Experience hr {
+  margin-bottom: 80px;
 }
-.left-col {
-    width: 15%;
-    font-size: 20px;
+.Experience .left-col {
+  width: 15%;
+  font-size: 20px;
 }
-.right-col {
-    width: 10%;
-    float: right;
-    font-size: 20px;
+.Experience .right-col {
+  width: 10%;
+  float: right;
+  font-size: 20px;
 }
-.center-col {
-    width: 80%;
-    float: left;
+.Experience .center-col {
+  width: 80%;
+  float: left;
 }
-.container div {
-    padding: 1%;
-    box-sizing: border-box;
-    min-height: 500px;
-    padding-left: 0px;
-    padding-right: 0px;
+.Experience .container div {
+  padding: 1%;
+  box-sizing: border-box;
+  min-height: 500px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .Experience h2 {
-    font-size: 24px;
+  font-size: 24px;
+  margin-bottom: 10px
+}
+.Experience ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+}
+.Experience .experienceLocation {
+    color: var(--light-branding-color);
+    margin-bottom: 10px
+}
+.Experience .experienceDetail {
+    margin-bottom: 80px;
 }
