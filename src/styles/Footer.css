@@ -1,0 +1,15 @@
+ /* .left-col {
+    font-size: 2px;
+    justify-self: start;
+  } 
+ .right-col {
+    float: right;
+    font-size: 20px;
+    justify-self: end;
+  }
+   */
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  } 
