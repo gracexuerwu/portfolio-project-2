@@ -12,9 +12,9 @@ export default function FeaturedProjects() {
   return (
     <div className="FeaturedProjects">
       <h2>FEATURED PROJECTS</h2>
-      <div className="row projectRow">
+      <div className="row projectRow d-flex justify-content-between">
         <div className="col-6">
-          <ProjectComponent image={WeatherAppThumbnail} />
+          <ProjectComponent image={WeatherAppThumbnail}/>
         </div>
         <div className="col-6">
           <ProjectComponent image={ReactWeatherAppThumbnail} />
