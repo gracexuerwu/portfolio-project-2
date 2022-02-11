@@ -1,0 +1,57 @@
+.experience-container {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 45px;
+    font-size: 20px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 25fr 1fr;
+    gap: 30px 30px;
+  }
+  /* .item {
+      flex-grow: 1;
+      margin-left: 200px;
+  } */
+  .Education hr {
+    margin-bottom: 80px;
+  }
+  .Education .left-col {
+    width: 15%;
+    font-size: 20px;
+  }
+  .Education .right-col {
+    width: 10%;
+    float: right;
+    font-size: 20px;
+  }
+  .Education .center-col {
+    width: 80%;
+    float: left;
+  }
+  .Education .container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .Education h2 {
+    font-size: 24px;
+    margin-bottom: 10px
+  }
+  .Education ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+  }
+  .Education .educationLocation {
+      color: var(--light-branding-color);
+      margin-bottom: 10px
+  }
+  .Education .educationDetail {
+      margin-bottom: 80px;
+  }

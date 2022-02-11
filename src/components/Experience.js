@@ -11,11 +11,6 @@ export default function Experience() {
           borderColor: "#1A1A1A",
         }}
       />
-      {/* <div className="experience-container">
-        <div>EXPERIENCE</div>
-        <div className="item">3D Generalist Internship</div>
-        <div>Jan - Jun 2018</div>
-      </div> */}
       <div className="d-flex justify-content-between">
         <div className="left-col">EXPERIENCE</div>
         <div className="center-col">
