@@ -8,12 +8,11 @@ import WeatherAppThumbnail from "../images/WeatherApp_Thumbnail.png";
 import DictionaryAppThumbnail from "../images/ReactDictApp_Thumbnail.png";
 import LunarBirthdayCalendar_Thumbnail from "../images/LunarBirthdayCalendar_Thumbnail.png";
 
-
 export default function FeaturedProjects() {
   return (
     <div className="FeaturedProjects">
       <h2>FEATURED PROJECTS</h2>
-      <div className="row">
+      <div className="row projectRow">
         <div className="col-6">
           <ProjectComponent image={WeatherAppThumbnail} />
         </div>
@@ -21,7 +20,7 @@ export default function FeaturedProjects() {
           <ProjectComponent image={ReactWeatherAppThumbnail} />
         </div>
       </div>
-      <div className="row">
+      <div className="row projectRow">
         <div className="col-6">
           <ProjectComponent image={DictionaryAppThumbnail} />
         </div>
