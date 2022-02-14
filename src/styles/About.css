@@ -1,0 +1,17 @@
+.About {
+    margin: 250px 0 0 0;
+}
+.About h1 {
+    font-size: 50px;
+}
+/* .CVphoto {
+
+} */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.CVphoto {
+    height: 665px;
+    width: 523px;
+}
