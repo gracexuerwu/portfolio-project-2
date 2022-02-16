@@ -2,7 +2,8 @@
     margin: 250px 0 0 0;
 }
 .About h1 {
-    font-size: 50px;
+    font-size: 58px;
+    margin: 0 auto;
 }
 /* .CVphoto {
 
@@ -12,6 +13,13 @@ img {
     max-height: 100%;
 }
 .CVphoto {
-    height: 665px;
-    width: 523px;
+    height: 670px;
+    width: 513px;
+}
+.About p {
+    font-size: 25px;
+    margin-top: 40px;
+}
+.about-text {
+    margin-top: 60px;
 }
