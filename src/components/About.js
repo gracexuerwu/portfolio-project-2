@@ -3,10 +3,12 @@ import "../styles/About.css";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 
+import { FileCode, Tree, Atom } from "phosphor-react";
+
 export default function About() {
   return (
     <div className="About">
-      <div className="row">
+      {/* <div className="row">
         <div className="col-7">
           <h1>Hi I’m Grace Wu, </h1>
           <h1>interfacer designer &amp; developer.</h1>
@@ -28,8 +30,26 @@ export default function About() {
         <div className="col-4">
           <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
         </div>
+      </div> */}
+      <div className="d-flex justify-content-between About">
+        <div className="left-col">
+          <h1>Hi I’m Grace Wu, </h1>
+          <h1>interfacer designer &amp; developer.</h1>
+          <p>
+            I am a designer who can not only create visually appealing content
+            but also transform them into code <FileCode size={32} /> (Sounds cool right!) 
+            When the internet is down you can find me frolicking in the woods or
+            alps <Tree size={32} />, cooking or reading a book.{" "}
+          </p>{" "}
+          <p>
+            I am open to internships and full-time positions in UX design or
+            service design field <Atom size={32} />.
+          </p>
+        </div>
+        <div className="right-col">
+          <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
+        </div>
       </div>
     </div>
-    
   );
 }
