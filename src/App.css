@@ -4,6 +4,16 @@
   src: url(./fonts/HKGrotesk-Regular.ttf);
   font-weight: normal;
 }
+@font-face {
+  font-family: DoulosSILR;
+  src: url(./fonts/DoulosSILR.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: centabel;
+  src: url(./fonts/centabel.ttf);
+  font-weight: normal;
+}
 :root {
   --branding-color: rgb(0, 0, 0);
   --light-branding-color: #004E93;

@@ -18,8 +18,9 @@ h1 {
     -moz-text-fill-color: transparent;
 }
 h2 {
-    font-size: 27px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 45px;
+    font-family: HkGrotesk;
 }
 h3 {
     font-size: 25px;
