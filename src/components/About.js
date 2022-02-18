@@ -6,6 +6,7 @@ import CVPhoto from "../images/CV_photo1.jpeg";
 
 import { FileCode, Tree, Atom, ArrowUpRight} from "phosphor-react";
 
+
 export default function About() {
   return (
     <div className="About">

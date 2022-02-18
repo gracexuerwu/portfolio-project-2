@@ -10,7 +10,8 @@ export default function Hero() {
       <h2>Hey I'm</h2>
       <h1>Grace Wu</h1>
       <h2>
-        An inquisitive multidisciplinary designer &amp; Design Management student based in Lucerne, Switzerland. Who enjoys writing code and moving
+        An inquisitive multidisciplinary designer &amp; Design Management student based in Lucerne, Switzerland. 
+        <br /> Who enjoys writing code and moving
         pixels in the www.{" "}
       </h2>
       <br />

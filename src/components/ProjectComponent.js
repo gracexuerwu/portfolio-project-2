@@ -12,7 +12,7 @@ export default function ProjectComponent(props) {
         className="img-fluid text-center placeholder-img rounded projectImage"
         alt=""
       />
-      <div className="row">
+      <div className="row ProjectComponent">
         <div className="col-10">
           {" "}
           <h4>Weather App</h4>
