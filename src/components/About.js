@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 
@@ -32,7 +33,7 @@ export default function About() {
         </div>
       </div> */}
       <div className="d-flex justify-content-between">
-        <div className="left-col">
+        <div className="left-col1">
           <h1>Hi I’m Grace Wu, </h1>
           <h1>interfacer designer &amp; developer.</h1>
           <p>
@@ -46,7 +47,7 @@ export default function About() {
             service design field <Atom size={32} />.
           </p>
         </div>
-        <div className="right-col">
+        <div className="right-col1">
           <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
         </div>
       </div>
@@ -56,9 +57,9 @@ export default function About() {
           borderColor: "#1A1A1A",
         }}
       />
-      <div className="d-flex justify-content-between connect-bar">
+      <div className="d-flex flex-start connect-bar">
         <div className="left-col connect">
-          Let's connect <ArrowUpRight size={18} />
+          Let's connect <ArrowUpRight size={20} />
         </div>
         <div className="right-col connect">
           <div>grace.xuer.wu@gmail.com</div>
@@ -71,6 +72,7 @@ export default function About() {
           borderColor: "#1A1A1A",
         }}
       />
+      <Footer />
     </div>
   );
 }

@@ -4,6 +4,7 @@
 .About h1 {
     font-size: 65px;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 /* .CVphoto {
 
@@ -29,16 +30,21 @@ img {
     display: flex;
     justify-content: space-evenly;
 }
-.About .left-col {
+.About .left-col1 {
     width: 60%;
 }
-.right-col {
+.right-col1 {
     width: 40%;
     float: right;
     margin-left: 50px;
   }
   .connect {
-      font-size: 20px;
+      font-size: 24px;
+  }
+  .connect-bar {
+    justify-content: space-between;
+
+
   }
  .About hr {
      margin-bottom: 80px;
