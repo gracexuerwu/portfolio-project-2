@@ -58,14 +58,15 @@ export default function About() {
           borderColor: "#1A1A1A",
         }}
       />
-      <div className="d-flex flex-start connect-bar">
-        <div className="left-col connect">
+      <div className="d-flex">
+        <div className="col-3 connect">
           Let's connect <ArrowUpRight size={20} />
         </div>
-        <div className="right-col connect">
+        <div className="col-6 connect">
           <div>grace.xuer.wu@gmail.com</div>
           <a href="">View my resume </a>
         </div>
+        <div className="col-3"></div>
       </div>
       <hr
         style={{
