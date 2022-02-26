@@ -15,9 +15,16 @@
   font-weight: normal;
 }
 :root {
+  --background: #ffffff; 
   --branding-color: rgb(0, 0, 0);
   --light-branding-color: #004E93;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+[data-theme='dark'] {
+  --background: #000000; 
+  --branding-color: rgb(255, 255, 255);
+  --light-branding-color: #8e05c2;
+  --box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 .App {
   /* text-align: center; */
@@ -25,13 +32,13 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: var(--background);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  color: var(--branding-color);
 }
 

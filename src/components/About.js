@@ -64,7 +64,7 @@ export default function About() {
         </div>
         <div className="col-6 connect">
           <div>grace.xuer.wu@gmail.com</div>
-          <a href="">View my resume </a>
+          <a href="https://www.youtube.com/watch?v=y0LwoUi_Kcw&t=1321s">View my resume </a>
         </div>
         <div className="col-3"></div>
       </div>

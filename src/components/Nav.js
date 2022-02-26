@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import { House } from "phosphor-react";
 
-export default function Nav() {
+export default function Nav(props) {
   return (
     // <nav>
     //   <NavLink to="/">
@@ -81,7 +81,7 @@ export default function Nav() {
                 className="nav-link navbar-font mx-2"
                 title="About"
               >
-                <FontAwesomeIcon  icon={faMoon} className="fa-lg" />
+                <FontAwesomeIcon  onClick={props.onClick} icon={faMoon} className="fa-lgn theme-toggle" />
               </NavLink>
             </div>
           </div>

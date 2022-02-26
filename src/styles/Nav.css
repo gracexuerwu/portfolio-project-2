@@ -10,6 +10,6 @@ nav {
   font-size: 20px;
 }
 .navbar {
-    background-color: #ffffff;
+    background-color: var(--background);
     padding-top: 50px;
   }
