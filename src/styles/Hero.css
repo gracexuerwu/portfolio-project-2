@@ -24,7 +24,7 @@ h2 {
 }
 h3 {
     font-size: 25px;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .arrowAnimation {
     height: 300px;
@@ -33,3 +33,16 @@ h3 {
     bottom: -8px;
     right: 215px;
 }
+@media (max-width: 414px) {
+    .Hero h1 {
+      font-size: 60px;
+    }
+    .Hero h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .Hero h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+  }

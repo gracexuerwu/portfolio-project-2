@@ -46,14 +46,14 @@ export default function ProjectCarouselComponent(props) {
         <span className="visually-hidden">Next</span>
       </button>
       <div className="row ProjectComponent">
-        <div className="col-10">
+        <div className="col-8">
           {" "}
           <h4>Weather App</h4>
         </div>
-        <div className="col-1 linksLogo">
+        <div className="col-2 linksLogo">
           <Link size={30} />
         </div>
-        <div className="col-1 linksLogo">
+        <div className="col-2 linksLogo">
           <GithubLogo size={30} />
         </div>
       </div>

@@ -22,34 +22,34 @@ export default function FeaturedProjects() {
     <div className="FeaturedProjects">
       <h2>FEATURED PROJECTS</h2>
       <div className="row projectRow d-flex justify-content-between">
-        <div className="col-6">
+        <div className="col-sm-6">
           <ProjectComponent image={WeatherAppThumbnail}/>
         </div>
-        <div className="col-6">
+        <div className="col-sm-6">
           <ProjectComponent image={ReactWeatherAppThumbnail} />
         </div>
       </div>
       <div className="row projectRow">
-        <div className="col-6">
+        <div className="col-sm-6">
           <ProjectComponent image={DictionaryAppThumbnail} />
         </div>
-        <div className="col-6">
+        <div className="col-sm-6">
           <ProjectComponent image={LunarBirthdayCalendar_Thumbnail} />
         </div>
       </div>
       <div className="row projectRow">
-        <div className="col-6">
+        <div className="col-sm-6">
         <ProjectCarouselComponent imageOne={SexualHealth1Thumbnail} ImageTwo={SexualHealth2Thumbnail} alt="hsdkjh" />
         </div>
-        <div className="col-6">
+        <div className="col-sm-6">
           <ProjectCarouselComponent imageOne={Schindler2Thumbnail} imageTwo={Schindler3Thumbnail} alt="hsdkjh" />
         </div>
       </div>
       <div className="row projectRow">
-        <div className="col-6">
+        <div className="col-sm-6">
           <ProjectCarouselComponent imageOne={Carandache1Thumbnail} imageTwo={Carandache2Thumbnail} alt="hsdkjh" />
         </div>
-        <div className="col-6">
+        <div className="col-sm-6">
           <ProjectCarouselComponent imageOne={Medicalpackaging1Thumbnail} ImageTwo={Medicalpackaging2Thumbnail} alt="hsdkjh" />
         </div>
       </div>

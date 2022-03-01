@@ -42,3 +42,8 @@
   color: var(--branding-color);
 }
 
+@media (max-width: 414px) {
+  .App {
+    margin: 0 60px 0 60px;
+  }
+}

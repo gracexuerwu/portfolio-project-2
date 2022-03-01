@@ -7,7 +7,7 @@ import arrow from "../animations/arrow.json";
 export default function Hero() {
   return (
     <div className="Hero">
-      <h2>Hey I'm</h2>
+      <h3>Hey I'm</h3>
       <h1>Grace Wu</h1>
       <h2>
         An inquisitive multidisciplinary designer &amp; Design Management student based in Lucerne, Switzerland. 
@@ -17,7 +17,7 @@ export default function Hero() {
       <br />
       <div className="row">
         <div className="col-9">
-          <h3>Scroll down to view my works</h3>
+          <h4>Scroll down to view my works</h4>
         </div>
         <div className="col-3">
           <Lottie animationData={arrow} className="arrowAnimation" />
