@@ -1,16 +1,16 @@
-.experience-container {
-  /* display: flex;
+/* .experience-container {
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   padding: 0px;
   margin-top: 45px;
-  font-size: 20px; */
+  font-size: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 25fr 1fr;
   gap: 30px 30px;
-}
+} */
 /* .item {
     flex-grow: 1;
     margin-left: 200px;
@@ -18,7 +18,7 @@
 .Experience hr {
   margin-bottom: 80px;
 }
-.Experience .left-col {
+/* .Experience .left-col {
   width: 15%;
   font-size: 20px;
 }
@@ -30,14 +30,14 @@
 .Experience .center-col {
   width: 80%;
   float: left;
-}
-.Experience .container div {
+} */
+/* .Experience .container div {
   padding: 1%;
   box-sizing: border-box;
   min-height: 500px;
   padding-left: 0px;
   padding-right: 0px;
-}
+} */
 .Experience h2 {
   font-size: 24px;
   margin-bottom: 10px
@@ -56,11 +56,13 @@
     margin-bottom: 150px;
 }
 @media (max-width: 414px) {
+  .flex-container {
+    flex-direction: column;
+  }
   .Experience h2 {
-    font-size: 20px;
-    margin-bottom: 10px
-  }.Experience .left-col {
-    width: 15%;
-    font-size: 20px;
+    font-size: 22px;
+  }
+  .flex-item-right {
+    display: none;
   }
 }

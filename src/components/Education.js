@@ -4,9 +4,9 @@ import "../styles/Education.css";
 export default function Education() {
   return (
     <div className="Education">
-      <div className="d-flex justify-content-between">
-        <div className="left-col">EDUCATION</div>
-        <div className="center-col">
+      <div className="flex-container space-between">
+        <div className="flex-item-left"><h2>EDUCATION</h2></div>
+        <div className="flex-item-center">
           <h2>Lucerne University of Applied Arts and Sciences</h2>
           <ul>
             <li className="educationLocation">Switzerland</li>
@@ -16,13 +16,13 @@ export default function Education() {
             </li>
           </ul>
         </div>
-        <div className="right-col">
+        <div className="flex-item-right">
           <div>2019 / 2022</div>
         </div>
       </div>
-      <div className="d-flex justify-content-between">
-        <div className="left-col"></div>
-        <div className="center-col">
+      <div className="flex-container space-between">
+        <div className="flex-item-left"></div>
+        <div className="flex-item-center">
           <h2>Singapore Polytechnic</h2>
           <ul>
             <li className="educationLocation">Singapore</li>
@@ -32,7 +32,7 @@ export default function Education() {
             </li>
           </ul>
         </div>
-        <div className="right-col">
+        <div className="flex-item-right">
           <div>2016 / 2019</div>
         </div>
       </div>

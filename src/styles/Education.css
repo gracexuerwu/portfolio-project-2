@@ -18,7 +18,7 @@
   .Education hr {
     margin-bottom: 80px;
   }
-  .Education .left-col {
+  /* .Education .left-col {
     width: 15%;
     font-size: 20px;
   }
@@ -30,7 +30,7 @@
   .Education .center-col {
     width: 80%;
     float: left;
-  }
+  } */
   .Education .container div {
     padding: 1%;
     box-sizing: border-box;
@@ -57,4 +57,31 @@
   }
   .item {
       margin-top: 170px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  .flex-item-left {
+    flex: 20%;
+    font-size: 20px;
+  }
+  .flex-item-center {
+    flex: 70%;
+  }
+  .flex-item-right {
+    margin-left: auto;
+    font-size: 20px;
+  }
+  @media (max-width: 414px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .Education h2 {
+      font-size: 22px;
+    }
+    .flex-item-right {
+      display: none;
+    }
   }

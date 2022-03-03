@@ -11,16 +11,16 @@ export default function Experience() {
           borderColor: "#1A1A1A",
         }}
       />
-      <div className="d-flex justify-content-between">
-        <div className="left-col">EXPERIENCE</div>
-        <div className="center-col">
+      <div className="flex-container space-between">
+        <div className="flex-item-left"><h2>EXPERIENCE</h2></div>
+        <div className="flex-item-center">
           <h2>3D Generalist Internship</h2>
           <ul>
               <li className="experienceLocation">Singapore</li>
               <li className="experienceDetail">- Developing screens and UI components for the web application using React and Tailwind.</li>
           </ul>
         </div>
-        <div className="right-col">Jan - Jun 2018</div>
+        <div className="flex-item-right">Jan - Jun 2018</div>
       </div>
       <hr
         style={{
