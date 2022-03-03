@@ -13,3 +13,8 @@ nav {
     background-color: var(--background);
     padding-top: 50px;
   }
+  @media (max-width: 414px) {
+    nav {
+      padding: 0 43px 0 43px;
+    }
+  }

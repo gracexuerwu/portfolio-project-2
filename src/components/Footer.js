@@ -6,18 +6,19 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
-    <div className="d-flex Footer">
-      <div className="left-col col-10">
+    <div className="Footer">
+      <div className="row">
+      <div className="col-8 col-sm-10">
         <h2>Designed and developed by Grace Wu.</h2>{" "}
         <h2>
           Built with <strong>React</strong>. Hosted on Netlify.
         </h2>
       </div>
-      <div className="center-col"></div>
-      <div className="right-col col-2">
+      <div className="col-4 col-sm-2">
         <FontAwesomeIcon icon={faEnvelope} className="fa-xl socialIcons" />
         <FontAwesomeIcon icon={faLinkedin} className="fa-xl socialIcons" />
         <FontAwesomeIcon icon={faGithub} className="fa-xl socialIcons" />
+      </div>
       </div>
     </div>
   );
