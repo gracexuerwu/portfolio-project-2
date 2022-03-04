@@ -33,8 +33,8 @@ export default function About() {
           <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
         </div>
       </div> */}
-      <div className="d-flex justify-content-between">
-        <div className="left-col1">
+      <div className="row flex-column-reverse flex-sm-row">
+        <div className="col-sm-6">
           <h1>Hi I’m Grace Wu, </h1>
           <h1>interfacer designer &amp; developer.</h1>
           <p>
@@ -48,7 +48,7 @@ export default function About() {
             service design field <Atom size={32} />.
           </p>
         </div>
-        <div className="right-col1">
+        <div className="col-sm-6">
           <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
         </div>
       </div>
