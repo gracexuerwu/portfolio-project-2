@@ -24,6 +24,9 @@
   font-size: 25px;
   margin-bottom: 0px;
 }
+.Footer strong {
+      font-family: NavilleRegular;
+}
 @media (max-width: 414px) {
   .Footer h2 {
     font-size: 20px;

@@ -22,7 +22,7 @@ h2 {
     line-height: 45px;
     font-family: HkGrotesk;
 }
-h3 {
+.Hero h3 {
     font-size: 25px;
     margin-top: 200px;
 }

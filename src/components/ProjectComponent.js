@@ -12,15 +12,15 @@ export default function ProjectComponent(props) {
         className="img-fluid text-center placeholder-img rounded projectImage"
         alt=""
       />
-      <div className="row ProjectComponent">
-        <div className="col-8">
+      <div className="wrap ProjectComponent">
+        <div className="right">
           {" "}
           <h4>Weather App</h4>
         </div>
-        <div className="col-2 linksLogo">
+        <div className="left linksLogo">
           <Link size={30} />
         </div>
-        <div className="col-2 linksLogo">
+        <div className="left linksLogo">
           <GithubLogo size={30} />
         </div>
       </div>

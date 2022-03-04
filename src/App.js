@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <div className="App" data-theme={theme}>
-        <Nav onclick={switchTheme} />
+        <Nav onClick={switchTheme} />
         <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />

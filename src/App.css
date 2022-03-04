@@ -14,14 +14,27 @@
   src: url(./fonts/centabel.ttf);
   font-weight: normal;
 }
+@font-face {
+  font-family: NavilleRegular;
+  src: url(./fonts/Naville-Regular.ttf);
+  font-weight: normal;
+}
 :root {
   --background: #ffffff; 
   --branding-color: rgb(0, 0, 0);
   --light-branding-color: #004E93;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  --stone: #272525;
+    --stone-free: #555050;
+    --paper: #fffcf8;
+    --highlight: rgb(255, 217, 0);
+    --periwinkle: #c2d5f1;
+    --pink: #ffbeeb;
+    --sunflower: #fdefa1;
 }
 [data-theme='dark'] {
-  --background: #000000; 
+  --background: #8f8f8f; 
   --branding-color: rgb(255, 255, 255);
   --light-branding-color: #8e05c2;
   --box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
@@ -30,7 +43,9 @@
   /* text-align: center; */
   margin: 0 250px 0 250px;
 }
-
+html, body{
+  background-color:  var(--background);
+}
 .App-header {
   background-color: var(--background);
   min-height: 100vh;

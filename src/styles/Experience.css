@@ -15,9 +15,7 @@
     flex-grow: 1;
     margin-left: 200px;
 } */
-.Experience hr {
-  margin-bottom: 80px;
-}
+
 /* .Experience .left-col {
   width: 15%;
   font-size: 20px;
@@ -38,9 +36,17 @@
   padding-left: 0px;
   padding-right: 0px;
 } */
+.Experience hr {
+  margin-bottom: 80px;
+}
 .Experience h2 {
+  font-family: NavilleRegular;
   font-size: 24px;
   margin-bottom: 10px
+}
+.Experience h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 .Experience ul {
   list-style-type: none;
@@ -54,6 +60,17 @@
 }
 .Experience .experienceDetail {
     margin-bottom: 150px;
+}
+.Experience .flex-item-left {
+  flex: 20%;
+  font-size: 20px;
+}
+.Experience .flex-item-center {
+  flex: 70%;
+}
+.Experience.flex-item-right {
+  margin-left: auto;
+  font-size: 20px;
 }
 @media (max-width: 414px) {
   .Experience .flex-container {

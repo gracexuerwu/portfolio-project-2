@@ -1,63 +1,88 @@
 * {
-    font-family: HkGrotesk;
+  font-family: HkGrotesk;
+  color:  var(--branding-color);
 }
 .FeaturedProjects h2 {
-    font-family: HkGrotesk;
-    font-weight: 400;
-    font-size: 22px;
-    margin-bottom: 45px;
+  font-family: NavilleRegular;
+  font-size: 28px;
+  margin-bottom: 30px;
+ 
 }
-.projectImage  {
-    box-shadow: var(--box-shadow); 
-        max-width: 95%;
-        max-height: 95%;
+.projectImage {
+  box-shadow: var(--box-shadow);
+  max-width: 95%;
+  max-height: 95%;
 }
 h4 {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 .projectDescription {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .projectSoftwares {
-    margin-right: 25px;
-    font-size: 17px;
-    color:  var(--light-branding-color);
-    margin-bottom: 50px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: var(--light-branding-color);
+  margin-bottom: 50px;
 }
 .projectRow {
-   padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 .linksLogo {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.row .ProjectComponent  {
-    max-width: 95%;
+.row .ProjectComponent {
+  max-width: 95%;
 }
 .projectDescription {
-    max-width: 95%;
+  max-width: 95%;
 }
 .placeholder-img {
-    box-shadow: var(--box-shadow); 
-    max-width: 95%;
-    max-height: 95%;
+  box-shadow: var(--box-shadow);
+  max-width: 95%;
+  max-height: 95%;
 }
 .projectDescription {
-    max-width: 95%;
+  max-width: 95%;
+}
+.wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+.right {
+    margin-right: auto; 
+}
+.left {
+    margin-right: 15px;
 }
 @media (max-width: 414px) {
-    .FeaturedProjects h2 {
-      font-size: 18px;
-    }
-    .projectDescription {
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .ProjectComponent h4 {
-        font-size: 18px;
-    }
-    .row .ProjectComponent  {
-        max-width: 100%;
-    }
+  .FeaturedProjects h2 {
+    font-size: 18px;
   }
+  .projectDescription {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .projectSoftwares {
+    margin-bottom: 20px;
+  }
+  .ProjectComponent h4 {
+    font-size: 18px;
+  }
+  .row .ProjectComponent {
+    max-width: 100%;
+  }
+  .FeaturedProjects h2 {
+    font-family: NavilleRegular;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .projectImage {
+      margin-top: 50px;
+  }
+  .projectRow {
+      padding-bottom: 0px;
+  }
+}

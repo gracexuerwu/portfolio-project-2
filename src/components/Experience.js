@@ -14,7 +14,7 @@ export default function Experience() {
       <div className="flex-container space-between">
         <div className="flex-item-left"><h2>EXPERIENCE</h2></div>
         <div className="flex-item-center">
-          <h2>3D Generalist Internship</h2>
+          <h3>3D Generalist Internship</h3>
           <ul>
               <li className="experienceLocation">Singapore</li>
               <li className="experienceDetail">- Developing screens and UI components for the web application using React and Tailwind.</li>

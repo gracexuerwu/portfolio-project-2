@@ -7,7 +7,7 @@ export default function Education() {
       <div className="flex-container space-between">
         <div className="flex-item-left"><h2>EDUCATION</h2></div>
         <div className="flex-item-center">
-          <h2>Lucerne University of Applied Arts and Sciences</h2>
+          <h3>Lucerne University of Applied Arts and Sciences</h3>
           <ul>
             <li className="educationLocation">Switzerland</li>
             <li className="educationDetail">
@@ -23,7 +23,7 @@ export default function Education() {
       <div className="flex-container space-between">
         <div className="flex-item-left"></div>
         <div className="flex-item-center">
-          <h2>Singapore Polytechnic</h2>
+          <h3>Singapore Polytechnic</h3>
           <ul>
             <li className="educationLocation">Singapore</li>
             <li className="educationDetail">
