@@ -58,30 +58,30 @@
   .item {
       margin-top: 170px;
   }
-  .flex-container {
+  .Education .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
   }
-  .flex-item-left {
+  .Education .flex-item-left {
     flex: 20%;
     font-size: 20px;
   }
-  .flex-item-center {
+  .Education .flex-item-center {
     flex: 70%;
   }
-  .flex-item-right {
+  .Education .flex-item-right {
     margin-left: auto;
     font-size: 20px;
   }
   @media (max-width: 414px) {
-    .flex-container {
+    .Education .flex-container {
       flex-direction: column;
     }
     .Education h2 {
       font-size: 22px;
     }
-    .flex-item-right {
+    .Education .flex-item-right {
       display: none;
     }
   }

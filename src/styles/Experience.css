@@ -56,13 +56,13 @@
     margin-bottom: 150px;
 }
 @media (max-width: 414px) {
-  .flex-container {
+  .Experience .flex-container {
     flex-direction: column;
   }
   .Experience h2 {
     font-size: 22px;
   }
-  .flex-item-right {
+  .Experience .flex-item-right {
     display: none;
   }
 }

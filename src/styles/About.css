@@ -1,70 +1,91 @@
 .About {
-    margin: 250px 0 0 0;
+  margin: 250px 0 0 0;
 }
 .About h1 {
-    font-size: 65px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+  font-size: 65px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .CVphoto {
-    height: 670px;
-    width: 513px;
-    margin-left: 30px;
+  height: 670px;
+  width: 513px;
+  margin-left: 30px;
 }
 .About p {
-    font-size: 25px;
-    margin-top: 40px;
+  font-size: 25px;
+  margin-top: 40px;
 }
 .about-text {
-    margin-top: 60px;
+  margin-top: 60px;
 }
-  .connect {
-      font-size: 24px;
+.connect {
+  font-size: 24px;
+}
+.connect-text {
+  font-size: 24px;
+}
+.connect-bar {
+  justify-content: space-between;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-item-left {
+  font-size: 20px;
+}
+.flex-item-right {
+  font-size: 20px;
+}
+.About hr {
+  margin-bottom: 80px;
+  margin-top: 200px;
+}
+.About .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.About .flex-item-left {
+  flex: 20%;
+  font-size: 20px;
+}
+.About .flex-item-right {
+  /* margin-left: auto; */
+  flex: 60%;
+  font-size: 20px;
+}
+@media (max-width: 414px) {
+  .About {
+    margin: 150px 0 0 0;
   }
-  .connect-bar {
-    justify-content: space-between;
+  .About h1 {
+    font-size: 28px;
   }
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
+  .About .CVphoto {
+    margin-left: 0;
+    height: 410px;
+    width: 300px;
+    margin-bottom: 25px;
   }
-  .flex-item-left {
-    font-size: 20px;
-  }
-  .flex-item-right {
-    font-size: 20px;
-  }
- .About hr {
-     margin-bottom: 80px;
-     margin-top: 200px;
- }
-  @media (max-width: 414px) {
-    .About {
-      margin: 150px 0 0 0;
-  }
-    .flex-container {
-      flex-direction: column-reverse;
-    }
-    .About h1 {
-      font-size: 28px;
-    }
-    .CVphoto {
-        margin-left: 0;
-        height: 410px;
-        width: 300px;
-        margin-bottom: 25px;
-    }
-    .About p {
-      font-size: 18px;
-      margin-top: 25px;
+  .About p {
+    font-size: 18px;
+    margin-top: 25px;
   }
   .About hr {
     margin-bottom: 80px;
     margin-top: 65px;
-}
   }
+  .connect {
+    font-size: 18px;
+  }
+  .connect-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
