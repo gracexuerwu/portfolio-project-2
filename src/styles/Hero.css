@@ -27,7 +27,7 @@
   line-height: 80px;
   font-family: "Kodchasan", HkGrotesk;
   letter-spacing: 0.045em;
-  color: rgb(75, 75, 75);
+  color: var(--hero-color);
 }
 .Hero h2 {
   font-size: 55px;
@@ -37,26 +37,17 @@
   margin-top: 50px;
   letter-spacing: 0.045em;
   color: rgb(75, 75, 75);
+  color: var(--hero-color);
 }
 .Hero h4 {
   padding: 10px 20px 10px 20px;
-  border: 2px solid black;
+  border: var(--border-circle);
   border-radius: 40px;
-}
-.Hero h4 :hover {
-  background-color: #9845e8;
 }
 .Hero h3 {
   font-size: 25px;
   margin-top: 200px;
 }
-/* .arrowAnimation {
-  height: 300px;
-  margin-left: 0;
-  position: relative;
-  bottom: -8px;
-  right: 215px;
-} */
 @media (max-width: 414px) {
   .Hero h1 {
     font-size: 60px;

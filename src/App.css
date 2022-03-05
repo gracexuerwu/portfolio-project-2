@@ -21,22 +21,21 @@
 }
 :root {
   --background: #ffffff; 
+  --hero-color: rgb(75, 75, 75);
   --branding-color: rgb(0, 0, 0);
   --light-branding-color: #004E93;
+  --border-circle: 2px solid black;
+  --secondary-color:  #004E93;
+  --border-circle-background: white;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  --stone: #272525;
-    --stone-free: #555050;
-    --paper: #fffcf8;
-    --highlight: rgb(255, 217, 0);
-    --periwinkle: #c2d5f1;
-    --pink: #ffbeeb;
-    --sunflower: #fdefa1;
 }
 [data-theme='dark'] {
   --background: #8f8f8f; 
+  --hero-color: rgb(227, 227, 227);
   --branding-color: rgb(255, 255, 255);
-  --light-branding-color: #8e05c2;
+  --light-branding-color: #ffffff;
+  --secondary-color: #8e05c2;
+  --border-circle: 2px solid #8e05c2;
   --box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 .App {
@@ -44,7 +43,8 @@
   margin: 0 250px 0 250px;
 }
 html, body{
-  background-color:  var(--background);
+  /* background-color:  var(--background); */
+  background-color: black;
 }
 .App-header {
   background-color: var(--background);

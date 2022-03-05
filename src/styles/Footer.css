@@ -1,4 +1,4 @@
- /* .left-col {
+/* .left-col {
     font-size: 2px;
     justify-self: start;
   } 
@@ -8,24 +8,26 @@
     justify-self: end;
   }
    */
-  
-  /* .container {
+
+/* .container {
     display: flex;
     justify-content: space-between;
   }  */
-  .socialIcons {
-    margin-right: 52px;
-    margin-top: 20px;
-  }
+.socialIcons {
+  margin-right: 52px;
+  margin-top: 20px;
+}
 .Footer {
   margin-bottom: 180px;
 }
 .Footer h2 {
   font-size: 25px;
   margin-bottom: 0px;
+  line-height: 45px;
 }
 .Footer strong {
-      font-family: NavilleRegular;
+  font-family: NavilleRegular;
+  color: var(--secondary-color);
 }
 @media (max-width: 414px) {
   .Footer h2 {

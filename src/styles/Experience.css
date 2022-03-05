@@ -55,8 +55,8 @@
   font-size: 19px;
 }
 .Experience .experienceLocation {
-    color: var(--light-branding-color);
-    margin-bottom: 10px
+  color: var(--secondary-color);
+  margin-bottom: 10px;
 }
 .Experience .experienceDetail {
     margin-bottom: 150px;

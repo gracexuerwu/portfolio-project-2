@@ -35,8 +35,7 @@ export default function About() {
       </div> */}
       <div className="row flex-column-reverse flex-sm-row">
         <div className="col-sm-6">
-          <h1>Hi I’m Grace Wu, </h1>
-          <h1>interfacer designer &amp; developer.</h1>
+          <h1>Not your average designer.</h1>
           <p>
             I am a designer who can not only create visually appealing content
             but also transform them into code <FileCode size={32} /> (Sounds
