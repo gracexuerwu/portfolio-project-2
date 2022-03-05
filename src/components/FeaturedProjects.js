@@ -11,7 +11,7 @@ import LunarBirthdayCalendar_Thumbnail from "../images/LunarBirthdayCalendar1_Th
 import Schindler2Thumbnail from "../images/Schindler01_Thumbnail.png";
 import Schindler3Thumbnail from "../images/Schindler02_Thumbnail.png";
 import SexualHealth1Thumbnail from "../images/Sexualhealth01_Thumbnail.png";
-import SexualHealth2Thumbnail from "../images/Sexualhealth02_Thumbnail.png";
+// import SexualHealth2Thumbnail from "../images/Sexualhealth02Thumbnail.png";
 import Carandache1Thumbnail from "../images/Caradache01_Thumbnail.png";
 import Carandache2Thumbnail from "../images/Caradache02_Thumbnail.png";
 import Medicalpackaging1Thumbnail from "../images/Medical packaging01_Thumbnail.png";
@@ -23,7 +23,7 @@ export default function FeaturedProjects() {
       <h2>FEATURED PROJECTS</h2>
       <div className="row projectRow d-flex justify-content-between">
         <div className="col-sm-6">
-          <ProjectComponent image={WeatherAppThumbnail}/>
+          <ProjectComponent image={WeatherAppThumbnail} />
         </div>
         <div className="col-sm-6">
           <ProjectComponent image={ReactWeatherAppThumbnail} />
@@ -39,18 +39,34 @@ export default function FeaturedProjects() {
       </div>
       <div className="row projectRow">
         <div className="col-sm-6">
-        <ProjectCarouselComponent imageOne={SexualHealth1Thumbnail} ImageTwo={SexualHealth2Thumbnail} alt="hsdkjh" />
+          <ProjectCarouselComponent
+            imageOne={Schindler2Thumbnail}
+            imageTwo={Schindler3Thumbnail}
+            alt="hsdkjh"
+          />
         </div>
         <div className="col-sm-6">
-          <ProjectCarouselComponent imageOne={Schindler2Thumbnail} imageTwo={Schindler3Thumbnail} alt="hsdkjh" />
+          <ProjectCarouselComponent
+            imageOne={Schindler2Thumbnail}
+            imageTwo={Schindler3Thumbnail}
+            alt="hsdkjh"
+          />
         </div>
       </div>
       <div className="row projectRow">
         <div className="col-sm-6">
-          <ProjectCarouselComponent imageOne={Carandache1Thumbnail} imageTwo={Carandache2Thumbnail} alt="hsdkjh" />
+          <ProjectCarouselComponent
+            imageOne={Carandache1Thumbnail}
+            imageTwo={Carandache2Thumbnail}
+            alt="hsdkjh"
+          />
         </div>
         <div className="col-sm-6">
-          <ProjectCarouselComponent imageOne={Medicalpackaging1Thumbnail} ImageTwo={Medicalpackaging2Thumbnail} alt="hsdkjh" />
+          <ProjectCarouselComponent
+            imageOne={Carandache1Thumbnail}
+            imageTwo={Carandache2Thumbnail}
+            alt="hsdkjh"
+          />
         </div>
       </div>
     </div>

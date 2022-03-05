@@ -6,13 +6,13 @@ import { Link, GithubLogo } from "phosphor-react";
 
 export default function ProjectComponent(props) {
   return (
-    <div>
+    <div className="ProjectComponent">
       <img
         src={props.image}
         className="img-fluid text-center placeholder-img rounded projectImage"
         alt=""
       />
-      <div className="wrap ProjectComponent">
+      <div className="wrap">
         <div className="right">
           {" "}
           <h4>Weather App</h4>

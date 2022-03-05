@@ -8,7 +8,7 @@ export default function ProjectCarouselComponent(props) {
   return (
     <div
       id="carouselExampleFade"
-      className="carousel slide carousel-fade"
+      className="carousel slide carousel-fade ProjectComponent"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
@@ -45,7 +45,7 @@ export default function ProjectCarouselComponent(props) {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
-      <div className="row ProjectComponent">
+      <div className="row wrap">
         <div className="col-8">
           {" "}
           <h4>Weather App</h4>

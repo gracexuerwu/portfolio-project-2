@@ -13,7 +13,7 @@
   max-width: 95%;
   max-height: 95%;
 }
-h4 {
+.ProjectComponent h4{
   margin-top: 35px;
 }
 .projectDescription {
@@ -53,6 +53,7 @@ h4 {
 .wrap {
     display: flex;
     justify-content: flex-end;
+    width: 95%;
 }
 .right {
     margin-right: auto; 
@@ -61,15 +62,13 @@ h4 {
     margin-right: 15px;
 }
 @media (max-width: 414px) {
-  .FeaturedProjects h2 {
-    font-size: 18px;
-  }
   .projectDescription {
     font-size: 17px;
     line-height: 30px;
   }
   .projectSoftwares {
     margin-bottom: 20px;
+    font-size: 15px;
   }
   .ProjectComponent h4 {
     font-size: 18px;
@@ -79,13 +78,20 @@ h4 {
   }
   .FeaturedProjects h2 {
     font-family: NavilleRegular;
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
-  .projectImage {
-      margin-top: 50px;
+    font-size: 18px;
+    margin-bottom: 30px;
   }
   .projectRow {
       padding-bottom: 0px;
   }
+  .ProjectComponent {
+      padding-bottom: 55px;
+  }
+  .ProjectComponent h4{
+      font-size: 20px;
+  }
+  /* .ProjectComponent svg {
+      width: 25px;
+      height: 30px;
+  } */
 }

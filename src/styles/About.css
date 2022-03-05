@@ -80,7 +80,7 @@ img {
     margin: 150px 0 0 0;
   }
   .About h1 {
-    font-size: 28px;
+    font-size: 35px;
   }
   .About .CVphoto {
     margin-left: 0;
@@ -102,5 +102,9 @@ img {
   .connect-text {
     font-size: 18px;
     margin-bottom: 15px;
+  }
+  .About svg {
+    width: 25px;
+    height: 35px;
   }
 }

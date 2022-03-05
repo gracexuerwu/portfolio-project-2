@@ -43,21 +43,27 @@
   padding: 10px 20px 10px 20px;
   border: var(--border-circle);
   border-radius: 40px;
+  transition: all 0.5s ease;
 }
-.Hero h3 {
-  font-size: 25px;
-  margin-top: 200px;
+.Hero h4:hover {
+  background-color: var(--border-circle-color);
+  color: white;
+  cursor: pointer;
 }
 @media (max-width: 414px) {
   .Hero h1 {
-    font-size: 60px;
+    font-size: 25px;
   }
   .Hero h2 {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 40px;
+    margin-top: 0px;
   }
-  .Hero h3 {
-    font-size: 18px;
-    line-height: 30px;
+  .bold {
+    font-size: 30px;
+  }
+  svg {
+    width: 30px;
+    height: 40px;
   }
 }
