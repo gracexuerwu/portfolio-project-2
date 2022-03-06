@@ -39,14 +39,17 @@
   color: rgb(75, 75, 75);
   color: var(--hero-color);
 }
-.Hero h4 {
+.Hero .button {
   padding: 10px 20px 10px 20px;
   border: var(--border-circle);
   border-radius: 40px;
   transition: all 0.5s ease;
   margin-top: 30px;
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--branding-color) ;
 }
-.Hero h4:hover {
+.Hero .button:hover {
   background-color: var(--border-circle-color);
   color: white;
   cursor: pointer;

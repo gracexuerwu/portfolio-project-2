@@ -69,14 +69,13 @@ export default function Nav(props) {
             >
               About
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/about"
               className="nav-link navbar-font mx-2"
               title="About"
             >
               Contact
-            </NavLink>
-
+            </NavLink> */}
             <NavLink
               activeClassName="active"
               to="#"

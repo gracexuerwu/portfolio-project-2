@@ -19,7 +19,8 @@ export default function Hero() {
         <br /> Who enjoys writing code and moving pixels in the www.{" "}
       </h2>
       <br />
-      <h4>What i do ↓</h4>
+      {/* <h4>What i do ↓</h4> */}
+      <a href="#FeaturedProjects" className="button">What i do ↓</a>
       {/* <div className="row">
         <div className="col-9"></div>
         <div className="col-3">

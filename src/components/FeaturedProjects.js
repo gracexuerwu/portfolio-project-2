@@ -19,7 +19,7 @@ import Medicalpackaging2Thumbnail from "../images/Medical packaging02_Thumbnail.
 
 export default function FeaturedProjects() {
   return (
-    <div className="FeaturedProjects">
+    <div className="FeaturedProjects" id="FeaturedProjects">
       <h2>FEATURED PROJECTS</h2>
       <div className="row projectRow d-flex justify-content-between">
         <div className="col-sm-6">

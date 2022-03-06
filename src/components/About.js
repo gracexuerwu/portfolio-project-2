@@ -35,7 +35,7 @@ export default function About() {
         }}
       />
       <div className="flex-container space-between">
-        <div className="flex-item-left connect-text">
+        <div className="flex-item-left connect-text" id="connect-bar">
           Let's connect  <ArrowsLeftRight size={35} className="icon" />
         </div>
         <div className="flex-item-center connect">
