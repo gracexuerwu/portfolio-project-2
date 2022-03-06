@@ -33,7 +33,8 @@ export default function Nav(props) {
     >
       <div className="container-fluid">
         <a className="navbar-brand navbar-font" href="/" title="Homepage">
-          <House size={32} /></a>
+          <House size={32} />
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -82,7 +83,11 @@ export default function Nav(props) {
               className="nav-link navbar-font mx-2"
               title="Fake"
             >
-              <FontAwesomeIcon onClick={props.onClick} icon={props.theme === 'light' ? faSun : faMoon} className="fa-lgn theme-toggle" />
+              <FontAwesomeIcon
+                onClick={props.onClick}
+                icon={props.theme === "light" ? faSun : faMoon}
+                className="fa-lgn theme-toggle"
+              />
             </NavLink>
           </div>
         </div>

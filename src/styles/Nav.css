@@ -15,6 +15,12 @@ nav {
   padding-top: 50px;
   color: var( --branding-color);
 }
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--navBar-active);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--navBar-inActive);
+}
 @media (max-width: 414px) {
   nav {
     padding: 0 43px 0 43px;

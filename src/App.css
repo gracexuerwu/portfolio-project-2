@@ -29,9 +29,11 @@
   --secondary-color: #004e93;
   --border-circle-background: white;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --navBar-active: black;
+  --navBar-inActive: rgba(0,0,0,.55);
 }
 [data-theme="dark"] {
-  --background: grey;
+  --background: black;
   --hero-color: rgb(227, 227, 227);
   --branding-color: rgb(255, 255, 255);
   --light-branding-color: #ffffff;
@@ -39,6 +41,8 @@
   --border-circle: 2px solid #8e05c2;
   --border-circle-color: #8e05c2;
   --box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  --navBar-active: white;
+  --navBar-inActive: rgba(210, 210, 210, 0.55);
 }
 .App {
   /* text-align: center; */

@@ -4,7 +4,7 @@ import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 
-import { FileCode, Tree, Atom, ArrowUpRight} from "phosphor-react";
+import { FileCode, Tree, Atom, ArrowUpRight, EnvelopeSimpleOpen} from "phosphor-react";
 
 
 export default function About() {
@@ -59,13 +59,12 @@ export default function About() {
       />
       <div className="row">
         <div className="col-sm-3 connect-text">
-          Let's connect <ArrowUpRight size={20} />
+          Let's connect <EnvelopeSimpleOpen size={32} />
         </div>
         <div className="col-sm-6 connect">
-          <div>grace.xuer.wu@gmail.com</div>
-          <a href="https://www.youtube.com/watch?v=y0LwoUi_Kcw&t=1321s">View my resume </a>
+          <div className="email">grace.xuer.wu@gmail.com</div>
         </div>
-        {/* <div className="col-3"></div> */}
+        <div className="col-3"><a href="https://www.youtube.com/watch?v=y0LwoUi_Kcw&t=1321s" className="resumeButton">View my resume </a></div>
       </div>
       <hr
         style={{

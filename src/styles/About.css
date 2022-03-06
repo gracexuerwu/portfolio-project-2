@@ -1,5 +1,6 @@
 .About {
-  margin: 250px 0 0 0;
+  /* margin: 250px 0 0 0; */
+ padding-top: 250px;
 }
 .About h1 {
   font-size: 65px;
@@ -74,6 +75,23 @@ img {
   /* margin-left: auto; */
   flex: 60%;
   font-size: 20px;
+}
+.About .email {
+  margin-bottom: 35px;
+}
+.About .resumeButton {
+  padding: 10px 20px 10px 20px;
+  border: var(--border-circle);
+  border-radius: 40px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--light-branding-color);
+}
+.About .resumeButton:hover {
+  background-color: var(--border-circle-color);
+  color: white;
+  cursor: pointer;
 }
 @media (max-width: 414px) {
   .About {
