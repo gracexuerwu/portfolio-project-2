@@ -90,8 +90,70 @@
   .ProjectComponent h4{
       font-size: 20px;
   }
-  /* .ProjectComponent svg {
-      width: 25px;
-      height: 30px;
-  } */
+}
+@media (max-width: 360px) {
+  .projectSoftwares {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .projectDescription {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .projectSoftwares {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .ProjectComponent h4 {
+    font-size: 18px;
+  }
+  .row .ProjectComponent {
+    max-width: 100%;
+  }
+  .FeaturedProjects h2 {
+    font-family: NavilleRegular;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .projectRow {
+      padding-bottom: 0px;
+  }
+  .ProjectComponent {
+      padding-bottom: 55px;
+  }
+  .ProjectComponent h4{
+      font-size: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .projectDescription {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .projectSoftwares {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .ProjectComponent h4 {
+    font-size: 18px;
+  }
+  .row .ProjectComponent {
+    max-width: 100%;
+  }
+  .FeaturedProjects h2 {
+    font-family: NavilleRegular;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .projectRow {
+      padding-bottom: 0px;
+  }
+  .ProjectComponent {
+      padding-bottom: 55px;
+  }
+  .ProjectComponent h4{
+      font-size: 20px;
+  }
 }

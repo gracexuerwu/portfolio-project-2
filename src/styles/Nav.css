@@ -26,3 +26,13 @@ nav {
     padding: 0 43px 0 43px;
   }
 }
+@media (max-width: 600px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}
+@media (max-width: 750px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}

@@ -30,8 +30,35 @@
   font-family: NavilleRegular;
   color: var(--secondary-color);
 }
+.Footer .icons {
+  margin-left: auto;
+}
 @media (max-width: 414px) {
   .Footer h2 {
     font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .Footer h2 {
+    font-size: 20px;
+  }
+  .Footer {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .Footer h2 {
+    font-size: 20px;
+  }
+  .Footer {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 750px) {
+  .Footer h2 {
+    font-size: 18px;
+  }
+  .Footer {
+    padding-bottom: 100px;
   }
 }

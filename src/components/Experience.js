@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Experience.css";
+import { FolderOpen } from "phosphor-react";
 
 export default function Experience() {
   return (
@@ -12,7 +13,7 @@ export default function Experience() {
         }}
       />
       <div className="flex-container space-between">
-        <div className="flex-item-left"><h2>EXPERIENCE</h2></div>
+        <div className="flex-item-left"><h2>EXPERIENCE <FolderOpen size={35} className="icon" /></h2></div>
         <div className="flex-item-center">
           <h3>Masonary Studios / 3D Generalist Internship</h3>
           <ul>

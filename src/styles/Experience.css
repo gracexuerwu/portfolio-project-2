@@ -42,7 +42,7 @@
 .Experience h2 {
   font-family: NavilleRegular;
   font-size: 24px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 .Experience h3 {
   font-size: 24px;
@@ -59,7 +59,7 @@
   margin-bottom: 10px;
 }
 .Experience .experienceDetail {
-    margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 .Experience .flex-item-left {
   flex: 20%;
@@ -83,3 +83,63 @@
     display: none;
   }
 }
+@media (max-width: 360px) {
+  .Experience h2 {
+    font-size: 20px;
+  }
+  .Experience h3 {
+    font-size: 18px;
+  }
+  .Experience .experienceDetail {
+    font-size: 17px;
+  }
+  .Experience .experienceLocation {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .Experience .flex-container {
+    flex-direction: column;
+  }
+  .Experience h2 {
+    font-size: 20px;
+  }
+  .Experience h3 {
+    font-size: 18px;
+  }
+  .Experience .experienceDetail {
+    font-size: 17px;
+  }
+  .Experience .experienceLocation {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .Experience .flex-item-right {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .Experience .flex-container {
+    flex-direction: column;
+  }
+  .Experience h2 {
+    font-size: 20px;
+  }
+  .Experience h3 {
+    font-size: 18px;
+  }
+  .Experience .experienceDetail {
+    font-size: 17px;
+  }
+  .Experience .experienceLocation {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .Experience .flex-item-right {
+    display: none;
+  }
+}
+
+
+

@@ -70,3 +70,13 @@
     margin: 0 60px 0 60px;
   }
 }
+@media (max-width: 600px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}
+@media (max-width: 750px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}

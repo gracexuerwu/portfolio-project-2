@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/Education.css";
+import { GraduationCap } from "phosphor-react";
 
 export default function Education() {
   return (
     <div className="Education">
       <div className="flex-container space-between">
-        <div className="flex-item-left"><h2>EDUCATION</h2></div>
+        <div className="flex-item-left"><h2>EDUCATION <GraduationCap size={35} className="icon" /></h2></div>
         <div className="flex-item-center">
           <h3>Lucerne University of Applied Arts and Sciences</h3>
           <ul>

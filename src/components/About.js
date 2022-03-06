@@ -10,7 +10,7 @@ import { FileCode, Tree, Atom, ArrowsLeftRight} from "phosphor-react";
 export default function About() {
   return (
     <div className="About">
-      <div className="row flex-column-reverse flex-sm-row">
+      <div className="row flex-column-reverse flex-md-row">
         <div className="col-sm-6">
           <h1>Not your average designer.</h1>
           <p>
