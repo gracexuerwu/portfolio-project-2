@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Hero.css";
 
-import Lottie from "lottie-react";
-import arrow from "../animations/arrow.json";
+// import Lottie from "lottie-react";
+// import arrow from "../animations/arrow.json";
 
 //Phosphor icon import
 import { MapPinLine } from "phosphor-react";

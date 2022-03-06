@@ -45,15 +45,15 @@ export default function ProjectCarouselComponent(props) {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
-      <div className="row wrap">
-        <div className="col-8">
+      <div className="wrap">
+        <div className="right">
           {" "}
           <h4>Weather App</h4>
         </div>
-        <div className="col-2 linksLogo">
+        <div className="left linksLogo">
           <Link size={30} />
         </div>
-        <div className="col-2 linksLogo">
+        <div className="left linksLogo">
           <GithubLogo size={30} />
         </div>
       </div>
