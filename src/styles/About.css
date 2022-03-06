@@ -62,20 +62,6 @@ img {
   margin-bottom: 80px;
   margin-top: 200px;
 }
-.About .flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.About .flex-item-left {
-  flex: 20%;
-  font-size: 20px;
-}
-.About .flex-item-right {
-  /* margin-left: auto; */
-  flex: 60%;
-  font-size: 20px;
-}
 .About .email {
   margin-bottom: 35px;
 }
@@ -93,9 +79,38 @@ img {
   color: white;
   cursor: pointer;
 }
+.About  .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+.About  .flex-item-left {
+  flex: 20%;
+  font-size: 20px;
+}
+.About .flex-item-center {
+  flex: 60%;
+}
+.About .flex-item-right {
+  margin-left: auto;
+}
+.icon {
+  margin-left: 10px;
+}
 @media (max-width: 414px) {
+  .About .flex-container {
+    flex-direction: column;
+  }
   .About {
     margin: 150px 0 0 0;
+    padding-top: 10px;
+  }
+  .About .flex-item-right {
+    margin: 0;
+    font-size: 15px;
+  }
+  .About .resumeButton {
+    font-size: 15px;
   }
   .About h1 {
     font-size: 35px;
@@ -118,7 +133,7 @@ img {
     font-size: 18px;
   }
   .connect-text {
-    font-size: 18px;
+    font-size: 10px;
     margin-bottom: 15px;
   }
   .About svg {
