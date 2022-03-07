@@ -21,6 +21,10 @@ nav {
 .navbar-light .navbar-nav .nav-link {
   color: var(--navBar-inActive);
 }
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var( --branding-color);;
+}
+
 @media (max-width: 414px) {
   nav {
     padding: 0 43px 0 43px;

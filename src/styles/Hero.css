@@ -47,10 +47,10 @@
   margin-top: 30px;
   font-size: 22px;
   text-decoration: none;
-  color: var(--branding-color) ;
+  color: var(--branding-color);
 }
 .Hero .button:hover {
-  background-color: var(--border-circle-color);
+  background-color: var(--button-background);
   color: white;
   cursor: pointer;
 }
