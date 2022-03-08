@@ -40,3 +40,14 @@ nav {
     padding: 0 43px 0 43px;
   }
 }
+@media (max-width: 900px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}
+@media (max-width: 1100px) {
+  nav {
+    padding: 0 43px 0 43px;
+    font-size: 20px;
+  }
+}
