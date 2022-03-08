@@ -79,18 +79,6 @@
     margin-left: auto;
     font-size: 20px;
   }
-  @media (max-width: 414px) {
-    .Education .flex-container {
-      flex-direction: column;
-    }
-    .Education h2 {
-      font-size: 22px;
-    }
-    .Education .flex-item-right {
-      display: none;
-    }
-  }
- 
   @media (max-width: 600px) {
     .Education .flex-container {
       flex-direction: column;
@@ -212,6 +200,16 @@
     }
   }
   
-  
+  @media (max-width: 414px) {
+    .Education .flex-container {
+      flex-direction: column;
+    }
+    .Education h2 {
+      font-size: 22px;
+    }
+    .Education .flex-item-right {
+      display: none;
+    }
+  }
   
   

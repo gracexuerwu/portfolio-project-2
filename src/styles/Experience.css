@@ -72,17 +72,7 @@
   margin-left: auto;
   font-size: 20px;
 }
-@media (max-width: 414px) {
-  .Experience .flex-container {
-    flex-direction: column;
-  }
-  .Experience h2 {
-    font-size: 22px;
-  }
-  .Experience .flex-item-right {
-    display: none;
-  }
-}
+
 
 @media (max-width: 600px) {
   .Experience .flex-container {
@@ -204,7 +194,17 @@
     margin-bottom: 20px;
   }
 }
-
+@media (max-width: 414px) {
+  .Experience .flex-container {
+    flex-direction: column;
+  }
+  .Experience h2 {
+    font-size: 22px;
+  }
+  .Experience .flex-item-right {
+    display: none;
+  }
+}
 
 
 
