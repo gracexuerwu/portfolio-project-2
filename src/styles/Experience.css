@@ -83,21 +83,7 @@
     display: none;
   }
 }
-@media (max-width: 360px) {
-  .Experience h2 {
-    font-size: 20px;
-  }
-  .Experience h3 {
-    font-size: 18px;
-  }
-  .Experience .experienceDetail {
-    font-size: 17px;
-  }
-  .Experience .experienceLocation {
-    font-size: 17px;
-    margin-bottom: 20px;
-  }
-}
+
 @media (max-width: 600px) {
   .Experience .flex-container {
     flex-direction: column;
@@ -200,7 +186,24 @@
     font-size: 18px;
   }
 }
-
+@media (max-width: 360px) {
+  .Experience .flex-container {
+    flex-direction: column;
+  }
+  .Experience h2 {
+    font-size: 20px;
+  }
+  .Experience h3 {
+    font-size: 18px;
+  }
+  .Experience .experienceDetail {
+    font-size: 17px;
+  }
+  .Experience .experienceLocation {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+}
 
 
 

@@ -24,7 +24,11 @@ nav {
 .navbar-light .navbar-nav .nav-link:hover {
   color: var( --branding-color);;
 }
-
+@media (max-width: 360px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}
 @media (max-width: 414px) {
   nav {
     padding: 0 43px 0 43px;

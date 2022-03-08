@@ -143,27 +143,6 @@ img {
     height: 35px;
   }
 }
-@media (max-width: 360px) {
-  .About h1 {
-    font-size: 28px;
-  }
-    .About .CVphoto {
-    margin-left: 0;
-    height: 320px;
-    width: 300px;
-    margin-bottom: 0px;
-  }
-  .connect {
-    font-size: 18px;
-  }
-  .connect-text {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-  .About .resumeButton {
-    font-size: 15px;
-  }
-}
 @media (max-width: 600px) {
   .About .flex-container {
     flex-direction: column;
@@ -317,5 +296,29 @@ img {
   }
   .About .flex-item-center {
     flex: 25%;
+  }
+}
+@media (max-width: 360px) {
+  .About h1 {
+    font-size: 28px;
+  }
+    .About .CVphoto {
+    margin-left: 0;
+    height: 320px;
+    width: 300px;
+    margin-bottom: 0px;
+  }
+  .connect {
+    font-size: 18px;
+  }
+  .connect-text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .About .resumeButton {
+    font-size: 12px;
+  }
+  .About .flex-container {
+    flex-direction: column;
   }
 }

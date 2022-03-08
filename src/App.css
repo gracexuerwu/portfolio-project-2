@@ -106,7 +106,11 @@
   font-size: calc(10px + 2vmin);
   color: var(--branding-color);
 }
-
+@media (max-width: 360px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}
 @media (max-width: 414px) {
   .App2 {
     margin: 0 60px 0 60px;

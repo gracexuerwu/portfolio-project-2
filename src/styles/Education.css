@@ -90,21 +90,7 @@
       display: none;
     }
   }
-  @media (max-width: 360px) {
-    .Education h2 {
-      font-size: 20px;
-    }
-    .Education  h3 {
-      font-size: 18px;
-    }
-    .Education .educationDetail {
-      font-size: 17px;
-    }
-    .Education  .educationLocation {
-      font-size: 17px;
-      margin-bottom: 20px;
-    }
-  }
+ 
   @media (max-width: 600px) {
     .Education .flex-container {
       flex-direction: column;
@@ -207,7 +193,24 @@
       font-size: 18px;
     }
   }
-  
+  @media (max-width: 360px) {
+    .Education .flex-container {
+      flex-direction: column;
+    }
+    .Education h2 {
+      font-size: 20px;
+    }
+    .Education  h3 {
+      font-size: 18px;
+    }
+    .Education .educationDetail {
+      font-size: 17px;
+    }
+    .Education  .educationLocation {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+  }
   
   
   

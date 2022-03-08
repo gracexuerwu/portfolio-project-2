@@ -74,26 +74,7 @@
     font-size: 15px;
   }
 }
-@media (max-width: 360px) {
-  .Hero h1 {
-    font-size: 20px;
-  }
-  .Hero h2 {
-    font-size: 20px;
-    line-height: 40px;
-    margin-top: 0px;
-  }
-  .bold {
-    font-size: 25px;
-  }
-  svg {
-    width: 25px;
-    height: 35px;
-  }
-  .Hero .button {
-    font-size: 13px;
-  }
-}
+
 @media (max-width: 600px) {
   .Hero h1 {
     font-size: 20px;
@@ -172,5 +153,25 @@
   }
   .Hero .button {
     font-size: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .Hero h1 {
+    font-size: 20px;
+  }
+  .Hero h2 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 25px;
+  }
+  svg {
+    width: 25px;
+    height: 35px;
+  }
+  .Hero .button {
+    font-size: 13px;
   }
 }
