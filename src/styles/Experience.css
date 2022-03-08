@@ -140,6 +140,38 @@
     display: none;
   }
 }
+@media (max-width: 900px) {
+  .Experience .flex-container {
+    flex-direction: row;
+  }
+  .Experience h2 {
+    font-size: 20px;
+  }
+  .Experience h3 {
+    font-size: 18px;
+  }
+  .Experience .experienceDetail {
+    font-size: 17px;
+  }
+  .Experience .experienceLocation {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .Experience .flex-item-left {
+    flex: 30%;
+    font-size: 20px;
+  }
+  .Experience .flex-item-right {
+    flex: 20%;
+    font-size: 18px;
+  }
+  .Experience .flex-item-center {
+    flex: 60%;
+    font-size: 18px;
+  }
+}
+
+
 
 
 
