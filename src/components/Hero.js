@@ -11,10 +11,10 @@ export default function Hero() {
   return (
     <div className="Hero">
       <h1>
-        Hey I'm <span className="bold">Grace Wu</span>
+        <span id="intro">Hey I'm</span> <span className="bold" id="name">Grace Wu</span>
       </h1>
       <h2>
-        An <span className="bold">inquisitive multidisciplinary designer</span>{" "}
+        An <span className="bold" id="role">inquisitive multidisciplinary designer</span>{" "}
         based in   <MapPinLine size={50} /> Lucerne, Switzerland.
         <br /> Who enjoys writing code and moving pixels in the www.{" "}
       </h2>

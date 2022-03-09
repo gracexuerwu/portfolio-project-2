@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="About">
       <div className="row flex-column-reverse flex-md-row bio-row">
-        <div className="col-md-6">
+        <div className="col-md-7">
           <h1>Not your average designer.</h1>
           <p>
             I am a designer who can not only create visually appealing content
@@ -24,7 +24,7 @@ export default function About() {
             service design field <Atom size={32} />.
           </p>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-5">
           <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
         </div>
       </div>

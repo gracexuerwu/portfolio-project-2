@@ -225,3 +225,37 @@
       font-size: 20px;
   }
 }
+@media (min-width: 1500px) {
+  .projectDescription {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .projectSoftwares {
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+  .ProjectComponent h4 {
+    font-size: 25px;
+  }
+  .row .ProjectComponent {
+    max-width: 100%;
+  }
+  .FeaturedProjects h2 {
+    font-family: NavilleRegular;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .projectRow {
+      padding-bottom: 0px;
+  }
+  .ProjectComponent {
+      padding-bottom: 55px;
+  }
+  .ProjectComponent h4{
+      font-size: 25px;
+  }
+  .ProjectComponent svg {
+    width: 32px;
+    height: 42px;
+  }
+}

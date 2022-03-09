@@ -99,7 +99,7 @@ img {
 .icon {
   margin-left: 10px;
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .About .flex-container {
     flex-direction: column;
   }
@@ -146,7 +146,7 @@ img {
     width: 100%;
   }
 }
-@media (max-width: 750px) {
+@media (min-width: 750px) {
   .About .flex-container {
     flex-direction: row;
   }
@@ -200,7 +200,7 @@ img {
     flex: 25%;
   }
 }
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .About .flex-container {
     flex-direction: row;
   }
@@ -322,7 +322,7 @@ img {
     height: 35px;
   }
 }
-@media (max-width: 1100px) {
+@media (min-width: 1100px) {
   .About .flex-container {
     flex-direction: row;
   }
@@ -332,17 +332,17 @@ img {
   }
   .About .flex-item-right {
     margin: 0;
-    font-size: 15px;
+    font-size: 18px;
   }
   .About .flex-item-left {
     margin: 0;
-    font-size: 15px;
+    font-size: 18px;
   }
   .About .resumeButton {
-    font-size: 10px;
+    font-size: 12px;
   }
   .About h1 {
-    font-size: 35px;
+    font-size: 45px;
   }
   .About .CVphoto {
     margin-left: 0;
@@ -375,5 +375,61 @@ img {
   }
   .About .flex-item-center {
     flex: 25%;
+  }
+}
+@media (min-width: 1500px) {
+  .About .flex-container {
+    flex-direction: row;
+  }
+  .About {
+    margin: 150px 0 0 0;
+    padding-top: 50px;
+  }
+  .About .flex-item-right {
+    margin: 0;
+    font-size: 15px;
+  }
+  .About .flex-item-left {
+    margin: 0;
+    font-size: 20px;
+  }
+  .About .resumeButton {
+    font-size: 18px;
+  }
+  .About h1 {
+    font-size: 70px;
+  }
+  .About .CVphoto {
+    /* margin-left: 0; */
+    height: 550px;
+    width: 410px;
+    margin-bottom: 25px;
+    float: right;
+  }
+  .About p {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+  .About hr {
+    margin-bottom: 80px;
+    margin-top: 65px;
+  }
+  .connect {
+    font-size: 18px;
+  }
+  .connect-text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .About svg {
+    width: 25px;
+    height: 35px;
+  }
+  .About .col-sm-6 {
+    width: 100%;
+  }
+  .About .flex-item-center {
+    flex: 25%;
+    font-size: 22px;
   }
 }
