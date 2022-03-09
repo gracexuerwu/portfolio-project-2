@@ -228,11 +228,14 @@
   }
   .Experience .flex-item-right {
     flex: 20%;
-    font-size: 18px;
+    font-size: 20px;
   }
   .Experience .flex-item-center {
     flex: 60%;
     font-size: 18px;
+  }
+  .Experience .flex-item-right {
+    display: block;
   }
 }
 

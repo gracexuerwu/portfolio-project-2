@@ -180,6 +180,9 @@
       flex: 60%;
       font-size: 18px;
     }
+    .Education .flex-item-right {
+      display: block;
+    }
   }
   @media (max-width: 360px) {
     .Education .flex-container {
@@ -213,4 +216,36 @@
   }
   
   
-  
+  @media (min-width: 1500px) {
+    .Education .flex-container {
+      flex-direction: row;
+    }
+    .Education h2 {
+      font-size: 20px;
+    }
+    .Education h3 {
+      font-size: 22px;
+    }
+    .Education .educationDetail {
+      font-size: 20px;
+    }
+    .Education .educationLocation {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .Education .flex-item-left {
+      flex: 30%;
+      font-size: 20px;
+    }
+    .Education .flex-item-right {
+      flex: 20%;
+      font-size: 20px;
+    }
+    .Education .flex-item-center {
+      flex: 60%;
+      font-size: 18px;
+    }
+    .Education .flex-item-right {
+      display: block;
+    }
+  }
