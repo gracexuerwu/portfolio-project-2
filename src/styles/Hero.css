@@ -134,6 +134,27 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 414px) {
+  .Hero h1 {
+    font-size: 25px;
+  }
+  .Hero h2 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .Hero .bold {
+    font-size: 30px;
+  }
+  .Hero svg {
+    width: 30px;
+    height: 40px;
+  }
+  .Hero .button {
+    font-size: 15px;
+  }
+}
 @media (max-width: 360px) {
   .Hero h1 {
     font-size: 20px;
@@ -152,25 +173,5 @@
   }
   .Hero .button {
     font-size: 13px;
-  }
-}
-@media (max-width: 414px) {
-  .Hero h1 {
-    font-size: 25px;
-  }
-  .Hero h2 {
-    font-size: 26px;
-    line-height: 40px;
-    margin-top: 0px;
-  }
-  .bold {
-    font-size: 30px;
-  }
-  svg {
-    width: 30px;
-    height: 40px;
-  }
-  .Hero .button {
-    font-size: 15px;
   }
 }

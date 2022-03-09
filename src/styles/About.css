@@ -322,3 +322,58 @@ img {
     height: 35px;
   }
 }
+@media (max-width: 1100px) {
+  .About .flex-container {
+    flex-direction: row;
+  }
+  .About {
+    margin: 150px 0 0 0;
+    padding-top: 10px;
+  }
+  .About .flex-item-right {
+    margin: 0;
+    font-size: 15px;
+  }
+  .About .flex-item-left {
+    margin: 0;
+    font-size: 15px;
+  }
+  .About .resumeButton {
+    font-size: 10px;
+  }
+  .About h1 {
+    font-size: 35px;
+  }
+  .About .CVphoto {
+    margin-left: 0;
+    height: 410px;
+    width: 310px;
+    margin-bottom: 25px;
+    float: right;
+  }
+  .About p {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .About hr {
+    margin-bottom: 80px;
+    margin-top: 65px;
+  }
+  .connect {
+    font-size: 18px;
+  }
+  .connect-text {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .About svg {
+    width: 25px;
+    height: 35px;
+  }
+  .About .col-sm-6 {
+    width: 100%;
+  }
+  .About .flex-item-center {
+    flex: 25%;
+  }
+}
