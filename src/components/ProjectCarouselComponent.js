@@ -60,8 +60,7 @@ export default function ProjectCarouselComponent(props) {
       <div className="projectDescription">
       {props.description}
       </div>
-      <span className="projectSoftwares">Javascript</span>
-      <span className="projectSoftwares">Bootstrap</span>
+      <span className="projectSoftwares">{props.projectType}</span>
     </div>
   );
 }

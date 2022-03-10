@@ -17,23 +17,40 @@ export default function Footer() {
           </h2>
         </div>
         <div className="flex-item-right footer-social">
-          <a
-            href="mailto:grace.xuer.wu@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faEnvelope} className="fa-xl socialIcons" />
-          </a>
-          <a href="" target="_blank">
-            <FontAwesomeIcon icon={faLinkedin} className="fa-xl socialIcons" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/grace-ade-wu/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithub} className="fa-xl socialIcons" />
-          </a>
+          <ul>
+            <li>
+              <a
+                href="mailto:grace.xuer.wu@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="fa-sm socialIcons"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="fa-sm socialIcons"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/grace-ade-wu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="fa-sm socialIcons"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

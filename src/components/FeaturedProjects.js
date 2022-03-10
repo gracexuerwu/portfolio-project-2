@@ -11,7 +11,7 @@ import LunarBirthdayCalendar_Thumbnail from "../images/LunarBirthdayCalendar1_Th
 import Schindler2Thumbnail from "../images/Schindler01_Thumbnail.png";
 import Schindler3Thumbnail from "../images/Schindler02_Thumbnail.png";
 import SexualHealth1Thumbnail from "../images/Sexualhealth01_Thumbnail.png";
-// import SexualHealth2Thumbnail from "../images/Sexualhealth02Thumbnail.png";
+import SexualHealth2Thumbnail from "../images/Sexualhealth02_Thumbnail.png";
 import Carandache1Thumbnail from "../images/Caradache01_Thumbnail.png";
 import Carandache2Thumbnail from "../images/Caradache02_Thumbnail.png";
 import Medicalpackaging1Thumbnail from "../images/Medical packaging01_Thumbnail.png";
@@ -28,7 +28,9 @@ export default function FeaturedProjects() {
             projectName="Weather App"
             description="Weather application coded with Vanilla Javascript with Openweathermap API integration for live weather information. Features a day and night background which changes according to your local time."
             liveSiteLink="https://dazzling-meitner-238069.netlify.app/"
-            githubLink="https://github.com/gracexuerwu/vanilla-weather-app" 
+            githubLink="https://github.com/gracexuerwu/vanilla-weather-app"
+            software1="Javascript"
+            software2="Bootstrap"
           />
         </div>
         <div className="col-sm-6">
@@ -40,6 +42,8 @@ export default function FeaturedProjects() {
             Celcius and Fahrenheit temperature slider."
             liveSiteLink="https://hungry-yalow-e0bde5.netlify.app/" 
             githubLink="https://github.com/gracexuerwu/weather-app-1-react"
+            software1="React"
+            software2="Bootstrap"
           />
         </div>
       </div>
@@ -52,7 +56,8 @@ export default function FeaturedProjects() {
             searched word."
             liveSiteLink="https://loving-mccarthy-677ab0.netlify.app/"
             githubLink="https://github.com/gracexuerwu/dictionary-project-react"
-
+            software1="React"
+            software2="Bootstrap"
           />
         </div>
         <div className="col-sm-6">
@@ -62,6 +67,8 @@ export default function FeaturedProjects() {
             description="Ever wondered what your chinese zodiac is? Key in your birthday and find out what's your inner animal!"
             liveSiteLink="https://birthday-lunar-calendar.netlify.app/"
             githubLink="https://github.com/gracexuerwu/lunar-calendar-app"
+            software1="React"
+            software2="Bootstrap"
           />
         </div>
       </div>
@@ -75,18 +82,20 @@ export default function FeaturedProjects() {
                         elevator technician is not considered as a career for young Swiss
                         women? and what can be done to change this reality? The problem is
                         more than meets the eye."
-            projectLink="https://drive.google.com/file/d/1PXK_a3s2DDxc3ScM1EPirW37xXrJpzoY/view?usp=sharing"            
+            projectLink="https://drive.google.com/file/d/1PXK_a3s2DDxc3ScM1EPirW37xXrJpzoY/view?usp=sharing"        
+            projectType="User Research"    
           />
         </div>
         <div className="col-sm-6">
           <ProjectCarouselComponent
-            imageOne={Schindler2Thumbnail}
-            imageTwo={Schindler3Thumbnail}
+            imageOne={SexualHealth1Thumbnail}
+            imageTwo={SexualHealth2Thumbnail}
             alt="hsdkjh"
             description="The scope of the project is to tackle a social issue, which is the
             lack of accessibility and availabe services that offer a discreet
             sexual health services and information to girls and young women."
             projectLink="https://drive.google.com/file/d/1J0Y47giqvQgeQTXFxWwb1zvRuC2G9a_q/view?usp=sharing" 
+            projectType="Social Design"    
           />
         </div>
       </div>
@@ -102,17 +111,19 @@ export default function FeaturedProjects() {
             sustainable concept proposition with the core in mind, the
             implementation of a Cradle to Cradle life cycle."
             projectLink="https://drive.google.com/file/d/1dGZY0puOUWHbls45M3IFvw4tCvRioVys/view?usp=sharing"
+            projectType="Sustainability"  
           />
         </div>
         <div className="col-sm-6">
           <ProjectCarouselComponent
-            imageOne={Carandache1Thumbnail}
-            imageTwo={Carandache2Thumbnail}
+            imageOne={Medicalpackaging1Thumbnail}
+            imageTwo={Medicalpackaging2Thumbnail}
             alt="hsdkjh"
             description="The scope of this project, is to research and identify areas of
             opportunities that would enable medical packaging, namely the
             blister product to achieve circularity in it's product lifecycle."
             projectLink="https://drive.google.com/file/d/1YttEc0w1UM0DmRWkwN6M52hTAByGWRCN/view?usp=sharing"
+            projectType="Sustainability"  
           />
         </div>
       </div>

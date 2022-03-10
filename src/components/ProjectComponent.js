@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/FeaturedProjects.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+
 //Phosphor icon import
 import { Link, GithubLogo } from "phosphor-react";
 
@@ -17,6 +20,12 @@ export default function ProjectComponent(props) {
           {" "}
           <h4>{props.projectName}</h4>
         </div>
+        {/* <a href={props.liveSiteLink} target="_blank">
+                <FontAwesomeIcon
+                  icon={faLink}
+                  className="fa-sm left linksLogo"
+                />
+        </a> */}
         <a href={props.liveSiteLink} target="_blank" rel="noreferrer" className="left linksLogo">
           <Link size={30} />
         </a>
@@ -25,8 +34,8 @@ export default function ProjectComponent(props) {
         </a>
       </div>
       <div className="projectDescription">{props.description}</div>
-      <span className="projectSoftwares">Javascript</span>
-      <span className="projectSoftwares">Bootstrap</span>
+      <span className="projectSoftwares">{props.software1}</span>
+      <span className="projectSoftwares">{props.software2}</span>
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function Hero() {
       </h1>
       <h2>
         An <span className="bold" id="role">inquisitive multidisciplinary designer</span>{" "}
-        based in   <MapPinLine size={50} /> Lucerne, Switzerland.
+        based in  <MapPinLine size={50} /> Lucerne, Switzerland.
         <br /> Who enjoys writing code and moving pixels in the www.{" "}
       </h2>
       <br />
