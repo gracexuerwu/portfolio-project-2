@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/FeaturedProjects.css";
 //Phosphor icon import
-import { Link, GithubLogo } from "phosphor-react";
+import { Link } from "phosphor-react";
 
 
 export default function ProjectCarouselComponent(props) {

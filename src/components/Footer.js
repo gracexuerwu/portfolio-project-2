@@ -31,7 +31,11 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/grace-ade-wu/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   className="fa-sm socialIcons"
@@ -40,7 +44,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/grace-ade-wu/"
+                href="https://github.com/gracexuerwu"
                 target="_blank"
                 rel="noreferrer"
               >

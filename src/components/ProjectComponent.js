@@ -1,9 +1,6 @@
 import React from "react";
 import "../styles/FeaturedProjects.css";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
-
 //Phosphor icon import
 import { Link, GithubLogo } from "phosphor-react";
 
