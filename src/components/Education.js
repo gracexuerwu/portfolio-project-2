@@ -12,8 +12,7 @@ export default function Education() {
           <ul>
             <li className="educationLocation">Switzerland</li>
             <li className="educationDetail">
-              - Developing screens and UI components for the web application
-              using React and Tailwind.
+              - BA in Product and Industrial Design, specialization in Design Management.
             </li>
           </ul>
         </div>
@@ -28,8 +27,7 @@ export default function Education() {
           <ul>
             <li className="educationLocation">Singapore</li>
             <li className="educationDetail">
-              - Developing screens and UI components for the web application
-              using React and Tailwind.
+              - Diploma in Digital Animation and Visual effects.
             </li>
           </ul>
         </div>
