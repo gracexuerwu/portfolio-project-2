@@ -18,6 +18,8 @@
 .Footer .icons {
   margin-left: auto;
 }
+
+
 @media (max-width: 414px) {
   .Footer h2 {
     font-size: 20px;
