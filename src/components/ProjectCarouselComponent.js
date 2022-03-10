@@ -50,17 +50,15 @@ export default function ProjectCarouselComponent(props) {
           {" "}
           <h4>Weather App</h4>
         </div>
-        <div className="left linksLogo">
+        <a href={props.projectLink} target="_blank" rel="noreferrer" className="left linksLogo">
           <Link size={30} />
-        </div>
-        <div className="left linksLogo">
+        </a>
+        {/* <div className="left linksLogo">
           <GithubLogo size={30} />
-        </div>
+        </div> */}
       </div>
       <div className="projectDescription">
-        Weather application coded with Openweathermap API integration for live
-        weather information. Features a day and night background tuned to your
-        local time
+      {props.description}
       </div>
       <span className="projectSoftwares">Javascript</span>
       <span className="projectSoftwares">Bootstrap</span>
