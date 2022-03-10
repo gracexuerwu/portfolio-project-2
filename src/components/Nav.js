@@ -6,29 +6,10 @@ import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { House } from "phosphor-react";
 
 export default function Nav(props) {
+  const navBarAttribute = props.theme === "light" ? "navbar navbar-customclass fixed-top navbar-expand-lg navbar-light" : "navbar navbar-customclass fixed-top navbar-expand-lg navbar-dark";
   return (
-    // <nav>
-    //   <NavLink to="/">
-    //     <h3>GW</h3>
-    //   </NavLink>
-    //   <ul>
-    //     <NavLink to="/">
-    //       {" "}
-    //       <li>Projects</li>
-    //     </NavLink>
-    //     <NavLink to="/about">
-    //       {" "}
-    //       <li>Contact</li>
-    //     </NavLink>
-    //     <NavLink to="/about">
-    //       {" "}
-    //       <li>About</li>
-    //     </NavLink>
-    //   </ul>
-    // </nav>
-
     <nav
-      className="navbar navbar-customclass fixed-top navbar-expand-lg navbar-light"
+      className={navBarAttribute}
       style={{ color: "#0000" }}
     >
       <div className="container-fluid">
