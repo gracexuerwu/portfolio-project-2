@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/FeaturedProjects.css";
 //Phosphor icon import
-import { Link, GithubLogo } from "phosphor-react";
+import { Link } from "phosphor-react";
 
 
 export default function ProjectCarouselComponent(props) {
   return (
     <div
       id="carouselExampleFade"
-      className="carousel slide carousel-fade"
+      className="carousel slide carousel-fade ProjectComponent"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
@@ -45,25 +45,22 @@ export default function ProjectCarouselComponent(props) {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
-      <div className="row ProjectComponent">
-        <div className="col-8">
+      <div className="wrap">
+        <div className="right">
           {" "}
           <h4>Weather App</h4>
         </div>
-        <div className="col-2 linksLogo">
+        <a href={props.projectLink} target="_blank" rel="noreferrer" className="left linksLogo">
           <Link size={30} />
-        </div>
-        <div className="col-2 linksLogo">
+        </a>
+        {/* <div className="left linksLogo">
           <GithubLogo size={30} />
-        </div>
+        </div> */}
       </div>
       <div className="projectDescription">
-        Weather application coded with Openweathermap API integration for live
-        weather information. Features a day and night background tuned to your
-        local time
+      {props.description}
       </div>
-      <span className="projectSoftwares">Javascript</span>
-      <span className="projectSoftwares">Bootstrap</span>
+      <span className="projectSoftwares">{props.projectType}</span>
     </div>
   );
 }

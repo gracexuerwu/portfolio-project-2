@@ -7,9 +7,61 @@
 } */
 nav {
   padding: 0 250px 0 250px;
-  font-size: 20px;
+  font-size: 22px;
+  color: var( --branding-color);
 }
 .navbar {
-    background-color: var(--background);
-    padding-top: 50px;
+  background-color: var(--background);
+  padding-top: 50px;
+  color: var( --branding-color);
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--navBar-active);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--navBar-inActive);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var( --branding-color);;
+}
+@media (max-width: 360px) {
+  nav {
+    padding: 0 43px 0 43px;
   }
+}
+@media (max-width: 414px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}
+@media (min-width: 600px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}
+@media (min-width: 750px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}
+@media (min-width: 900px) {
+  nav {
+    padding: 0 43px 0 43px;
+  }
+}
+@media (min-width: 1100px) {
+  nav {
+    padding: 0 43px 0 43px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1500px) {
+  nav {
+    padding: 0 120px 0 120px;
+    font-size: 20px;
+  }
+  nav .home-icon {
+    width: 32px;
+    height: 35px;
+  }
+}

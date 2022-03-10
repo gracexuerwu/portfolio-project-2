@@ -6,31 +6,33 @@ import { Link, GithubLogo } from "phosphor-react";
 
 export default function ProjectComponent(props) {
   return (
-    <div>
+    <div className="ProjectComponent">
       <img
         src={props.image}
         className="img-fluid text-center placeholder-img rounded projectImage"
         alt=""
       />
-      <div className="row ProjectComponent">
-        <div className="col-8">
+      <div className="wrap">
+        <div className="right">
           {" "}
-          <h4>Weather App</h4>
+          <h4>{props.projectName}</h4>
         </div>
-        <div className="col-2 linksLogo">
+        {/* <a href={props.liveSiteLink} target="_blank">
+                <FontAwesomeIcon
+                  icon={faLink}
+                  className="fa-sm left linksLogo"
+                />
+        </a> */}
+        <a href={props.liveSiteLink} target="_blank" rel="noreferrer" className="left linksLogo">
           <Link size={30} />
-        </div>
-        <div className="col-2 linksLogo">
+        </a>
+        <a href={props.githubLink} target="_blank" rel="noreferrer" className="left linksLogo">
           <GithubLogo size={30} />
-        </div>
+        </a>
       </div>
-      <div className="projectDescription">
-        Weather application coded with Openweathermap API integration for live
-        weather information. Features a day and night background tuned to your
-        local time
-      </div>
-      <span className="projectSoftwares">Javascript</span>
-      <span className="projectSoftwares">Bootstrap</span>
+      <div className="projectDescription">{props.description}</div>
+      <span className="projectSoftwares">{props.software1}</span>
+      <span className="projectSoftwares">{props.software2}</span>
     </div>
   );
 }

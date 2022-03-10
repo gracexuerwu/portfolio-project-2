@@ -16,11 +16,13 @@ function App() {
   return (
     <Router>
       <div className="App" data-theme={theme}>
-        <Nav onclick={switchTheme} />
-        <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        </Switch>
+        <div className="App2">
+          <Nav onClick={switchTheme} theme={theme} />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+          </Switch>
+        </div>
       </div>
     </Router>
   );

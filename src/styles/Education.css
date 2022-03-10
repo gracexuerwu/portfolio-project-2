@@ -18,7 +18,7 @@
   .Education hr {
     margin-bottom: 80px;
   }
-  .Education .left-col {
+  /* .Education .left-col {
     width: 15%;
     font-size: 20px;
   }
@@ -30,7 +30,7 @@
   .Education .center-col {
     width: 80%;
     float: left;
-  }
+  } */
   .Education .container div {
     padding: 1%;
     box-sizing: border-box;
@@ -39,8 +39,13 @@
     padding-right: 0px;
   }
   .Education h2 {
+    font-family: NavilleRegular;
     font-size: 24px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+  }
+  .Education h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   .Education ul {
     list-style-type: none;
@@ -49,7 +54,7 @@
     font-size: 19px;
   }
   .Education .educationLocation {
-      color: var(--light-branding-color);
+      color: var(--secondary-color);
       margin-bottom: 10px
   }
   .Education .educationDetail {
@@ -57,4 +62,191 @@
   }
   .item {
       margin-top: 170px;
+  }
+  .Education .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  .Education .flex-item-left {
+    flex: 20%;
+    font-size: 20px;
+  }
+  .Education .flex-item-center {
+    flex: 70%;
+  }
+  .Education .flex-item-right {
+    margin-left: auto;
+    font-size: 20px;
+    float: left;
+  }
+  @media (min-width: 600px) {
+    .Education .flex-container {
+      flex-direction: column;
+    }
+    .Education h2 {
+      font-size: 20px;
+    }
+    .Education h3 {
+      font-size: 18px;
+    }
+    .Education .educationDetail{
+      font-size: 17px;
+    }
+    .Education .educationLocation {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+    .Education .flex-item-right {
+      display: none;
+    }
+  }
+  @media (min-width: 750px) {
+    .Education .flex-container {
+      flex-direction: column;
+    }
+    .Education h2 {
+      font-size: 20px;
+    }
+    .Education h3 {
+      font-size: 18px;
+    }
+    .Education .educationDetail{
+      font-size: 17px;
+    }
+    .Education .educationLocation {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+    .Education .flex-item-right {
+      display: none;
+    }
+  }
+  @media (min-width: 900px) {
+    .Education .flex-container {
+      flex-direction: row;
+    }
+    .Education h2 {
+      font-size: 20px;
+    }
+    .Education h3 {
+      font-size: 18px;
+    }
+    .Education .experienceDetail {
+      font-size: 17px;
+    }
+    .Education .experienceLocation {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+    .Education .flex-item-left {
+      flex: 30%;
+      font-size: 20px;
+    }
+    .Education .flex-item-right {
+      flex: 20%;
+      font-size: 18px;
+    }
+    .Education .flex-item-center {
+      flex: 60%;
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1100px) {
+    .Education .flex-container {
+      flex-direction: row;
+    }
+    .Education h2 {
+      font-size: 20px;
+    }
+    .Education h3 {
+      font-size: 18px;
+    }
+    .Education .experienceDetail {
+      font-size: 17px;
+    }
+    .Education .experienceLocation {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+    .Education .flex-item-left {
+      flex: 30%;
+      font-size: 20px;
+    }
+    .Education .flex-item-right {
+      flex: 20%;
+      font-size: 18px;
+    }
+    .Education .flex-item-center {
+      flex: 60%;
+      font-size: 18px;
+    }
+    .Education .flex-item-right {
+      display: block;
+    }
+  }
+  @media (max-width: 360px) {
+    .Education .flex-container {
+      flex-direction: column;
+    }
+    .Education h2 {
+      font-size: 20px;
+    }
+    .Education  h3 {
+      font-size: 18px;
+    }
+    .Education .educationDetail {
+      font-size: 17px;
+    }
+    .Education  .educationLocation {
+      font-size: 17px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    .Education .flex-container {
+      flex-direction: column;
+    }
+    .Education h2 {
+      font-size: 22px;
+    }
+    .Education .flex-item-right {
+      display: none;
+    }
+  }
+  
+  
+  @media (min-width: 1500px) {
+    .Education .flex-container {
+      flex-direction: row;
+    }
+    .Education h2 {
+      font-size: 25px;
+    }
+    .Education h3 {
+      font-size: 22px;
+    }
+    .Education .educationDetail {
+      font-size: 20px;
+    }
+    .Education .educationLocation {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .Education .flex-item-left {
+      flex: 30%;
+      font-size: 20px;
+    }
+    .Education .flex-item-right {
+      flex: 20%;
+      font-size: 20px;
+    }
+    .Education .flex-item-center {
+      flex: 60%;
+      font-size: 18px;
+    }
+    .Education .flex-item-right {
+      display: block;
+    }
   }

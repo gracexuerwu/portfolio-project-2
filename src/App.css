@@ -14,19 +14,84 @@
   src: url(./fonts/centabel.ttf);
   font-weight: normal;
 }
-:root {
-  --background: #ffffff; 
-  --branding-color: rgb(0, 0, 0);
-  --light-branding-color: #004E93;
-  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+@font-face {
+  font-family: NavilleRegular;
+  src: url(./fonts/Naville-Regular.ttf);
+  font-weight: normal;
 }
-[data-theme='dark'] {
-  --background: #000000; 
+:root {
+  --background: #ffffff;
+  --hero-color: rgb(75, 75, 75);
+  --branding-color: rgb(0, 0, 0);
+  --light-branding-color: #004e93;
+  --border-circle: 2px solid black;
+  --border-radius: 40px
+  --border-circle-color: black;
+  --secondary-color: #004e93;
+  --border-circle-background: white;
+  --button-background: black;
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --navBar-active: black;
+  --navBar-inActive: rgba(0, 0, 0, 0.55);
+  --linear-gradient: linear-gradient(
+    51.06deg,
+    #9358f7 0.87%,
+    #9259f7 7.31%,
+    #8e5df6 13.75%,
+    #8862f5 20.19%,
+    #806bf4 26.63%,
+    #7575f2 33.07%,
+    #6882f0 39.51%,
+    #5990ee 45.95%,
+    #4a9feb 52.39%,
+    #3bade9 58.84%,
+    #2ebae7 65.28%,
+    #23c4e5 71.72%,
+    #1bcde4 78.16%,
+    #15d2e3 84.6%,
+    #11d6e2 91.04%,
+    #10d7e2 97.48%
+  );
+}
+[data-theme="dark"] {
+  --background: black;
+  --hero-color: rgb(227, 227, 227);
   --branding-color: rgb(255, 255, 255);
-  --light-branding-color: #8e05c2;
+  --light-branding-color: #ffffff;
+  --secondary-color: #8e05c2;
+  --border-circle: 2px solid #8e05c2;
+  --border-radius: 40px
+  --border-circle-color: #8e05c2;
+  --button-background: #8e05c2;
   --box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  --navBar-active: white;
+  --navBar-inActive: rgba(210, 210, 210, 0.55);
+  --linear-gradient: linear-gradient(
+    51.06deg,
+    #9358f7 0.87%,
+    #9259f7 7.31%,
+    #8e5df6 13.75%,
+    #8862f5 20.19%,
+    #806bf4 26.63%,
+    #7575f2 33.07%,
+    #6882f0 39.51%,
+    #5990ee 45.95%,
+    #4a9feb 52.39%,
+    #3bade9 58.84%,
+    #2ebae7 65.28%,
+    #23c4e5 71.72%,
+    #1bcde4 78.16%,
+    #15d2e3 84.6%,
+    #11d6e2 91.04%,
+    #10d7e2 97.48%
+  );
 }
 .App {
+  /* text-align: center; */
+  background-color: var(--background);
+}
+
+.App2 {
   /* text-align: center; */
   margin: 0 250px 0 250px;
 }
@@ -41,9 +106,39 @@
   font-size: calc(10px + 2vmin);
   color: var(--branding-color);
 }
-
-@media (max-width: 414px) {
-  .App {
+@media (max-width: 360px) {
+  .App2 {
     margin: 0 60px 0 60px;
   }
 }
+@media (max-width: 414px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}
+@media (min-width: 600px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}
+@media (min-width: 750px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}
+@media (min-width: 900px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}
+@media (min-width: 1100px) {
+  .App2 {
+    margin: 0 60px 0 60px;
+  }
+}
+@media (min-width: 1500px) {
+  .App2 {
+    margin: 0 150px 0 150px;
+  }
+}
+

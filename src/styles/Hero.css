@@ -6,43 +6,206 @@
   justify-content: center;
   font-family: HkGrotesk;
 }
-h1 {
-    font-family: 'Raleway', HkGrotesk;
-    font-size: 120px;
-    font-weight: 500;
-    margin: 30px 0 30px 0;
-    background-image: linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+.bold {
+  font-family: "Syne", sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  margin: 30px 0 30px 0;
+  background-image: linear-gradient(
+    89.81deg,
+    #9845e8 -1.72%,
+    #33d2ff 54.05%,
+    #dd5789 99.78%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  animation-delay: 400ms;
 }
-h2 {
-    font-size: 28px;
-    line-height: 45px;
-    font-family: HkGrotesk;
+.Hero h1 {
+  font-size: 55px;
+  line-height: 80px;
+  font-family: "Kodchasan", HkGrotesk;
+  letter-spacing: 0.045em;
+  color: var(--hero-color);
+  animation-duration: 0.7s;
 }
-h3 {
-    font-size: 25px;
-    margin-top: 200px;
+.Hero h2 {
+  font-size: 55px;
+  line-height: 80px;
+  font-family: "Kodchasan", HkGrotesk;
+  letter-spacing: 0.045em;
+  margin-top: 50px;
+  letter-spacing: 0.045em;
+  color: rgb(75, 75, 75);
+  color: var(--hero-color);
 }
-.arrowAnimation {
-    height: 300px;
-    margin-left: 0;
-    position: relative;
-    bottom: -8px;
-    right: 215px;
+.Hero .button {
+  padding: 10px 20px 10px 20px;
+  border: var(--border-circle);
+  border-radius: 40px;
+  transition: all 0.5s ease;
+  margin-top: 30px;
+  font-size: 22px;
+  text-decoration: none;
+  color: var(--branding-color);
 }
-@media (max-width: 414px) {
-    .Hero h1 {
-      font-size: 60px;
-    }
-    .Hero h2 {
-        font-size: 18px;
-        line-height: 30px;
-    }
-    .Hero h3 {
-        font-size: 18px;
-        line-height: 30px;
-    }
+.Hero .button:hover {
+  background-color: var(--button-background);
+  color: white;
+  cursor: pointer;
+}
+/* #name {
+  opacity: 0;
+  animation-delay: 400ms;
+  animation: fadein 1s;
+  animation-fill-mode: forwards;
+}
+#role {
+  opacity: 0;
+  animation-delay: 2000ms;
+  animation: fadein 200s;
+  animation-fill-mode: forwards;
+} */
+@media (max-width: 600px) {
+  .Hero h1 {
+    font-size: 20px;
   }
+  .Hero h2 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 25px;
+  }
+  svg {
+    width: 25px;
+    height: 35px;
+  }
+  .Hero .button {
+    font-size: 13px;
+  }
+}
+@media (min-width: 750px) {
+  .Hero h1 {
+    font-size: 25px;
+  }
+  .Hero h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 30px;
+  }
+  svg {
+    width: 25px;
+    height: 35px;
+  }
+  .Hero .button {
+    font-size: 15px;
+  }
+}
+@media (min-width: 900px) {
+  .Hero h1 {
+    font-size: 25px;
+  }
+  .Hero h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 30px;
+  }
+  svg {
+    width: 25px;
+    height: 35px;
+  }
+  .Hero .button {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1100px) {
+  .Hero h1 {
+    font-size: 35px;
+  }
+  .Hero h2 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 40px;
+  }
+  svg {
+    width: 25px;
+    height: 35px;
+  }
+  .Hero .button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 414px) {
+  .Hero h1 {
+    font-size: 25px;
+  }
+  .Hero h2 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .Hero .bold {
+    font-size: 30px;
+  }
+  .Hero svg {
+    width: 30px;
+    height: 40px;
+  }
+  .Hero .button {
+    font-size: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .Hero h1 {
+    font-size: 20px;
+  }
+  .Hero h2 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 25px;
+  }
+  svg {
+    width: 25px;
+    height: 35px;
+  }
+  .Hero .button {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1500px) {
+  .Hero h1 {
+    font-size: 50px;
+  }
+  .Hero h2 {
+    font-size: 50px;
+    line-height: 85px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 60px;
+  }
+  svg {
+    width: 45px;
+    height: 55px;
+  }
+  .Hero .button {
+    font-size: 25px;
+  }
+}

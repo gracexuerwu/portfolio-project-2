@@ -4,39 +4,15 @@ import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 
-import { FileCode, Tree, Atom, ArrowUpRight} from "phosphor-react";
+import { FileCode, Tree, Atom, ArrowsLeftRight} from "phosphor-react";
 
 
 export default function About() {
   return (
     <div className="About">
-      {/* <div className="row">
-        <div className="col-7">
-          <h1>Hi I’m Grace Wu, </h1>
-          <h1>interfacer designer &amp; developer.</h1>
-          <div className="about-text">
-            <p>
-              I’m a self-taught front-end interface developer, and am currently
-              pursuing a BA in Product and industrial design, seeking to create
-              human-centred design for and with people.
-              When the internet is down you can find me frolicking in the woods
-              or alps, cooking or reading a book.{" "}
-            </p>
-            <p>
-              I am open to internships and full-time positions in the front-end
-              development or service design field.
-            </p>
-          </div>
-        </div>
-        <div className="col-1"></div>
-        <div className="col-4">
-          <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
-        </div>
-      </div> */}
-      <div className="d-flex justify-content-between">
-        <div className="left-col1">
-          <h1>Hi I’m Grace Wu, </h1>
-          <h1>interfacer designer &amp; developer.</h1>
+      <div className="row flex-column-reverse flex-md-row bio-row">
+        <div className="col-md-7">
+          <h1>Not your average designer.</h1>
           <p>
             I am a designer who can not only create visually appealing content
             but also transform them into code <FileCode size={32} /> (Sounds
@@ -48,7 +24,7 @@ export default function About() {
             service design field <Atom size={32} />.
           </p>
         </div>
-        <div className="right-col1">
+        <div className="col-md-5">
           <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
         </div>
       </div>
@@ -58,15 +34,14 @@ export default function About() {
           borderColor: "#1A1A1A",
         }}
       />
-      <div className="d-flex">
-        <div className="col-3 connect">
-          Let's connect <ArrowUpRight size={20} />
+      <div className="flex-container space-between">
+        <div className="flex-item-left connect-text" id="connect-bar">
+          Let's connect  <ArrowsLeftRight size={35} className="icon" />
         </div>
-        <div className="col-6 connect">
-          <div>grace.xuer.wu@gmail.com</div>
-          <a href="https://www.youtube.com/watch?v=y0LwoUi_Kcw&t=1321s">View my resume </a>
+        <div className="flex-item-center connect">
+          <div className="email">grace.xuer.wu@gmail.com</div>
         </div>
-        <div className="col-3"></div>
+        <div className="flex-item-right"><a href="https://drive.google.com/file/d/16TwnW5_u3so7wv5Z56ap0TTGWE1hDiaB/view?usp=sharing" target="_blank" rel="noreferrer" className="resumeButton">View my resume </a></div>
       </div>
       <hr
         style={{
