@@ -48,7 +48,7 @@ export default function ProjectCarouselComponent(props) {
       <div className="wrap">
         <div className="right">
           {" "}
-          <h4>Weather App</h4>
+          <h4>{props. projectName}</h4>
         </div>
         <a href={props.projectLink} target="_blank" rel="noreferrer" className="left linksLogo">
           <Link size={30} />

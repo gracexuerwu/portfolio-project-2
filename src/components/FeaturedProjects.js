@@ -83,7 +83,8 @@ export default function FeaturedProjects() {
                         women? and what can be done to change this reality? The problem is
                         more than meets the eye."
             projectLink="https://drive.google.com/file/d/1PXK_a3s2DDxc3ScM1EPirW37xXrJpzoY/view?usp=sharing"        
-            projectType="User Research"    
+            projectType="User Research"
+            projectName="STEM Workshops for girls"    
           />
         </div>
         <div className="col-sm-6">
@@ -95,7 +96,8 @@ export default function FeaturedProjects() {
             lack of accessibility and availabe services that offer a discreet
             sexual health services and information to girls and young women."
             projectLink="https://drive.google.com/file/d/1J0Y47giqvQgeQTXFxWwb1zvRuC2G9a_q/view?usp=sharing" 
-            projectType="Social Design"    
+            projectType="Social Design"   
+            projectName="Empowering girls to take charge of their sexual health"    
           />
         </div>
       </div>
@@ -111,7 +113,8 @@ export default function FeaturedProjects() {
             sustainable concept proposition with the core in mind, the
             implementation of a Cradle to Cradle life cycle."
             projectLink="https://drive.google.com/file/d/1dGZY0puOUWHbls45M3IFvw4tCvRioVys/view?usp=sharing"
-            projectType="Sustainability"  
+            projectType="Sustainability"
+            projectName="Circular color pencils"      
           />
         </div>
         <div className="col-sm-6">
@@ -123,7 +126,8 @@ export default function FeaturedProjects() {
             opportunities that would enable medical packaging, namely the
             blister product to achieve circularity in it's product lifecycle."
             projectLink="https://drive.google.com/file/d/1YttEc0w1UM0DmRWkwN6M52hTAByGWRCN/view?usp=sharing"
-            projectType="Sustainability"  
+            projectType="Sustainability"
+            projectName="Evaluation on how medical packaging can be more sustainable"     
           />
         </div>
       </div>

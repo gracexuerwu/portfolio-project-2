@@ -18,7 +18,7 @@ export default function Experience() {
           <h3>Masonary Studios / 3D Generalist Internship</h3>
           <ul>
               <li className="experienceLocation">Singapore</li>
-              <li className="experienceDetail">- Developing screens and UI components for the web application using React and Tailwind.</li>
+              <li className="experienceDetail">- Worked on 3D assets, character design, storyboarding and animation for broadcasting and advertisement.</li>
           </ul>
         </div>
         <div className="flex-item-right">Jan - Jun 2018</div>
