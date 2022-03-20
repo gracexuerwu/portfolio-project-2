@@ -25,7 +25,7 @@
 }
 .Hero h1 {
   font-size: 55px;
-  line-height: 80px;
+  line-height: 120px;
   font-family: "Kodchasan", HkGrotesk;
   letter-spacing: 0.045em;
   color: var(--hero-color);
