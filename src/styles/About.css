@@ -99,7 +99,7 @@ img {
 .icon {
   margin-left: 10px;
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .About .flex-container {
     flex-direction: column;
   }
@@ -146,7 +146,7 @@ img {
     width: 100%;
   }
 }
-@media (min-width: 750px) {
+@media (max-width: 750px) {
   .About .flex-container {
     flex-direction: row;
   }
@@ -200,13 +200,13 @@ img {
     flex: 25%;
   }
 }
-@media (min-width: 900px) {
+@media (max-width: 820px) {
   .About .flex-container {
     flex-direction: row;
   }
   .About {
     /* margin: 150px 0 0 0; */
-    padding-top: 10px;
+    padding-top: 125px;
   }
   .About .flex-item-right {
     margin: 0;
@@ -226,14 +226,68 @@ img {
     margin-left: 0;
     height: 410px;
     width: 300px;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
   }
   .About p {
     font-size: 18px;
     margin-top: 25px;
   }
   .About hr {
-    margin-bottom: 80px;
+    margin-bottom: 125px;
+    margin-top: 65px;
+  }
+  .connect {
+    font-size: 18px;
+  }
+  .connect-text {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .About svg {
+    width: 25px;
+    height: 35px;
+  }
+  .About .col-sm-6 {
+    width: 100%;
+  }
+  .About .flex-item-center {
+    flex: 25%;
+  }
+}
+@media (min-width: 900px) {
+  .About .flex-container {
+    flex-direction: row;
+  }
+  .About {
+    /* margin: 150px 0 0 0; */
+    padding-top: 125px;
+  }
+  .About .flex-item-right {
+    margin: 0;
+    font-size: 15px;
+  }
+  .About .flex-item-left {
+    margin: 0;
+    font-size: 15px;
+  }
+  .About .resumeButton {
+    font-size: 10px;
+  }
+  .About h1 {
+    font-size: 35px;
+  }
+  .About .CVphoto {
+    margin-left: 0;
+    height: 410px;
+    width: 300px;
+    margin-bottom: 100px;
+  }
+  .About p {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  .About hr {
+    margin-bottom: 125px;
     margin-top: 65px;
   }
   .connect {
@@ -284,7 +338,37 @@ img {
     margin: 0;
   }
 }
-@media (min-width: 414px) {
+@media (max-width: 393px) {
+  .About h1 {
+    font-size: 28px;
+  }
+    .About .CVphoto {
+    margin-left: 0;
+    height: 320px;
+    width: 245px;
+    margin-bottom: 0px;
+  }
+  .connect {
+    font-size: 18px;
+  }
+  .connect-text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .About .resumeButton {
+    font-size: 12px;
+  }
+  .About .flex-container {
+    flex-direction: column;
+  }
+  .About p {
+    font-size: 18px;
+  }
+  .About .flex-item-right {
+    margin: 0;
+  }
+}
+@media (max-width: 414px) {
   .About .flex-container {
     flex-direction: column;
   }
