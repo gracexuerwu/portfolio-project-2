@@ -189,6 +189,29 @@
     font-size: 13px;
   }
 }
+@media (max-width: 375px) {
+  .Hero h1 {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .Hero h2 {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .bold {
+    font-size: 25px;
+  }
+  svg {
+    width: 25px;
+    height: 35px;
+  }
+  .Hero .button {
+    font-size: 13px;
+  }
+}
+
 @media (min-width: 1500px) {
   .Hero h1 {
     font-size: 50px;
