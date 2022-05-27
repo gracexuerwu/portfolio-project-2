@@ -41,7 +41,7 @@ export default function About() {
         <div className="flex-item-center connect">
           <div className="email">grace.xuer.wu@gmail.com</div>
         </div>
-        <div className="flex-item-right"><a href="https://drive.google.com/file/d/16TwnW5_u3so7wv5Z56ap0TTGWE1hDiaB/view?usp=sharing" target="_blank" rel="noreferrer" className="resumeButton">View my resume </a></div>
+        <div className="flex-item-right"><a href="https://drive.google.com/file/d/1aU0NR36n6ru_yNgBOyZeaSj0oU1WqA5r/view?usp=sharing" target="_blank" rel="noreferrer" className="resumeButton">View my resume </a></div>
       </div>
       <hr
         style={{
