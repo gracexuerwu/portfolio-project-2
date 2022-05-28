@@ -27,7 +27,7 @@ export default function ProjectCarouselComponent(props) {
           />
         </div>
       </div>
-      <button
+      {/* <button
         className="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleFade"
@@ -35,8 +35,8 @@ export default function ProjectCarouselComponent(props) {
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
-      </button>
-      <button
+      </button> */}
+      {/* <button
         className="carousel-control-next"
         type="button"
         data-bs-target="#carouselExampleFade"
@@ -44,7 +44,7 @@ export default function ProjectCarouselComponent(props) {
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
-      </button>
+      </button> */}
       <div className="wrap">
         <div className="right">
           {" "}
