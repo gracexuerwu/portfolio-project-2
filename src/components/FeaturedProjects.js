@@ -16,6 +16,8 @@ import Carandache1Thumbnail from "../images/Caradache01_Thumbnail.png";
 import Carandache2Thumbnail from "../images/Caradache02_Thumbnail.png";
 import Medicalpackaging1Thumbnail from "../images/Medical packaging01_Thumbnail.png";
 import Medicalpackaging2Thumbnail from "../images/Medical packaging02_Thumbnail.png";
+import BAThesis1Thumbnail from "../images/BAthesis01_Thumbnail.png";
+import BAThesis2Thumbnail from "../images/BAthesis02_Thumbnail.png";
 
 export default function FeaturedProjects() {
   return (
@@ -129,6 +131,25 @@ export default function FeaturedProjects() {
             projectType="Sustainability"
             projectName="Evaluation on how medical packaging can be more sustainable"     
           />
+        </div>
+      </div>
+      <div className="row projectRow">
+        <div className="col-sm-6">
+          <ProjectCarouselComponent
+            imageOne={BAThesis1Thumbnail}
+            imageTwo={BAThesis2Thumbnail}
+            alt="hsdkjh"
+            description="The scope of this project, is to examine an existing product in
+            terms of 'Design for Sustainability' and how far have the parameters
+            for this design approach been considered. Followed by developing a
+            sustainable concept proposition with the core in mind, the
+            implementation of a Cradle to Cradle life cycle."
+            projectLink="https://drive.google.com/file/d/1dGZY0puOUWHbls45M3IFvw4tCvRioVys/view?usp=sharing"
+            projectType="Sustainability"
+            projectName="Circular color pencils"      
+          />
+        </div>
+        <div className="col-sm-6">
         </div>
       </div>
     </div>
