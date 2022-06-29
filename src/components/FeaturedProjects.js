@@ -144,9 +144,9 @@ export default function FeaturedProjects() {
             for this design approach been considered. Followed by developing a
             sustainable concept proposition with the core in mind, the
             implementation of a Cradle to Cradle life cycle."
-            projectLink="https://drive.google.com/file/d/1dGZY0puOUWHbls45M3IFvw4tCvRioVys/view?usp=sharing"
+            projectLink="https://drive.google.com/file/d/166tTGGKxKdMGwkchcycpfTqE4w8mUrAU/view?usp=sharing"
             projectType="Sustainability"
-            projectName="Circular color pencils"      
+            projectName="The importance of soy in meat production"      
           />
         </div>
         <div className="col-sm-6">
