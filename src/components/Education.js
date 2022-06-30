@@ -12,6 +12,25 @@ export default function Education() {
           </h2>
         </div>
         <div className="flex-item-center">
+          <h3>Shecodes Front-end development bootcamp</h3>
+          <ul>
+            <li className="educationLocation">Online</li>
+            <li className="educationDetail">
+              - Introduction to HTML, CSS, Javascipt React.js framework and responsive design. During the course of the bootcamp, I designed the UI and developed several application projects.
+            </li>
+          </ul>
+        </div>
+        <div className="flex-item-right">
+          <div>2021 / 2021</div>
+        </div>
+      </div>
+      <div className="flex-container space-between">
+        <div className="flex-item-left">
+          {/* <h2>
+            EDUCATION <GraduationCap size={35} className="icon" />
+          </h2> */}
+        </div>
+        <div className="flex-item-center">
           <h3>Lucerne University of Applied Arts and Sciences</h3>
           <ul>
             <li className="educationLocation">Switzerland</li>
