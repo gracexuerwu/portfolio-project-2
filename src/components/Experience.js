@@ -21,7 +21,7 @@ export default function Experience() {
               <li className="experienceDetail">- Worked on 3D assets, character design, storyboarding and animation for broadcasting and advertisement.</li>
           </ul>
         </div>
-        <div className="flex-item-right">Jan - Jun 2018</div>
+        <div className="flex-item-right">Jan - Jun 2019</div>
       </div>
       <hr
         style={{

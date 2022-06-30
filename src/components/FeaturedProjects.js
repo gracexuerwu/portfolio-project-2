@@ -42,7 +42,7 @@ export default function FeaturedProjects() {
             description="Iterated version of the previous weather app but in React.js. It
             allows users to search for the weather at any location. Includes a
             Celcius and Fahrenheit temperature slider."
-            liveSiteLink="https://hungry-yalow-e0bde5.netlify.app/" 
+            liveSiteLink="https://hungry-yalow-e0bde5.netlify.app/"
             githubLink="https://github.com/gracexuerwu/weather-app-1-react"
             software1="React"
             software2="Bootstrap"
@@ -79,27 +79,25 @@ export default function FeaturedProjects() {
           <ProjectCarouselComponent
             imageOne={Schindler2Thumbnail}
             imageTwo={Schindler3Thumbnail}
-            alt="hsdkjh"
+            alt="STEM workshop for girls"
             description="The project scope is based around the problem: Why working as an
                         elevator technician is not considered as a career for young Swiss
                         women? and what can be done to change this reality? The problem is
                         more than meets the eye."
-            projectLink="https://drive.google.com/file/d/1PXK_a3s2DDxc3ScM1EPirW37xXrJpzoY/view?usp=sharing"        
-            projectType="User Research"
-            projectName="STEM Workshops for girls"    
+            projectLink="https://drive.google.com/file/d/1PXK_a3s2DDxc3ScM1EPirW37xXrJpzoY/view?usp=sharing"
+            projectType="Gender equality"
+            projectName="STEM Workshops For Girls"
           />
         </div>
         <div className="col-sm-6">
           <ProjectCarouselComponent
-            imageOne={SexualHealth1Thumbnail}
-            imageTwo={SexualHealth2Thumbnail}
-            alt="hsdkjh"
-            description="The scope of the project is to tackle a social issue, which is the
-            lack of accessibility and availabe services that offer a discreet
-            sexual health services and information to girls and young women."
-            projectLink="https://drive.google.com/file/d/1J0Y47giqvQgeQTXFxWwb1zvRuC2G9a_q/view?usp=sharing" 
-            projectType="Social Design"   
-            projectName="Empowering girls to take charge of their sexual health"    
+            imageOne={BAThesis1Thumbnail}
+            imageTwo={BAThesis2Thumbnail}
+            alt="Bachelor Thesis"
+            description="The research area of focus of the bachelor’s thesis is to examine the dependency of the Swiss food system’s reliance on imports. In particular imported soy from Brazil to sustain Swiss meat production. A human-centred approach was utilized throughout the whole process, taking into consideration to understand the motivation and perceptions of various stakeholders in the soy supply chain. A design intervention was conceptualised, iterated and prototyped thoroughly in order to create a solution that addressed the reframed problem."
+            projectLink="https://drive.google.com/file/d/166tTGGKxKdMGwkchcycpfTqE4w8mUrAU/view?usp=sharing"
+            projectType="Sustainability"
+            projectName="The Importance Of Soy In Meat Production"
           />
         </div>
       </div>
@@ -108,7 +106,7 @@ export default function FeaturedProjects() {
           <ProjectCarouselComponent
             imageOne={Carandache1Thumbnail}
             imageTwo={Carandache2Thumbnail}
-            alt="hsdkjh"
+            alt="Circular color pencils"
             description="The scope of this project, is to examine an existing product in
             terms of 'Design for Sustainability' and how far have the parameters
             for this design approach been considered. Followed by developing a
@@ -116,41 +114,38 @@ export default function FeaturedProjects() {
             implementation of a Cradle to Cradle life cycle."
             projectLink="https://drive.google.com/file/d/1dGZY0puOUWHbls45M3IFvw4tCvRioVys/view?usp=sharing"
             projectType="Sustainability"
-            projectName="Circular color pencils"      
+            projectName="Designing Circular Color Pencils"
           />
         </div>
         <div className="col-sm-6">
           <ProjectCarouselComponent
             imageOne={Medicalpackaging1Thumbnail}
             imageTwo={Medicalpackaging2Thumbnail}
-            alt="hsdkjh"
+            alt="Medical packaging evaluation"
             description="The scope of this project, is to research and identify areas of
             opportunities that would enable medical packaging, namely the
             blister product to achieve circularity in it's product lifecycle."
             projectLink="https://drive.google.com/file/d/1YttEc0w1UM0DmRWkwN6M52hTAByGWRCN/view?usp=sharing"
             projectType="Sustainability"
-            projectName="Evaluation on how medical packaging can be more sustainable"     
+            projectName="Evaluation On How Medical Packaging Can Be More Sustainable"
           />
         </div>
       </div>
       <div className="row projectRow">
         <div className="col-sm-6">
           <ProjectCarouselComponent
-            imageOne={BAThesis1Thumbnail}
-            imageTwo={BAThesis2Thumbnail}
-            alt="hsdkjh"
-            description="The scope of this project, is to examine an existing product in
-            terms of 'Design for Sustainability' and how far have the parameters
-            for this design approach been considered. Followed by developing a
-            sustainable concept proposition with the core in mind, the
-            implementation of a Cradle to Cradle life cycle."
-            projectLink="https://drive.google.com/file/d/166tTGGKxKdMGwkchcycpfTqE4w8mUrAU/view?usp=sharing"
-            projectType="Sustainability"
-            projectName="The importance of soy in meat production"      
+            imageOne={SexualHealth1Thumbnail}
+            imageTwo={SexualHealth2Thumbnail}
+            alt="Empowering girls"
+            description="The scope of the project is to tackle a social issue, which is the
+            lack of accessibility and availabe services that offer a discreet
+            sexual health services and information to girls and young women."
+            projectLink="https://drive.google.com/file/d/1J0Y47giqvQgeQTXFxWwb1zvRuC2G9a_q/view?usp=sharing"
+            projectType="Social Design"
+            projectName="Empowering Girls To Take Charge Of Their Sexual Health"
           />
         </div>
-        <div className="col-sm-6">
-        </div>
+        <div className="col-sm-6"></div>
       </div>
     </div>
   );
