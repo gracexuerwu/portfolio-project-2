@@ -12,7 +12,23 @@ export default function Education() {
           </h2>
         </div>
         <div className="flex-item-center">
-          <h3>Shecodes Front-end development bootcamp</h3>
+          <h3>German B2 Level</h3>
+          <ul>
+            <li className="educationLocation">Switzerland</li>
+            <li className="educationDetail">
+              - Achieved advanced and fluency in the German language. Obtained Deutsch TELC B2 Certificate. (Common European Framework of Reference for Languages) 
+            </li>
+          </ul>
+        </div>
+        <div className="flex-item-right">
+          <div>2020 / 2022</div>
+        </div>
+      </div>
+      <div className="flex-container space-between">
+        <div className="flex-item-left">
+        </div>
+        <div className="flex-item-center">
+          <h3>Shecodes Front-end Development Bootcamp</h3>
           <ul>
             <li className="educationLocation">Online</li>
             <li className="educationDetail">

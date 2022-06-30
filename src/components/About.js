@@ -4,8 +4,7 @@ import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 
-import { FileCode, Tree, Atom, ArrowsLeftRight} from "phosphor-react";
-
+import { FileCode, Tree, Atom, ArrowsLeftRight } from "phosphor-react";
 
 export default function About() {
   return (
@@ -36,12 +35,21 @@ export default function About() {
       />
       <div className="flex-container space-between">
         <div className="flex-item-left connect-text" id="connect-bar">
-          Let's connect  <ArrowsLeftRight size={35} className="icon" />
+          Let's connect <ArrowsLeftRight size={35} className="icon" />
         </div>
         <div className="flex-item-center connect">
           <div className="email">grace.xuer.wu@gmail.com</div>
         </div>
-        <div className="flex-item-right"><a href="https://drive.google.com/file/d/1aU0NR36n6ru_yNgBOyZeaSj0oU1WqA5r/view?usp=sharing" target="_blank" rel="noreferrer" className="resumeButton">View my resume </a></div>
+        <div className="flex-item-right">
+          <a
+            href="https://drive.google.com/file/d/1aU0NR36n6ru_yNgBOyZeaSj0oU1WqA5r/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="resumeButton"
+          >
+            View my resume{" "}
+          </a>
+        </div>
       </div>
       <hr
         style={{
