@@ -42,7 +42,7 @@ export default function About() {
         </div>
         <div className="flex-item-right">
           <a
-            href="https://drive.google.com/file/d/1aU0NR36n6ru_yNgBOyZeaSj0oU1WqA5r/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tha03ZdBe4_RgRH3-pQnCuncX177r2aX/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="resumeButton"
