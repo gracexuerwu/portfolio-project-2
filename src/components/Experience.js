@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Experience.css";
-import { FolderOpen } from "phosphor-react";
+// import { FolderOpen } from "phosphor-react";
 
 export default function Experience() {
   return (

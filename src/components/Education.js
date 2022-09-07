@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Education.css";
-import { GraduationCap } from "phosphor-react";
+// import { GraduationCap } from "phosphor-react";
 
 export default function Education() {
   return (

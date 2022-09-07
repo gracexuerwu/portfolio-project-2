@@ -4,7 +4,7 @@ import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 
-import { FileCode, Tree, Atom } from "phosphor-react";
+// import { FileCode, Tree, Atom } from "phosphor-react";
 
 export default function About() {
   return (

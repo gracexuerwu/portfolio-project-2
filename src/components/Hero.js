@@ -5,7 +5,7 @@ import "../styles/Hero.css";
 // import arrow from "../animations/arrow.json";
 
 //Phosphor icon import
-import { MapPinLine } from "phosphor-react";
+// import { MapPinLine } from "phosphor-react";
 
 export default function Hero() {
   return (
