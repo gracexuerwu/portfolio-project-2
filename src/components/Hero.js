@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <div className="Hero">
       <h1>
-       Hi! 👋  I'm <span className="bold" id="name">Grace.</span>
+       Hi! 👋  I'm <span className="bold" id="name">Grace</span>
       </h1>
       <h2>
         I am a<span className="bold" id="role"> Multidisciplinary Product Designer </span>👩🏻‍💻{" "}

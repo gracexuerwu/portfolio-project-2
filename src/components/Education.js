@@ -8,7 +8,7 @@ export default function Education() {
       <div className="flex-container space-between">
         <div className="flex-item-left">
           <h2>
-            EDUCATION <GraduationCap size={35} className="icon" />
+          🎓 &nbsp; EDUCATION 
           </h2>
         </div>
         <div className="flex-item-center">

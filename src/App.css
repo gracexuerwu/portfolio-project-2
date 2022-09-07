@@ -21,7 +21,7 @@
 }
 :root {
   --background: #ffffff;
-  --hero-color: rgb(75, 75, 75);
+  --hero-color: rgb(0, 0, 0);
   --branding-color: rgb(0, 0, 0);
   --light-branding-color: #004e93;
   --border-circle: 2px solid black;

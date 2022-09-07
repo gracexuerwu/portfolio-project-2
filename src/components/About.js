@@ -4,7 +4,7 @@ import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 
-import { FileCode, Tree, Atom, ArrowsLeftRight } from "phosphor-react";
+import { FileCode, Tree, Atom } from "phosphor-react";
 
 export default function About() {
   return (
@@ -14,13 +14,13 @@ export default function About() {
           <h1>Not your average designer.</h1>
           <p>
             I am a designer who can not only create visually appealing content
-            but also transform them into code <FileCode size={32} /> (Sounds
+            but also transform them into code &nbsp;🖥 &nbsp;(Sounds
             cool right!) When the internet is down you can find me frolicking in
-            the woods or alps <Tree size={32} />, cooking or reading a book.{" "}
+            the woods or alps &nbsp;🏔, cooking or reading a book.{" "}
           </p>{" "}
           <p>
             I am open to internships and full-time positions in UX design or
-            service design field <Atom size={32} />.
+            service design field &nbsp;🪄.
           </p>
         </div>
         <div className="col-md-5">
@@ -35,14 +35,14 @@ export default function About() {
       />
       <div className="flex-container space-between">
         <div className="flex-item-left connect-text" id="connect-bar">
-          Let's connect <ArrowsLeftRight size={35} className="icon" />
+          Let's connect!&nbsp; 🤝 
         </div>
         <div className="flex-item-center connect">
           <div className="email">grace.xuer.wu@gmail.com</div>
         </div>
         <div className="flex-item-right">
           <a
-            href="https://drive.google.com/file/d/1tha03ZdBe4_RgRH3-pQnCuncX177r2aX/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zgpnmVx8RVfXKgMu7Dh6K1jaqdasRDSY/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="resumeButton"

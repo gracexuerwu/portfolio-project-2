@@ -22,7 +22,7 @@ import BAThesis2Thumbnail from "../images/BAthesis02_Thumbnail.png";
 export default function FeaturedProjects() {
   return (
     <div className="FeaturedProjects" id="FeaturedProjects">
-      <h2>DESIGN PROJECTS</h2>
+      <h2>✏️&nbsp;DESIGN PROJECTS</h2>
       <div className="row projectRow">
         <div className="col-sm-6">
           <ProjectCarouselComponent
@@ -96,7 +96,7 @@ export default function FeaturedProjects() {
         </div>
         <div className="col-sm-6"></div>
       </div>
-      <h2>DEVELOPMENT PROJECTS</h2>
+      <h2>🖥&nbsp;DEVELOPMENT PROJECTS</h2>
       <div className="row projectRow d-flex justify-content-between">
         <div className="col-sm-6">
           <ProjectComponent

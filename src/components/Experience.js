@@ -13,12 +13,12 @@ export default function Experience() {
         }}
       />
       <div className="flex-container space-between">
-        <div className="flex-item-left"><h2>EXPERIENCE <FolderOpen size={35} className="icon" /></h2></div>
+        <div className="flex-item-left"><h2>🗂 &nbsp;EXPERIENCE</h2></div>
         <div className="flex-item-center">
           <h3>Masonary Studios / 3D Generalist Internship</h3>
           <ul>
               <li className="experienceLocation">Singapore</li>
-              <li className="experienceDetail">- Worked on 3D assets, character design, storyboarding and animation for broadcasting and advertisement.</li>
+              <li className="experienceDetail">- Worked on creating 3D assets, motion graphics, and storyboards that convey the creative concepts and ideas of clients such as Singapore Health Board and Continental for advertising purposes.</li>
           </ul>
         </div>
         <div className="flex-item-right">Apr - Aug 2018</div>

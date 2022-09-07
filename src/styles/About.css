@@ -42,7 +42,7 @@ img {
 }
 .connect-text {
   font-size: 24px;
-  font-family: NavilleRegular;
+  font-family: Inter;
 }
 .connect-bar {
   justify-content: space-between;
@@ -446,7 +446,7 @@ img {
     float: right;
   }
   .About p {
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 25px;
   }
   .About hr {
