@@ -214,7 +214,7 @@
 
 @media (min-width: 1500px) {
   .Hero h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .Hero h2 {
     font-size: 40px;
@@ -222,7 +222,7 @@
     margin-top: 0px;
   }
   .bold {
-    font-size: 60px;
+    font-size: 50px;
   }
   svg {
     width: 45px;
