@@ -22,58 +22,7 @@ import BAThesis2Thumbnail from "../images/BAthesis02_Thumbnail.png";
 export default function FeaturedProjects() {
   return (
     <div className="FeaturedProjects" id="FeaturedProjects">
-      <h2>FEATURED PROJECTS</h2>
-      <div className="row projectRow d-flex justify-content-between">
-        <div className="col-sm-6">
-          <ProjectComponent
-            image={WeatherAppThumbnail}
-            projectName="Weather App"
-            description="Weather application coded with Vanilla Javascript with Openweathermap API integration for live weather information. Features a day and night background which changes according to your local time."
-            liveSiteLink="https://dazzling-meitner-238069.netlify.app/"
-            githubLink="https://github.com/gracexuerwu/vanilla-weather-app"
-            software1="Javascript"
-            software2="Bootstrap"
-          />
-        </div>
-        <div className="col-sm-6">
-          <ProjectComponent
-            image={ReactWeatherAppThumbnail}
-            projectName="Weather App 2.0"
-            description="Iterated version of the previous weather app but in React.js. It
-            allows users to search for the weather at any location. Includes a
-            Celcius and Fahrenheit temperature slider."
-            liveSiteLink="https://hungry-yalow-e0bde5.netlify.app/"
-            githubLink="https://github.com/gracexuerwu/weather-app-1-react"
-            software1="React"
-            software2="Bootstrap"
-          />
-        </div>
-      </div>
-      <div className="row projectRow">
-        <div className="col-sm-6">
-          <ProjectComponent
-            image={DictionaryAppThumbnail}
-            projectName="Dictionary App"
-            description="Retro dictionary App that allows users to search for any word definition and pronunciation. Includes pictures that are associated with the
-            searched word."
-            liveSiteLink="https://loving-mccarthy-677ab0.netlify.app/"
-            githubLink="https://github.com/gracexuerwu/dictionary-project-react"
-            software1="React"
-            software2="Bootstrap"
-          />
-        </div>
-        <div className="col-sm-6">
-          <ProjectComponent
-            image={LunarBirthdayCalendar_Thumbnail}
-            projectName="Lunar Calendar App"
-            description="Ever wondered what your chinese zodiac is? Key in your birthday and find out what's your inner animal!"
-            liveSiteLink="https://birthday-lunar-calendar.netlify.app/"
-            githubLink="https://github.com/gracexuerwu/lunar-calendar-app"
-            software1="React"
-            software2="Bootstrap"
-          />
-        </div>
-      </div>
+      <h2>DESIGN PROJECTS</h2>
       <div className="row projectRow">
         <div className="col-sm-6">
           <ProjectCarouselComponent
@@ -147,6 +96,59 @@ export default function FeaturedProjects() {
         </div>
         <div className="col-sm-6"></div>
       </div>
+      <h2>DEVELOPMENT PROJECTS</h2>
+      <div className="row projectRow d-flex justify-content-between">
+        <div className="col-sm-6">
+          <ProjectComponent
+            image={WeatherAppThumbnail}
+            projectName="Weather App"
+            description="Weather application coded with Vanilla Javascript with Openweathermap API integration for live weather information. Features a day and night background which changes according to your local time."
+            liveSiteLink="https://dazzling-meitner-238069.netlify.app/"
+            githubLink="https://github.com/gracexuerwu/vanilla-weather-app"
+            software1="Javascript"
+            software2="Bootstrap"
+          />
+        </div>
+        <div className="col-sm-6">
+          <ProjectComponent
+            image={ReactWeatherAppThumbnail}
+            projectName="Weather App 2.0"
+            description="Iterated version of the previous weather app but in React.js. It
+            allows users to search for the weather at any location. Includes a
+            Celcius and Fahrenheit temperature slider."
+            liveSiteLink="https://hungry-yalow-e0bde5.netlify.app/"
+            githubLink="https://github.com/gracexuerwu/weather-app-1-react"
+            software1="React"
+            software2="Bootstrap"
+          />
+        </div>
+      </div>
+      <div className="row projectRow">
+        <div className="col-sm-6">
+          <ProjectComponent
+            image={DictionaryAppThumbnail}
+            projectName="Dictionary App"
+            description="Retro dictionary App that allows users to search for any word definition and pronunciation. Includes pictures that are associated with the
+            searched word."
+            liveSiteLink="https://loving-mccarthy-677ab0.netlify.app/"
+            githubLink="https://github.com/gracexuerwu/dictionary-project-react"
+            software1="React"
+            software2="Bootstrap"
+          />
+        </div>
+        <div className="col-sm-6">
+          <ProjectComponent
+            image={LunarBirthdayCalendar_Thumbnail}
+            projectName="Lunar Calendar App"
+            description="Ever wondered what your chinese zodiac is? Key in your birthday and find out what's your inner animal!"
+            liveSiteLink="https://birthday-lunar-calendar.netlify.app/"
+            githubLink="https://github.com/gracexuerwu/lunar-calendar-app"
+            software1="React"
+            software2="Bootstrap"
+          />
+        </div>
+      </div>
+      
     </div>
   );
 }
