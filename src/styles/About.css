@@ -74,7 +74,7 @@ img {
   font-size: 20px;
   color: var(--light-branding-color);
   border-image: var(--linear-gradient);
-  border-image-slice: 5;
+  border-image-slice: 5; 
 }
 .About .resumeButton:hover {
   background-color:  var(--button-background);
