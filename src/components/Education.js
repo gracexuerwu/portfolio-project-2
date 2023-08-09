@@ -5,74 +5,62 @@ import "../styles/Education.css";
 export default function Education() {
   return (
     <div className="Education">
-      <div className="flex-container space-between">
-        <div className="flex-item-left">
-          <h2>
-          🎓 &nbsp; EDUCATION 
-          </h2>
+      <div className="row justify-content-between">
+        <div className="col-4" id="connect-bar">
+          Education
         </div>
-        <div className="flex-item-center">
-          <h3>German B2 Level</h3>
-          <ul>
-            <li className="educationLocation">Switzerland</li>
-            <li className="educationDetail">
-              - Achieved advanced and fluency in the German language. Obtained Deutsch TELC B2 Certificate. (Common European Framework of Reference for Languages) 
-            </li>
-          </ul>
-        </div>
-        <div className="flex-item-right">
-          <div>2020 / 2022</div>
+        <div className="col-6 d-flex flex-row-reverse justify-content-between">
+          <div className="p-2 date">2021 / 2021</div>
+          <div className="p-2 company">
+            Shecodes Front-end Development Bootcamp
+          </div>
         </div>
       </div>
-      <div className="flex-container space-between">
-        <div className="flex-item-left">
-        </div>
-        <div className="flex-item-center">
-          <h3>Shecodes Front-end Development Bootcamp</h3>
-          <ul>
-            <li className="educationLocation">Online</li>
-            <li className="educationDetail">
-              - Introduction to HTML, CSS, Javascipt React.js framework and responsive design. During the course of the bootcamp, I designed the UI and developed several application projects.
-            </li>
-          </ul>
-        </div>
-        <div className="flex-item-right">
-          <div>2021 / 2021</div>
+      <div className="row justify-content-between">
+        <div className="col-4" id="connect-bar"></div>
+        <div className="col-6 d-flex flex-row-reverse justify-content-between">
+          <div className="p-2 date">Online</div>
+          <div className="p-2 company">
+            Introduction to HTML, CSS, Javascipt React.js framework and
+            responsive design
+          </div>
         </div>
       </div>
-      <div className="flex-container space-between">
-        <div className="flex-item-left">
-          {/* <h2>
-            EDUCATION <GraduationCap size={35} className="icon" />
-          </h2> */}
-        </div>
-        <div className="flex-item-center">
-          <h3>Lucerne University of Applied Arts and Sciences</h3>
-          <ul>
-            <li className="educationLocation">Switzerland</li>
-            <li className="educationDetail">
-              - BA in Product and Industrial Design, specialization in Design
-              Management.
-            </li>
-          </ul>
-        </div>
-        <div className="flex-item-right">
-          <div>2019 / 2022</div>
+      <div className="row justify-content-between">
+        <div className="col-4" id="connect-bar"></div>
+        <div className="col-6 d-flex flex-row-reverse justify-content-between">
+          <div className="p-2 date">2019 / 2022</div>
+          <div className="p-2 company">
+            Lucerne University of Applied Arts and Sciences
+          </div>
         </div>
       </div>
-      <div className="flex-container space-between">
-        <div className="flex-item-left"></div>
-        <div className="flex-item-center">
-          <h3>Singapore Polytechnic</h3>
-          <ul>
-            <li className="educationLocation">Singapore</li>
-            <li className="educationDetail">
-              - Diploma in Digital Animation and Visual effects.{" "}
-            </li>
-          </ul>
+      <div className="row justify-content-between">
+        <div className="col-4" id="connect-bar"></div>
+        <div className="col-6 d-flex flex-row-reverse justify-content-between">
+          <div className="p-2 date">Lucerne, Switzerland</div>
+          <div className="p-2 company">
+            BA in Product and Industrial Design, specialization in Design
+            Management
+          </div>
         </div>
-        <div className="flex-item-right">
-          <div>2016 / 2019</div>
+      </div>
+      <div className="row justify-content-between">
+        <div className="col-4" id="connect-bar"></div>
+        <div className="col-6 d-flex flex-row-reverse justify-content-between">
+          <div className="p-2 date">2016 / 2019</div>
+          <div className="p-2 company">
+            Singapore Polytechnic
+          </div>
+        </div>
+      </div>
+      <div className="row justify-content-between">
+        <div className="col-4" id="connect-bar"></div>
+        <div className="col-6 d-flex flex-row-reverse justify-content-between">
+          <div className="p-2 date">Singapore</div>
+          <div className="p-2 company">
+            Diploma in Digital Animation, specialization in 3D lighting and composition
+          </div>
         </div>
       </div>
       <hr

@@ -4,6 +4,7 @@ import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
 import CVPhoto from "../images/CV_photo1.jpeg";
 import Experience from "./Experience";
+import Education from "./Education";
 
 // import { FileCode, Tree, Atom } from "phosphor-react";
 
@@ -66,6 +67,7 @@ export default function About() {
         </div>
       </div>
       <Experience />
+      <Education />
       <hr
         style={{
           height: 1,
