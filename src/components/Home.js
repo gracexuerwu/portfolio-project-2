@@ -14,8 +14,8 @@ export default function Home() {
     <div>
       <Hero />
       <FeaturedProjects />
-      <Experience />
-      <Education />
+      {/* <Experience />
+      <Education /> */}
       <Footer />
     </div>
   );

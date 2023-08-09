@@ -1,12 +1,19 @@
 .About {
   margin: 102px 0 0 0;
- padding-top: 20px;
+  padding-top: 20px;
 }
 .About h1 {
-  font-size: 65px;
+  color: #000;
+  color: var(--hero-color);
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.188%; /* 61.284px */
+  /* font-size: 65px;
   margin: 0 auto;
   margin-bottom: 10px;
-  font-family: "Syne", sans-serif;
+  font-family: "Inter";
   font-size: 80px;
   font-weight: 500;
   margin: 30px 0 30px 0;
@@ -19,8 +26,10 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
 }
+
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -74,19 +83,19 @@ img {
   font-size: 20px;
   color: var(--light-branding-color);
   border-image: var(--linear-gradient);
-  border-image-slice: 5; 
+  border-image-slice: 5;
 }
 .About .resumeButton:hover {
-  background-color:  var(--button-background);
+  background-color: var(--button-background);
   color: white;
   cursor: pointer;
 }
-.About  .flex-container {
+.About .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
-.About  .flex-item-left {
+.About .flex-item-left {
   flex: 20%;
   font-size: 20px;
 }
@@ -316,7 +325,7 @@ img {
   .About h1 {
     font-size: 28px;
   }
-    .About .CVphoto {
+  .About .CVphoto {
     margin-left: 0;
     height: 320px;
     width: 300px;
@@ -346,7 +355,7 @@ img {
   .About h1 {
     font-size: 28px;
   }
-    .About .CVphoto {
+  .About .CVphoto {
     margin-left: 0;
     height: 320px;
     width: 245px;
