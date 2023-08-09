@@ -40,7 +40,7 @@ export default function Nav(props) {
               aria-current="page"
               title="Projects"
             >
-              Projects
+              Work
             </NavLink>
             <NavLink
               activeClassName="active"

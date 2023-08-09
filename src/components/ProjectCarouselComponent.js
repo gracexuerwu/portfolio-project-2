@@ -57,10 +57,11 @@ export default function ProjectCarouselComponent(props) {
           <GithubLogo size={30} />
         </div> */}
       </div>
-      <div className="projectDescription">
+      <div>Subtitle</div>
+      {/* <div className="projectDescription">
       {props.description}
-      </div>
-      <span className="projectSoftwares">{props.projectType}</span>
+      </div> */}
+      {/* <span className="projectSoftwares">{props.projectType}</span> */}
     </div>
   );
 }

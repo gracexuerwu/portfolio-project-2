@@ -11,20 +11,20 @@ export default function About() {
     <div className="About">
       <div className="row flex-column-reverse flex-md-row bio-row">
         <div className="col-md-7">
-          <h1>Not your average designer.</h1>
-          <p>
+          <h1>Grace Wu is a product designer crafting systems and experiences in Munich, Germany.</h1>
+          {/* <p>
             I am a designer who can not only create visually appealing content
             but also transform them into code &nbsp;🖥 &nbsp;(Sounds
             cool right!) When the internet is down you can find me frolicking in
             the woods or alps &nbsp;🏔, cooking or reading a book.{" "}
-          </p>{" "}
-          <p>
+          </p>{" "} */}
+          {/* <p>
             I am open to internships and full-time positions in UX design or
             service design field &nbsp;🪄.
-          </p>
+          </p> */}
         </div>
         <div className="col-md-5">
-          <img src={CVPhoto} className="CVphoto img-fluid" alt="" />
+          {/* <img src={CVPhoto} className="CVphoto img-fluid" alt="" /> */}
         </div>
       </div>
       <hr
