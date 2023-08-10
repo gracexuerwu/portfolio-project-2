@@ -11,7 +11,6 @@
   line-height: normal;
 }
 .About h1 {
-  color: #000;
   color: var(--hero-color);
   font-family: Inter;
   font-size: 45px;

@@ -23,14 +23,14 @@ export default function ProjectComponent(props) {
                   className="fa-sm left linksLogo"
                 />
         </a> */}
-        <a
+        {/* <a
           href={props.liveSiteLink}
           target="_blank"
           rel="noreferrer"
           className="left linksLogo"
         >
           <Link size={30} />
-        </a>
+        </a> */}
         <a
           href={props.githubLink}
           target="_blank"
@@ -40,7 +40,7 @@ export default function ProjectComponent(props) {
           <GithubLogo size={32} />
         </a>
       </div>
-      <div className="projectDescription">{props.description}</div>
+      {/* <div className="projectDescription">{props.description}</div> */}
       {/* <span className="projectSoftwares">{props.software1}</span>
       <span className="projectSoftwares">{props.software2}</span> */}
     </div>

@@ -1,0 +1,40 @@
+.Play {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 60px 0 0 0;
+    padding-top: 20px;
+  }
+
+  .Play h2 {
+    font-family: "Inter";
+    padding-top: 100px;
+   
+  }
+
+  .Play h1 {
+    color: var(--hero-color);
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136.188%; 
+    padding-top: 100px;
+  }
+
+  /* flashing text  */
+@keyframes flash {
+    0%,
+    100% {
+      color: red;
+    }
+    50% {
+      color: transparent;
+    }
+  }
+  
+  .Play .flashing-text {
+    animation: flash 1s infinite;
+  }
+  
