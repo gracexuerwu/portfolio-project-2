@@ -7,11 +7,13 @@ import { Link, GithubLogo } from "phosphor-react";
 export default function ProjectComponent(props) {
   return (
     <div className="ProjectComponent">
-      <img
-        src={props.image}
-        className="img-fluid text-center placeholder-img rounded projectImage"
-        alt=""
-      />
+      <a href={props.liveSiteLink} target="_blank">
+        <img
+          src={props.image}
+          className="img-fluid text-center placeholder-img rounded projectImage"
+          alt=""
+        />
+      </a>
       <div className="wrap">
         <div className="right">
           {" "}
