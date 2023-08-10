@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Education.css";
-// import { GraduationCap } from "phosphor-react";
+import { Student } from "phosphor-react";
 
 export default function Education() {
   return (
     <div className="Education">
       <div className="row justify-content-between">
         <div className="col-4 bold" id="connect-bar">
-          Education
+          <Student size={32} /> &nbsp; Education
         </div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
           <div className="p-2 bold">2021 / 2021</div>
@@ -49,9 +49,7 @@ export default function Education() {
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
           <div className="p-2 bold">2016 / 2019</div>
-          <div className="p-2 bold">
-            Singapore Polytechnic
-          </div>
+          <div className="p-2 bold">Singapore Polytechnic</div>
         </div>
       </div>
       <div className="row justify-content-between">
@@ -59,16 +57,17 @@ export default function Education() {
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
           <div className="p-2 padding">Singapore</div>
           <div className="p-2 padding">
-            Diploma in Digital Animation, specialization in 3D lighting and composition
+            Diploma in Digital Animation, specialization in 3D lighting and
+            composition
           </div>
         </div>
       </div>
-      <hr
+      {/* <hr
         style={{
           height: 1,
           borderColor: "#1A1A1A",
         }}
-      />
+      /> */}
     </div>
   );
 }

@@ -2,11 +2,12 @@ import React from "react";
 import "../styles/About.css";
 import Footer from "./Footer";
 // import CVPhoto from "../images/CV_photo.png";
-import CVPhoto from "../images/CV_photo1.jpeg";
+// import CVPhoto from "../images/CV_photo1.jpeg";
 import Experience from "./Experience";
 import Education from "./Education";
+import { ChatTeardropDots } from "phosphor-react";
 
-// import { FileCode, Tree, Atom } from "phosphor-react";
+
 
 export default function About() {
   return (
@@ -28,6 +29,7 @@ export default function About() {
       />
       <div className="row justify-content-between AboutSection">
         <div className="col-4 bold" id="connect-bar">
+          <ChatTeardropDots size={32} /> &nbsp;
           About
         </div>
         {/* <div className="flex-item-center connect">
@@ -42,17 +44,18 @@ export default function About() {
           >
             View my resume{" "}
           </a> */}
-          Originally from Singapore and started my design journey with a
-          love for 3D design and animation. Later, I went to Switzerland for my
+          Originally from Singapore and started my design journey with a love
+          for 3D design and animation. Later, I went to Switzerland for my
           bachelor's degree in design management, where I learned how to blend
           creativity with strategy. Then, I headed to Munich, Germany for an
           internship at BMW. There, I worked as an interaction designer,
-          focusing on augmented reality. 
-          <br /> <br />I'm passionate about making digital
-          experiences that feel real and meaningful. My journey has taken me
-          from Singapore's energy to Switzerland's precision and finally to
-          Germany's innovation hub. I'm excited to keep growing as a designer
-          and exploring new ways to merge creativity and technology.
+          focusing on augmented reality.
+          <br /> <br />
+          I'm passionate about making digital experiences that feel real and
+          meaningful. My journey has taken me from Singapore's energy to
+          Switzerland's precision and finally to Germany's innovation hub. I'm
+          excited to keep growing as a designer and exploring new ways to merge
+          creativity and technology.
         </div>
       </div>
       <Experience />
