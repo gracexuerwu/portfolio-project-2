@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import About from "./components/About";
+import Play from "./components/Play";
 
 import useLocalStorage from 'use-local-storage';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -20,6 +21,7 @@ function App() {
           <Nav onClick={switchTheme} theme={theme} />
           <Switch>
             <Route path="/" exact component={Home} />
+            <Route path="/play" exact component={Play} />
             <Route path="/about" component={About} />
           </Switch>
         </div>

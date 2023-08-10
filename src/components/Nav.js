@@ -47,7 +47,7 @@ export default function Nav(props) {
               activeClassName="active"
               to="/play"
               className="nav-link navbar-font mx-2"
-              aria-current="page"
+              // aria-current="page"
               title="Play"
             >
               Play
