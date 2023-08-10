@@ -38,9 +38,19 @@ export default function Nav(props) {
               to="/"
               className="nav-link navbar-font mx-2"
               aria-current="page"
-              title="Projects"
+              title="Work"
             >
               Work
+            </NavLink>
+            <NavLink
+              exact
+              activeClassName="active"
+              to="/play"
+              className="nav-link navbar-font mx-2"
+              aria-current="page"
+              title="Play"
+            >
+              Play
             </NavLink>
             <NavLink
               activeClassName="active"
