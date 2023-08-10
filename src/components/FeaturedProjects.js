@@ -148,7 +148,14 @@ export default function FeaturedProjects() {
             software2="Bootstrap"
           />
         </div>
+        <hr
+        style={{
+          height: 1,
+          borderColor: "#1A1A1A",
+        }}
+      />
       </div>
+      
       
     </div>
   );

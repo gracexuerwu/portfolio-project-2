@@ -6,12 +6,12 @@ export default function Education() {
   return (
     <div className="Education">
       <div className="row justify-content-between">
-        <div className="col-4" id="connect-bar">
+        <div className="col-4 bold" id="connect-bar">
           Education
         </div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 date">2021 / 2021</div>
-          <div className="p-2 company">
+          <div className="p-2 bold">2021 / 2021</div>
+          <div className="p-2 bold">
             Shecodes Front-end Development Bootcamp
           </div>
         </div>
@@ -19,8 +19,8 @@ export default function Education() {
       <div className="row justify-content-between">
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 date">Online</div>
-          <div className="p-2 company">
+          <div className="p-2 padding">Online</div>
+          <div className="p-2 padding">
             Introduction to HTML, CSS, Javascipt React.js framework and
             responsive design
           </div>
@@ -29,8 +29,8 @@ export default function Education() {
       <div className="row justify-content-between">
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 date">2019 / 2022</div>
-          <div className="p-2 company">
+          <div className="p-2 bold">2019 / 2022</div>
+          <div className="p-2 bold">
             Lucerne University of Applied Arts and Sciences
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function Education() {
       <div className="row justify-content-between">
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 date">Lucerne, Switzerland</div>
-          <div className="p-2 company">
+          <div className="p-2 padding">Lucerne, Switzerland</div>
+          <div className="p-2 padding">
             BA in Product and Industrial Design, specialization in Design
             Management
           </div>
@@ -48,8 +48,8 @@ export default function Education() {
       <div className="row justify-content-between">
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 date">2016 / 2019</div>
-          <div className="p-2 company">
+          <div className="p-2 bold">2016 / 2019</div>
+          <div className="p-2 bold">
             Singapore Polytechnic
           </div>
         </div>
@@ -57,8 +57,8 @@ export default function Education() {
       <div className="row justify-content-between">
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 date">Singapore</div>
-          <div className="p-2 company">
+          <div className="p-2 padding">Singapore</div>
+          <div className="p-2 padding">
             Diploma in Digital Animation, specialization in 3D lighting and composition
           </div>
         </div>

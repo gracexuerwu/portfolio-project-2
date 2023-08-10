@@ -36,6 +36,27 @@
   padding-left: 0px;
   padding-right: 0px;
 } */
+.p-2 {
+  margin-left: -10px;
+}
+
+.Experience .bold {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Experience .padding{
+  margin-bottom: 50px;
+}
+
+.Experience .ExperienceSection {
+  margin-bottom: 100px;
+  padding-left: 0px;
+}
+
 .Experience hr {
   margin-bottom: 80px;
 }
@@ -72,7 +93,6 @@
   margin-left: auto;
   font-size: 20px;
 }
-
 
 @media (min-width: 600px) {
   .Experience .flex-container {
@@ -238,6 +258,3 @@
     display: block;
   }
 }
-
-
-

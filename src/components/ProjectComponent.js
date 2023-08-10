@@ -31,8 +31,8 @@ export default function ProjectComponent(props) {
         </a>
       </div>
       <div className="projectDescription">{props.description}</div>
-      <span className="projectSoftwares">{props.software1}</span>
-      <span className="projectSoftwares">{props.software2}</span>
+      {/* <span className="projectSoftwares">{props.software1}</span>
+      <span className="projectSoftwares">{props.software2}</span> */}
     </div>
   );
 }

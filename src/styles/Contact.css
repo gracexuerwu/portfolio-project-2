@@ -1,0 +1,13 @@
+.Contact h1 {
+  color: var(--hero-color);
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Contact .ContactSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}

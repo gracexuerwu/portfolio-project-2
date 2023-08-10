@@ -3,6 +3,7 @@ import "../styles/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { MapPinLine } from "phosphor-react";
 
 export default function Footer() {
   return (
@@ -10,10 +11,8 @@ export default function Footer() {
       <div className="flex-container space-between">
         <div className="flex-item-left">
           <h2>
-            Designed and developed by <strong>Grace Wu</strong>.
-          </h2>{" "}
-          <h2>
-            Built with <strong>React</strong>. Hosted on Netlify.
+            @2023 Designed + Developed by Grace Wu <br /> Last updated in
+            September 2023 <br /> Currently based in <MapPinLine size={28} /> Munich
           </h2>
         </div>
         <div className="flex-item-right footer-social">

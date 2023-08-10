@@ -17,20 +17,8 @@ export default function About() {
             Grace Wu is a product designer crafting systems and experiences in
             Munich, Germany.
           </h1>
-          {/* <p>
-            I am a designer who can not only create visually appealing content
-            but also transform them into code &nbsp;🖥 &nbsp;(Sounds
-            cool right!) When the internet is down you can find me frolicking in
-            the woods or alps &nbsp;🏔, cooking or reading a book.{" "}
-          </p>{" "} */}
-          {/* <p>
-            I am open to internships and full-time positions in UX design or
-            service design field &nbsp;🪄.
-          </p> */}
         </div>
-        <div className="col-md-5">
-          {/* <img src={CVPhoto} className="CVphoto img-fluid" alt="" /> */}
-        </div>
+        <div className="col-md-5"></div>
       </div>
       <hr
         style={{
@@ -38,8 +26,8 @@ export default function About() {
           borderColor: "#1A1A1A",
         }}
       />
-      <div className="row justify-content-between">
-        <div className="col-4" id="connect-bar">
+      <div className="row justify-content-between AboutSection">
+        <div className="col-4 bold" id="connect-bar">
           About
         </div>
         {/* <div className="flex-item-center connect">
@@ -54,16 +42,17 @@ export default function About() {
           >
             View my resume{" "}
           </a> */}
-          Originally from Lisbon, my professional journey began at Young &
-          Rubicam Portugal, where I worked on illustration, storyboarding, and
-          post-production projects. It was during this time that my passion for
-          pixel-perfect work, screen design and the way ideas can be
-          communicated in the digital world began. Since then, I’ve been working
-          as a full-time digital designer while pursuing illustration projects
-          on the side. My passion to solve problems and create visually
-          captivating work led me on a journey around the world. ’m fortunate to
-          work in a team where we collaborate openly, strive for excellence and
-          craft meaningful digital experiences that impacts people’s lives.
+          Originally from Singapore and started my design journey with a
+          love for 3D design and animation. Later, I went to Switzerland for my
+          bachelor's degree in design management, where I learned how to blend
+          creativity with strategy. Then, I headed to Munich, Germany for an
+          internship at BMW. There, I worked as an interaction designer,
+          focusing on augmented reality. 
+          <br /> <br />I'm passionate about making digital
+          experiences that feel real and meaningful. My journey has taken me
+          from Singapore's energy to Switzerland's precision and finally to
+          Germany's innovation hub. I'm excited to keep growing as a designer
+          and exploring new ways to merge creativity and technology.
         </div>
       </div>
       <Experience />
