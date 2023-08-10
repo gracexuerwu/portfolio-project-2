@@ -22,7 +22,7 @@ export default function Hero() {
       </h2>
       <br />
       <h3>Previously <span className="">@BMW Group</span></h3>
-      <h4 className="flashing-text">🚫 This site is under construction 🚫</h4>
+      <h4 className="flashing-text">🚫 This site is under construction till further notice 🚫</h4>
       <a href="#FeaturedProjects" className="button">
         What i do ↓
       </a>

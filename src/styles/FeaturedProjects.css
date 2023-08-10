@@ -2,6 +2,19 @@
   font-family: Inter;
   color:  var(--branding-color);
 }
+
+  /* Initial style */
+  .enlarge-image {
+    max-width: 78%;
+    max-height: 78%;
+    transition: transform 0.3s ease;
+  }
+
+  /* Enlarged style on hover */
+  .enlarge-image:hover {
+    transform: scale(1.03);
+  }
+
 .FeaturedProjects h2 {
   font-family: "Inter";
   /* font-size: 28px; */
