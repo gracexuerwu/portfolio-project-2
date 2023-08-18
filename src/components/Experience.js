@@ -31,7 +31,7 @@ export default function Experience() {
       /> */}
       <div className="row justify-content-between">
         <div className="col-4 bold" id="connect-bar">
-        <Paperclip size={32} /> Experience
+          <Paperclip size={32} /> &nbsp; Experience
         </div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
           <div className="p-2 bold">Dec 2022 / July 2023</div>
@@ -41,7 +41,7 @@ export default function Experience() {
       <div className="row justify-content-between">
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 padding">Munich, Germany</div>
+          <div className="p-2 align-items-end padding">Munich, Germany</div>
           <div className="p-2 padding">
             Internship Interaction Design, User interfaces + Driving simulator
           </div>

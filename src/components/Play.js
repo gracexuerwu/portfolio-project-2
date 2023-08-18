@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 import "../styles/Play.css";
 
 export default function Play() {

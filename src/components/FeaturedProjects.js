@@ -97,7 +97,7 @@ export default function FeaturedProjects() {
         </div>
         <div className="col-sm-6"></div>
       </div>
-      <h2>🖥&nbsp;DEVELOPMENT PROJECTS</h2>
+      <h2>&nbsp;Development</h2>
       <div className="row projectRow d-flex justify-content-between">
         <div className="col-sm-6">
           <ProjectComponent
@@ -148,15 +148,7 @@ export default function FeaturedProjects() {
             software2="Bootstrap"
           />
         </div>
-        <hr
-        style={{
-          height: 1,
-          borderColor: "#1A1A1A",
-        }}
-      />
       </div>
-      
-      
     </div>
   );
 }

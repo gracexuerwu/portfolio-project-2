@@ -11,8 +11,10 @@ function App() {
   const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
   const switchTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
+    document.getElementsByTagName('html')[0].className = theme;
     setTheme(newTheme)
   }
+  document.getElementsByTagName('html')[0].className = theme;
 
   return (
     <Router>

@@ -2,12 +2,12 @@ import React from "react";
 import "../styles/FeaturedProjects.css";
 
 //Phosphor icon import
-import { Link, GithubLogo } from "phosphor-react";
+import { GithubLogo } from "phosphor-react";
 
 export default function ProjectComponent(props) {
   return (
     <div className="ProjectComponent">
-      <a href={props.liveSiteLink} target="_blank">
+      <a href={props.liveSiteLink} target="_blank" rel="noreferrer">
         <img
           src={props.image}
           className="img-fluid text-center placeholder-img rounded projectImage enlarge-image"
