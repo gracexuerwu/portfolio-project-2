@@ -3,6 +3,8 @@ import "../styles/FeaturedProjects.css";
 import ProjectComponent from "./ProjectComponent";
 import ProjectCarouselComponent from "./ProjectCarouselComponent";
 
+import { Link } from "react-router-dom";
+
 //images import
 import ReactWeatherAppThumbnail from "../images/ReactWeatherApp1_Thumbnail.png";
 import WeatherAppThumbnail from "../images/WeatherApp_Thumbnail1.png";
@@ -26,7 +28,7 @@ export default function FeaturedProjects() {
       <h3>Select projects</h3>
       <div className="row projectRow">
         <div className="col-sm-6">
-          <ProjectCarouselComponent
+          {/* <ProjectCarouselComponent
             imageOne={Schindler2Thumbnail}
             imageTwo={Schindler3Thumbnail}
             alt="STEM workshop for girls"
@@ -37,7 +39,10 @@ export default function FeaturedProjects() {
             projectLink="https://drive.google.com/file/d/1PXK_a3s2DDxc3ScM1EPirW37xXrJpzoY/view?usp=sharing"
             projectType="Gender equality"
             projectName="STEM Workshops For Girls"
-          />
+          /> */}
+          <Link to="/TestPage" target="_blank" rel="noreferrer">
+            <img src={Schindler2Thumbnail} alt="STEM workshop for girls"></img>
+          </Link>
         </div>
         <div className="col-sm-6">
           <ProjectCarouselComponent
