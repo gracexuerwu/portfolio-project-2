@@ -19,10 +19,8 @@ export default function Contact() {
           </h1>
         </div>
         <div className="col-md-1">
-          <div className="col padding">
-            Email
-          </div>
-          <div className="col">Linkedin</div>
+          <div className="col padding">Networking</div>
+          <a href="https://read.cv/gracewu" className="col">Read.cv</a>
         </div>
       </div>
       <hr
