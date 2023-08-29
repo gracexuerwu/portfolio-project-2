@@ -25,7 +25,6 @@ export default function FeaturedProjects() {
   return (
     <div className="FeaturedProjects" id="FeaturedProjects">
       <h2>Work</h2>
-      <h3>Select projects</h3>
       <div className="row projectRow">
         <div className="col-sm-6">
           {/* <ProjectCarouselComponent

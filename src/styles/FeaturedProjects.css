@@ -1,32 +1,44 @@
 * {
   font-family: Inter;
-  color:  var(--branding-color);
+  color: var(--branding-color);
 }
 
-  /* Initial style */
-  .enlarge-image {
-    max-width: 78%;
-    max-height: 78%;
-    transition: transform 0.3s ease;
-  }
+.curved-border {
+  /* padding: 5px 20px 5px 20px;
+  border: var(--border-circle); */
+  border-radius: 40px;
+  transition: all 0.5s ease;
+  margin-top: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--branding-color);
+  display: inline-block;
+  text-align: center;
+}
 
-  /* Enlarged style on hover */
-  .enlarge-image:hover {
-    transform: scale(1.03);
-  }
+/* Initial style */
+.enlarge-image {
+  max-width: 78%;
+  max-height: 78%;
+  transition: transform 0.3s ease;
+}
+
+/* Enlarged style on hover */
+.enlarge-image:hover {
+  transform: scale(1.03);
+}
 
 .FeaturedProjects h2 {
   font-family: "Inter";
   /* font-size: 28px; */
   margin-bottom: 30px;
- 
 }
 .projectImage {
   box-shadow: var(--box-shadow);
   max-width: 95%;
   max-height: 95%;
 }
-.ProjectComponent h4{
+.ProjectComponent h4 {
   margin-top: 35px;
 }
 .projectDescription {
@@ -43,14 +55,14 @@
   border: var(--border-circle);
   border-radius: 40px;
    */
-     margin-right: 25px;
-     color: var(--light-branding-color);
-     padding: 10px 20px 10px 20px;
-     font-size: 20px;
-     border: 2px solid transparent;
-     border-image: var(--linear-gradient);
-     border-image-slice: 5;
-     border-radius: 30px;
+  margin-right: 25px;
+  color: var(--light-branding-color);
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border: 2px solid transparent;
+  border-image: var(--linear-gradient);
+  border-image-slice: 5;
+  border-radius: 30px;
 }
 .projectRow {
   padding-bottom: 100px;
@@ -73,16 +85,16 @@
   max-width: 95%;
 }
 .wrap {
-    display: flex;
-    justify-content: flex-end;
-    width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
 }
 .right {
-    margin-right: auto; 
-    margin-top: 3px;
+  margin-right: auto;
+  margin-top: 3px;
 }
 .left {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 @media (max-width: 414px) {
   .projectDescription {
@@ -105,13 +117,13 @@
     margin-bottom: 30px;
   }
   .projectRow {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   .ProjectComponent {
-      padding-bottom: 55px;
+    padding-bottom: 55px;
   }
-  .ProjectComponent h4{
-      font-size: 20px;
+  .ProjectComponent h4 {
+    font-size: 20px;
   }
 }
 @media (max-width: 360px) {
@@ -141,13 +153,13 @@
     margin-bottom: 30px;
   }
   .projectRow {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   .ProjectComponent {
-      padding-bottom: 55px;
+    padding-bottom: 55px;
   }
-  .ProjectComponent h4{
-      font-size: 20px;
+  .ProjectComponent h4 {
+    font-size: 20px;
   }
 }
 @media (max-width: 750px) {
@@ -171,13 +183,13 @@
     margin-bottom: 30px;
   }
   .projectRow {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   .ProjectComponent {
-      padding-bottom: 55px;
+    padding-bottom: 55px;
   }
-  .ProjectComponent h4{
-      font-size: 20px;
+  .ProjectComponent h4 {
+    font-size: 20px;
   }
 }
 @media (max-width: 900px) {
@@ -201,13 +213,13 @@
     margin-bottom: 30px;
   }
   .projectRow {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   .ProjectComponent {
-      padding-bottom: 55px;
+    padding-bottom: 55px;
   }
-  .ProjectComponent h4{
-      font-size: 20px;
+  .ProjectComponent h4 {
+    font-size: 20px;
   }
 }
 @media (max-width: 1100px) {
@@ -231,13 +243,13 @@
     margin-bottom: 30px;
   }
   .projectRow {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   .ProjectComponent {
-      padding-bottom: 55px;
+    padding-bottom: 55px;
   }
-  .ProjectComponent h4{
-      font-size: 20px;
+  .ProjectComponent h4 {
+    font-size: 20px;
   }
 }
 @media (min-width: 1500px) {
@@ -261,13 +273,13 @@
     margin-bottom: 30px;
   }
   .projectRow {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
   .ProjectComponent {
-      padding-bottom: 55px;
+    padding-bottom: 55px;
   }
-  .ProjectComponent h4{
-      font-size: 25px;
+  .ProjectComponent h4 {
+    font-size: 25px;
   }
   .ProjectComponent svg {
     width: 32px;
