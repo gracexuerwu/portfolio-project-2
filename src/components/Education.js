@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <div className="Education">
       <div className="row justify-content-between">
-        <div className="col-4 bold" id="connect-bar">
+        <div className="col-sm-4 bold" id="connect-bar">
           <Student size={32} /> &nbsp; Education
         </div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">

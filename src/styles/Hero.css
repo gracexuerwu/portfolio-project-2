@@ -50,11 +50,8 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 46px;
-  /* font-size: 55px;
-  line-height: 120px;
-  font-family: Inter;
-  letter-spacing: 0.045em;
-  animation-duration: 0.7s; */
+  padding-top: 100px;
+
 }
 .Hero h2 {
   color: var(--hero-color);

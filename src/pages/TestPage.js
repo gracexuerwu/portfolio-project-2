@@ -2,8 +2,8 @@ import React from "react";
 
 export default function TestPage() {
   return (
-    <div>
+    <h1>
         Hello World
-    </div>
+    </h1>
   );
 }

@@ -39,7 +39,7 @@ export default function FeaturedProjects() {
             projectType="Gender equality"
             projectName="STEM Workshops For Girls"
           /> */}
-          <Link to="/TestPage" target="_blank" rel="noreferrer">
+          <Link to="/testPage2" rel="noreferrer">
             <img src={Schindler2Thumbnail} alt="STEM workshop for girls"></img>
           </Link>
         </div>

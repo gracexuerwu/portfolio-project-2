@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Play from "./components/Play";
+import TestPage from "./pages/TestPage";
+import TestPage2 from "./components/TestPage2";
 
 
 
@@ -27,6 +29,8 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/play" exact component={Play} />
             <Route path="/about" component={About} />
+            <Route path="/testPage" component={TestPage} />
+            <Route path="/testPage2" component={TestPage2} />
           </Switch>
         </div>
       </div>
