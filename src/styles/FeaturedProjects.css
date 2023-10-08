@@ -28,6 +28,17 @@
   transform: scale(1.03);
 }
 
+.projectTags {
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 15px; /* Adds rounded corners */
+  border: 1px solid black; /* Border style and color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.projectThumbnail {
+  margin-bottom: 30px;
+}
+
 .FeaturedProjects h2 {
   font-family: "Inter";
   /* font-size: 28px; */

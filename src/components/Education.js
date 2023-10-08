@@ -38,7 +38,7 @@ export default function Education() {
       <div className="row justify-content-between">
         <div className="col-4" id="connect-bar"></div>
         <div className="col-6 d-flex flex-row-reverse justify-content-between">
-          <div className="p-2 padding">Lucerne, Switzerland</div>
+          <div className="p-2 padding">Switzerland</div>
           <div className="p-2 padding">
             BA in Product and Industrial Design, specialization in Design
             Management

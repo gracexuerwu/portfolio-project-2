@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/FeaturedProjects.css";
 import ProjectComponent from "./ProjectComponent";
 import ProjectCarouselComponent from "./ProjectCarouselComponent";
+import ProjectTag from "./ProjectTag";
 
 import { Link } from "react-router-dom";
 
@@ -40,8 +41,10 @@ export default function FeaturedProjects() {
             projectName="STEM Workshops For Girls"
           /> */}
           <Link to="/testPage2" rel="noreferrer">
-            <img src={Schindler2Thumbnail} alt="STEM workshop for girls"></img>
+            <img src={Schindler2Thumbnail} className="projectThumbnail" alt="STEM workshop for girls"></img>
           </Link>
+          <ProjectTag tagOne={"UX Design"} />
+          <ProjectTag tagOne={"Intervention Concept"} />
         </div>
         <div className="col-sm-6">
           <ProjectCarouselComponent
