@@ -6,6 +6,8 @@ import Play from "./components/Play";
 import TestPage from "./pages/TestPage";
 import TestPage2 from "./components/TestPage2";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 import useLocalStorage from 'use-local-storage';
