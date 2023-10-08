@@ -3,6 +3,7 @@ import "../styles/FeaturedProjects.css";
 import ProjectComponent from "./ProjectComponent";
 import ProjectCarouselComponent from "./ProjectCarouselComponent";
 import ProjectTag from "./ProjectTag";
+import VideoComponent from "./VideoComponent";
 
 import { Link } from "react-router-dom";
 
