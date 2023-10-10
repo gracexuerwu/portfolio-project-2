@@ -3,7 +3,6 @@ import "../styles/FeaturedProjects.css";
 import ProjectComponent from "./ProjectComponent";
 import ProjectCarouselComponent from "./ProjectCarouselComponent";
 import ProjectTag from "./ProjectTag";
-import VideoComponent from "./VideoComponent";
 
 import { Link } from "react-router-dom";
 
@@ -89,7 +88,7 @@ export default function FeaturedProjects() {
           />
         </div>
       </div>
-      <div className="row projectRow">
+      {/* <div className="row projectRow">
         <div className="col-sm-6">
           <ProjectCarouselComponent
             imageOne={SexualHealth1Thumbnail}
@@ -104,7 +103,7 @@ export default function FeaturedProjects() {
           />
         </div>
         <div className="col-sm-6"></div>
-      </div>
+      </div> */}
       <h2>&nbsp;Development</h2>
       <div className="row projectRow d-flex justify-content-between">
         <div className="col-sm-6">

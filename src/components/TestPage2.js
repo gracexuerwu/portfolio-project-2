@@ -3,7 +3,6 @@ import "../styles/TestPage2.css";
 import "../styles/FeaturedProjects.css";
 import SchindlerHeroImage from "../images/Schindler_HeroImg.png";
 
-
 // Gallery
 import SchindlerVisitImage1 from "../images/SchindlerProj/schindlerVisit1.jpg";
 import SchindlerVisitImage2 from "../images/SchindlerProj/schindlerVisit2.jpg";
@@ -17,7 +16,9 @@ import GoogleSurvey from "../images/SchindlerProj/GoogleSurvey.png";
 
 import GenderMap from "../images/SchindlerProj/GenderMap.png";
 
-import ConceptStrategy from "../images/SchindlerProj/ConceptStrategy.png"
+import ConceptStrategy from "../images/SchindlerProj/ConceptStrategy.png";
+
+import DataAnalysis from "../images/SchindlerProj/DataAnalysis.jpeg";
 
 // import MajorInsights from "../images/SchindlerProj/MajorInsights.png";
 import Opportunities from "../images/SchindlerProj/Opportunities1.png";
@@ -27,7 +28,6 @@ import DesignIntervention2 from "../images/SchindlerProj/DesignIntervention02.pn
 // Components
 import CarouselGallery from "./CarouselGallery";
 import VideoComponent from "./VideoComponent";
-
 
 export default function TestPage2() {
   return (
@@ -86,11 +86,21 @@ export default function TestPage2() {
               </div>
             </div>
             <div className="col-8">
-              <img src={GenderMap} alt="" class="img-fluid" />
+              <img src={GenderMap} alt="" class="img-fluid rounded" />
             </div>
           </div>
           <h3>Empathise first</h3>
-          <div>Field trip to Schindler apprenticeship facility</div>
+          <div>
+            We were fortunate to visit the Schindler apprenticeship program,
+            allowing us to closely observe and engage with the apprentices.
+            During this field visit, we gained valuable insights into the daily
+            routines of the apprentices, as well as the program's work
+            environment and overall atmosphere. This field trip proved to be
+            highly enlightening, as it fostered a sense of empathy towards the
+            apprentices. Additionally, we had the opportunity to have a
+            meaningful conversation with a female apprentice who stood out as
+            the sole female participant in her cohort.
+          </div>
           <CarouselGallery
             imageOne={SchindlerVisitImage1}
             imageTwo={SchindlerVisitImage2}
@@ -112,10 +122,18 @@ export default function TestPage2() {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <img src={InterviewAnalysis1} alt="" class="img-fluid" />
+                  <img
+                    src={InterviewAnalysis1}
+                    alt=""
+                    class="img-fluid rounded"
+                  />
                 </div>
                 <div className="col-md-6">
-                  <img src={InterviewAnalysis2} alt="" class="img-fluid" />
+                  <img
+                    src={InterviewAnalysis2}
+                    alt=""
+                    class="img-fluid rounded"
+                  />
                 </div>
               </div>
             </div>
@@ -132,11 +150,25 @@ export default function TestPage2() {
                 tangible representation of their thoughts and ideas
               </div>
               <div class="col-md-6">
-                <img src={GoogleSurvey} alt="" class="img-fluid" />
+                <img src={GoogleSurvey} alt="" class="img-fluid rounded" />
               </div>
             </div>
           </div>
           <h3>Data Analysis</h3>
+          <div>
+            To gain a clearer and more insightful understanding of the collected
+            data, we employed an affinity map. This map clusters keywords based
+            on their natural affinities, thereby revealing common themes. By
+            organizing recurring details into groups using post-it notes, we
+            identified overarching themes that allowed the voices of the users
+            to take shape. Through this process, we began to discern their
+            needs, concerns, and aspirations more distinctly.
+          </div>
+          <img
+            src={DataAnalysis}
+            className="schindler-hero centered-image img-fluid rounded"
+            alt=""
+          />
           <div></div>
           <h3>Major Insights</h3>
           <div>
@@ -177,21 +209,32 @@ export default function TestPage2() {
               <img
                 src={DesignIntervention1}
                 alt=""
-                className="img-fluid shadow-sm"
+                className="img-fluid shadow-sm rounded"
               />
             </div>
             <div className="col-8">
               <img
                 src={DesignIntervention2}
                 alt=""
-                className="img-fluid shadow-sm"
+                className="img-fluid shadow-sm rounded"
               />
             </div>
           </div>
-          <h3>How the concept works</h3>
-          <img src={ConceptStrategy} alt="" class="img-fluid" />
-          <h3>Digital Prototype</h3>
           <h3>User Story</h3>
+          <h3>How the concept works</h3>
+          <div>
+            The system illustrates the connection between prospective
+            apprentices and female technicians. By providing S.T.E.M activities
+            and support to young women, we aim to involve them in hands-on
+            workshops, thereby enhancing the likelihood of their participation
+            in the apprenticeship program. Simultaneously, these workshops
+            present an opportunity for employed female technicians to receive
+            training, serve as role models for young girls, and eventually
+            become mentors for future participants in the hands-on workshops.
+          </div>
+          <img src={ConceptStrategy} alt="" class="img-fluid rounded" />
+          <h3>Digital Prototype</h3>
+        
           <h3>What i learnt</h3>
         </div>
       </div>
