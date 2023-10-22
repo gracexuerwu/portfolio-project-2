@@ -57,22 +57,30 @@ export default function TestPage2() {
           </div>
           <hr />
           <h2 className="bold-text">
-            Why are there so few girls applying as schindler technicians?
+            Would you as a women apply for a job as an elevator technician?
           </h2>
           <div>Background</div>
           <div>
-            Schindler AG is an elevator and mobility company, seeking to address
-            the shortage of young female applicants for the elevator technician
-            apprenticeship program. They are looking for ways and solutions to
-            improve gender diversity among their programme.
+            The underrepresentation of women in technical fields, including
+            science, technology, engineering, and mathematics (STEM), has been a
+            topic of concern for many years. Schindler AG faces a similar
+            challenge with a scarcity of female applicants for technician roles.
+            Despite the company's dedication to excellence in engineering and
+            technical innovation, there is a noticeable gap in the number of
+            female technicians applying to join the company. This
+            underrepresentation raises questions about diversity, equal
+            opportunity, and the need for positive change in the company's
+            recruitment practices. Schindler AG recognizes the importance of
+            tapping into a wider pool of talent and is looking for an
+            recommendation to address this problem at hand
           </div>
           <h3 className="bold-text">Problem and Solution</h3>
           <div>Background</div>
           <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            The underrepresentation of women in technical fields, including
+            science, technology, engineering, and mathematics (STEM), has been a
+            topic of concern for many years. Schindler AG is no exception when
+            it comes to women technicians.
           </div>
           <h3 className="bold-text">Desk Research</h3>
           <div className="row">
@@ -92,7 +100,7 @@ export default function TestPage2() {
             </div>
           </div>
           <h3>Empathise first</h3>
-          <div>
+          <div className="paragraph">
             We were fortunate to visit the Schindler apprenticeship program,
             allowing us to closely observe and engage with the apprentices.
             During this field visit, we gained valuable insights into the daily
@@ -110,7 +118,7 @@ export default function TestPage2() {
             imageFour={SchindlerVisitImage4}
           />
           <h3 className="bold-text">Conducting Interviews</h3>
-          <div>
+          <div className="paragraph">
             Utilizing ethnographic interviews, the research aimed to uncover
             candid insights into why young women may not consider pursuing
             careers as elevator technicians. Additionally, it aimed to gain a
@@ -144,7 +152,7 @@ export default function TestPage2() {
           <h3>Qualitative research</h3>
           <div className="container">
             <div className="row no-gutters">
-              <div className="col-md-6">
+              <div className="col-md-6 column-text">
                 Google surveys were also sent out, targeting adolescent girls
                 aged 13 to 16. The primary objective of these surveys was to
                 gain insights into the factors that influence young women when
@@ -174,12 +182,12 @@ export default function TestPage2() {
           />
           <div></div>
           <h3>Major Insights</h3>
-          <div>
+          {/* <div className="paragraph">
             The data from the surveys were collected and classfified using the
             affinity mapping method, where keywords were clustered thus helping
             to identfify general and overarching themes.
-          </div>
-          <div className="row">
+          </div> */}
+          <div className="row list">
             <div className="col-4 bold-text">
               1. Need for the visibility of a female role model
             </div>
@@ -188,14 +196,14 @@ export default function TestPage2() {
               and knowledge based on their own experiences
             </div>
           </div>
-          <div className="row">
+          <div className="row list">
             <div className="col-4 bold-text">2. Modernization of the job</div>
             <div className="col-8">
               The elevator technician(ET) profession has developed over the
               years, and is no longer as physically labourious as it used to be.
             </div>
           </div>
-          <div className="row">
+          <div className="row list">
             <div className="col-4 bold-text">
               3. Create awareness of opportunities for growth{" "}
             </div>
@@ -225,7 +233,7 @@ export default function TestPage2() {
           </div>
           <h3>User Story</h3>
           <h3>How the concept works</h3>
-          <div>
+          <div className="paragraph">
             The system illustrates the connection between prospective
             apprentices and female technicians. By providing S.T.E.M activities
             and support to young women, we aim to involve them in hands-on
@@ -237,7 +245,7 @@ export default function TestPage2() {
           </div>
           <img src={ConceptStrategy} alt="" class="img-fluid rounded" />
           <h3>Digital Prototype</h3>
-        
+
           <h3>What i learnt</h3>
         </div>
       </div>

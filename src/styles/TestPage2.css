@@ -53,24 +53,46 @@
     margin-top: 60px;
     margin-bottom: 40px;
     font-size: 45px;
+    font-family: Rubik;
+    font-weight: 500;
   }
 
 .TestPage2 h2 {
     margin-top: 100px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-weight: bold;
+    font-family: Rubik;
+    font-weight: 500;
   }
   
 
   .TestPage2 h3 {
     margin-top: 200px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     font-weight: bold;
     font-size: 30px;
+    font-family: Rubik;
+    font-weight: 500;
   }
 
   .Testpage2 .placeholder-img {
     box-shadow: var(--box-shadow);
     max-width: 95%;
     max-height: 95%;
+  }
+
+  .TestPage2 .paragraph {
+    margin-bottom: 30px;
+  }
+
+  .TestPage2 .list {
+    margin-bottom: 45px;
+  }
+
+  .TestPage2 .column-text {
+    padding-left: 0px;
+  }
+
+  .image-with-shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   }
