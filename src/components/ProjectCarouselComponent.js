@@ -3,7 +3,6 @@ import "../styles/FeaturedProjects.css";
 //Phosphor icon import
 import { Link } from "phosphor-react";
 
-
 export default function ProjectCarouselComponent(props) {
   return (
     <div
@@ -50,7 +49,12 @@ export default function ProjectCarouselComponent(props) {
           {" "}
           <h4>{props.projectName}</h4>
         </div>
-        <a href={props.projectLink} target="_blank" rel="noreferrer" className="left linksLogo">
+        <a
+          href={props.projectLink}
+          target="_blank"
+          rel="noreferrer"
+          className="left linksLogo"
+        >
           <Link size={30} />
         </a>
         {/* <div className="left linksLogo">

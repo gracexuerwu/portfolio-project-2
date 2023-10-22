@@ -3,6 +3,8 @@ import "../styles/TestPage2.css";
 import "../styles/FeaturedProjects.css";
 import SchindlerHeroImage from "../images/Schindler_HeroImg.png";
 
+import ImageViewer from "./ImageViewer";
+
 // Gallery
 import SchindlerVisitImage1 from "../images/SchindlerProj/schindlerVisit1.jpg";
 import SchindlerVisitImage2 from "../images/SchindlerProj/schindlerVisit2.jpg";
@@ -122,11 +124,12 @@ export default function TestPage2() {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <img
+                  <ImageViewer imageUrl={InterviewAnalysis2} />
+                  {/* <img
                     src={InterviewAnalysis1}
                     alt=""
                     class="img-fluid rounded"
-                  />
+                  /> */}
                 </div>
                 <div className="col-md-6">
                   <img

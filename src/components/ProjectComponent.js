@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/FeaturedProjects.css";
+import GithubLink from "./GithubLink";
 
-//Phosphor icon import
+// Phosphor icon import
 import { GithubLogo } from "phosphor-react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,39 +18,28 @@ export default function ProjectComponent(props) {
           alt=""
         />
       </a>
-      <div className="wrap">
-        <div className="right"> {/* <h4>{props.projectName}</h4> */}</div>
-        {/* <a href={props.liveSiteLink} target="_blank">
-                <FontAwesomeIcon
-                  icon={faLink}
-                  className="fa-sm left linksLogo"
-                />
-        </a> */}
-        {/* <a
-          href={props.liveSiteLink}
-          target="_blank"
-          rel="noreferrer"
-          className="left linksLogo"
-        >
-          <Link size={30} />
-        </a> */}
-        <div className="curved-border">
+      <div className="">
+        <div className="Github center-text">
           <a
             href={props.githubLink}
             target="_blank"
             rel="noreferrer"
-            className="left linksLogo"
+            className="Link"
           >
-             <FontAwesomeIcon
-                  icon={faGit}
-                  size="2xs"
-                />
+         Github
           </a>
         </div>
+        {/* <span className="GithubLink">
+          <a
+            href={props.githubLink}
+            target="_blank"
+            rel="noreferrer"
+            className=""
+          >
+            Git link
+          </a>
+        </span> */}
       </div>
-      {/* <div className="projectDescription">{props.description}</div> */}
-      {/* <span className="projectSoftwares">{props.software1}</span>
-      <span className="projectSoftwares">{props.software2}</span> */}
     </div>
   );
 }

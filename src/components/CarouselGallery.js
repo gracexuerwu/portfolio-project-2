@@ -4,7 +4,6 @@ import "../styles/FeaturedProjects.css";
 export default function CarouselGallery(props) {
   return (
     <div>
-    
       <div id="carouselExampleIndicators" className="carousel slide">
         <div className="carousel-indicators">
           <button

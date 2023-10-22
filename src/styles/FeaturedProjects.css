@@ -107,6 +107,31 @@
 .left {
   margin-right: 15px;
 }
+
+
+.Github {
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 25px; /* Adds rounded corners */
+  border: 2px solid black; /* Border style and color */
+  margin-right: 20px;
+  color: var(--branding-color);
+  border: var(--border-circle);
+  margin-top: 20px;
+  justify-content: center; /* Center horizontally */
+  text-decoration: none;
+  width: 110px;
+}
+
+.Github:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+/* Media queries */
 @media (max-width: 414px) {
   .projectDescription {
     font-size: 17px;

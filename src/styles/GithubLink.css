@@ -1,0 +1,12 @@
+.GithubLink {
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 25px; /* Adds rounded corners */
+    border: 2px solid black; /* Border style and color */
+    margin-right: 20px;
+    color: var(--branding-color);
+    border: var(--border-circle);
+}
+
+.GithubLink:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
