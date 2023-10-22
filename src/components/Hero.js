@@ -15,7 +15,7 @@ export default function Hero() {
         Hi! I'm <span id="name">Grace</span> <SmileySticker size={32} />
       </h1>
       <h2>
-        I am a research-driven
+        I am a
         <span id="role"> multidisciplinary product designer </span> <br /> with
         a passion for creating better experiences for <strike>users</strike>{" "}
         people <br /> in the digital space <Cursor size={32} />

@@ -3,7 +3,7 @@ import "../styles/FeaturedProjects.css";
 import GithubLink from "./GithubLink";
 
 // Phosphor icon import
-import { GithubLogo } from "phosphor-react";
+import { ArrowLineUpRight } from "phosphor-react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGit } from "@fortawesome/free-brands-svg-icons";
@@ -26,7 +26,7 @@ export default function ProjectComponent(props) {
             rel="noreferrer"
             className="Link"
           >
-         Github
+         Github <ArrowLineUpRight size={32} />
           </a>
         </div>
         {/* <span className="GithubLink">
