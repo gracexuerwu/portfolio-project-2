@@ -26,7 +26,6 @@ export default function ProjectComponent(props) {
             rel="noreferrer"
             className="Link"
           >
-         Github <ArrowLineUpRight size={32} />
           </a>
         </div>
         {/* <span className="GithubLink">

@@ -37,6 +37,7 @@
 
 .projectThumbnail {
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .FeaturedProjects h2 {
@@ -109,27 +110,63 @@
 }
 
 
-.Github {
-  padding: 5px 20px; /* Adjust padding as needed */
-  border-radius: 35px; /* Adds rounded corners */
-  border: 2px solid black; /* Border style and color */
+/* .Github {
+  padding: 5px 20px; 
+  border-radius: 35px;
+  border: 2px solid black; 
   margin-right: 20px;
   color: var(--branding-color);
   border: var(--border-circle);
   margin-top: 20px;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
   text-decoration: none;
   width: 150px;
 }
 
 .Github:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} */
 
 .Link {
   text-decoration: none;
   color: black;
 }
+
+/* New css for NewProjectComponent */
+.FeaturedProjects .row {
+  display: flex;
+  align-items: center;
+}
+
+.FeaturedProjects .project-name{
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.FeaturedProjects .project-subtitle{
+  margin-bottom: 50px;
+}
+
+.FeaturedProjects .project-button {
+    padding: 13px 20px 13px 20px;
+    /* border: var(--border-circle); */
+    border-radius: 40px;
+    transition: all 0.5s ease;
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    /* color: var(--branding-color); */
+    background-color: #EEF2F5;
+    font-weight: 500;
+    width: 165px;
+  }
+
+  .FeaturedProjects .row {
+    margin-bottom: 100px;
+  }
+ 
+
 
 /* Media queries */
 @media (max-width: 414px) {

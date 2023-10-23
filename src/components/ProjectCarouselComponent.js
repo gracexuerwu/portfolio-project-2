@@ -26,28 +26,9 @@ export default function ProjectCarouselComponent(props) {
           />
         </div>
       </div>
-      {/* <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button> */}
-      {/* <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button> */}
       <div className="wrap">
         <div className="right">
           {" "}
-          <h4>{props.projectName}</h4>
         </div>
         <a
           href={props.projectLink}
@@ -55,13 +36,11 @@ export default function ProjectCarouselComponent(props) {
           rel="noreferrer"
           className="left linksLogo"
         >
-          <Link size={30} />
         </a>
         {/* <div className="left linksLogo">
           <GithubLogo size={30} />
         </div> */}
       </div>
-      <div>Subtitle</div>
       {/* <div className="projectDescription">
       {props.description}
       </div> */}
