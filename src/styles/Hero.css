@@ -40,7 +40,7 @@
   font-size: 35px;
   font-style: normal;
   font-weight: 500;
-  line-height: 129.688%; /* 51.875px */
+  line-height: 1.25rem; /* 51.875px */
   margin-bottom: 46px;
   /* font-size: 55px;
   line-height: 80px;
@@ -53,13 +53,24 @@
 }
 
 .Hero h3 {
-  color: var(--hero-color);
+  /* color: var(--hero-color); */
+  color: #5A6064;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 46px;
+}
+
+.Hero .illustrationPlaceholder {
+  height: auto;
+  width: 800px;
+}
+
+.Hero .hero-link {
+  color: #5A6064;
+  text-decoration: underline;
 }
 
 .Hero .button {
