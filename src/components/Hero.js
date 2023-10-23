@@ -21,7 +21,7 @@ export default function Hero() {
         people <br /> in the digital space <Cursor size={32} />
       </h2>
       <br />
-      <h3>Previously <span className="">@BMW Group</span></h3>
+      <h3><span className="">Find me on <a href="https://github.com/gracexuerwu" target="_blank">Github</a> / <a href="https://www.linkedin.com/in/grace-ade-wu/" target="_blank">Linkedin</a>, or just <a href="">send me an email</a> saying hi.</span></h3>
       <h4 className="flashing-text">🚫 This site is under construction till further notice 🚫</h4>
       <a href="#FeaturedProjects" className="button">
         What i do ↓
