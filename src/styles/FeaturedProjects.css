@@ -139,9 +139,10 @@
 }
 
 .FeaturedProjects .project-name{
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 20px;
   font-weight: 600;
+  font-family: 'Public Sans';
 }
 
 .FeaturedProjects .project-subtitle{
@@ -166,7 +167,9 @@
     margin-bottom: 100px;
   }
  
-
+.box-shadow {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
 
 /* Media queries */
 @media (max-width: 414px) {

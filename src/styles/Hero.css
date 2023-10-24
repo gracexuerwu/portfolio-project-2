@@ -74,7 +74,7 @@
 }
 
 .Hero .button {
-  padding: 10px 20px 10px 20px;
+  padding: 13px 20px 13px 20px;
   border: var(--border-circle);
   border-radius: 40px;
   transition: all 0.5s ease;

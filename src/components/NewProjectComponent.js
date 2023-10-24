@@ -23,6 +23,13 @@ import Medicalpackaging2Thumbnail from "../images/Medical packaging02_Thumbnail.
 import BAThesis1Thumbnail from "../images/BAthesis01_Thumbnail.png";
 import BAThesis2Thumbnail from "../images/BAthesis02_Thumbnail.png";
 
+//New image imports
+import ReactWeatherAppThumbnaillNEW from "../images/Thumbnails/ReactWeatherApp1_Thumbnail_New.png"
+import WeatherAppThumbnailNEW from "../images/Thumbnails/WeatherApp_Thumbnail_New.png"
+import DictionaryAppThumbnailNEW from "../images/Thumbnails/ReactDictApp1_Thumbnail_New.png"
+import SchindlerThumbnailNEW from "../images/Thumbnails/Schindler01_Thumbnail_New.png"
+import MedicalpackagingThumbnailNEW from "../images/Thumbnails/Medical packaging01_Thumbnail_New.png"
+
 export default function NewProjectComponent() {
   return (
     <div className="FeaturedProjects" id="FeaturedProjects">
@@ -30,8 +37,8 @@ export default function NewProjectComponent() {
         <div className="col-sm-6 px-5">
           <Link to="/testPage2" rel="noreferrer">
             <img
-              src={Schindler2Thumbnail}
-              className="projectThumbnail"
+              src={SchindlerThumbnailNEW}
+              className="projectThumbnail box-shadow"
               alt="STEM workshop for girls"
             ></img>
           </Link>
@@ -57,8 +64,12 @@ export default function NewProjectComponent() {
           </div>
         </div>
         <div className="col-sm-6 px-5">
-        <ProjectCarouselComponent
-            imageOne={Medicalpackaging1Thumbnail}
+        <ProjectComponent
+            image={MedicalpackagingThumbnailNEW}
+            className="box-shadow"
+          />
+        {/* <ProjectCarouselComponent
+            imageOne={MedicalpackagingThumbnailNEW}
             imageTwo={Medicalpackaging2Thumbnail}
             alt="Medical packaging evaluation"
             description="The scope of this project, is to research and identify areas of
@@ -67,7 +78,7 @@ export default function NewProjectComponent() {
             projectLink="https://drive.google.com/file/d/1YttEc0w1UM0DmRWkwN6M52hTAByGWRCN/view?usp=sharing"
             projectType="Sustainability"
             projectName="Evaluation On How Medical Packaging Can Be More Sustainable"
-          />
+          /> */}
         </div>
       </div>
       <div className="row projectRow">
@@ -104,7 +115,7 @@ export default function NewProjectComponent() {
         </div>
         <div className="col-sm-6 px-5">
         <ProjectComponent
-            image={WeatherAppThumbnail}
+            image={WeatherAppThumbnailNEW}
             projectName="Weather App"
             description="Weather application coded with Vanilla Javascript with Openweathermap API integration for live weather information. Features a day and night background which changes according to your local time."
             liveSiteLink="https://dazzling-meitner-238069.netlify.app/"
@@ -117,7 +128,7 @@ export default function NewProjectComponent() {
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
         <ProjectComponent
-            image={ReactWeatherAppThumbnail}
+            image={ReactWeatherAppThumbnaillNEW}
             projectName="Weather App 2.0"
             description="Iterated version of the previous weather app but in React.js. It
             allows users to search for the weather at any location. Includes a
@@ -150,7 +161,7 @@ export default function NewProjectComponent() {
         </div>
         <div className="col-sm-6 px-5">
         <ProjectComponent
-            image={DictionaryAppThumbnail}
+            image={DictionaryAppThumbnailNEW}
             projectName="Dictionary App"
             description="Retro dictionary App that allows users to search for any word definition and pronunciation. Includes pictures that are associated with the
             searched word."
