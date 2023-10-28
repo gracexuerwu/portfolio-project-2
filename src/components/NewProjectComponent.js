@@ -24,11 +24,13 @@ import BAThesis1Thumbnail from "../images/BAthesis01_Thumbnail.png";
 import BAThesis2Thumbnail from "../images/BAthesis02_Thumbnail.png";
 
 //New image imports
-import ReactWeatherAppThumbnaillNEW from "../images/Thumbnails/ReactWeatherApp1_Thumbnail_New.png"
-import WeatherAppThumbnailNEW from "../images/Thumbnails/WeatherApp_Thumbnail_New.png"
-import DictionaryAppThumbnailNEW from "../images/Thumbnails/ReactDictApp1_Thumbnail_New.png"
-import SchindlerThumbnailNEW from "../images/Thumbnails/Schindler01_Thumbnail_New.png"
-import MedicalpackagingThumbnailNEW from "../images/Thumbnails/Medical packaging01_Thumbnail_New.png"
+import ReactWeatherAppThumbnaillNEW from "../images/Thumbnails/ReactWeatherApp1_Thumbnail_New.png";
+import WeatherAppThumbnailNEW from "../images/Thumbnails/WeatherApp_Thumbnail_New.png";
+import DictionaryAppThumbnailNEW from "../images/Thumbnails/ReactDictApp1_Thumbnail_New.png";
+import SchindlerThumbnailNEW from "../images/Thumbnails/Schindler01_Thumbnail_New.png";
+import MedicalpackagingThumbnailNEW from "../images/Thumbnails/Medical packaging01_Thumbnail_New.png";
+import LunarCalendarThumbnailNEW from "../images/Thumbnails/LunarBirthdayCalendar1_Thumbnail_New.png";
+import CarandacheThumbnailNEW from "../images/Thumbnails/Carandache_Thumbnail_New.png";
 
 export default function NewProjectComponent() {
   return (
@@ -48,7 +50,7 @@ export default function NewProjectComponent() {
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button">
+          <div className="project-button box-shadow">
             View Project
           </div>
         </div>
@@ -66,7 +68,7 @@ export default function NewProjectComponent() {
         <div className="col-sm-6 px-5">
         <ProjectComponent
             image={MedicalpackagingThumbnailNEW}
-            className="box-shadow"
+            className=""
           />
         {/* <ProjectCarouselComponent
             imageOne={MedicalpackagingThumbnailNEW}
@@ -85,7 +87,7 @@ export default function NewProjectComponent() {
         <div className="col-sm-6 px-5">
           <Link to="/testPage2" rel="noreferrer">
             <img
-              src={Schindler2Thumbnail}
+              src={CarandacheThumbnailNEW}
               className="projectThumbnail"
               alt="STEM workshop for girls"
             ></img>
@@ -175,7 +177,7 @@ export default function NewProjectComponent() {
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
         <ProjectComponent
-            image={LunarBirthdayCalendar_Thumbnail}
+            image={LunarCalendarThumbnailNEW}
             projectName="Lunar Calendar App"
             description="Ever wondered what your chinese zodiac is? Key in your birthday and find out what's your inner animal!"
             liveSiteLink="https://birthday-lunar-calendar.netlify.app/"

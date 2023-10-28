@@ -14,7 +14,7 @@ export default function ProjectComponent(props) {
       <a href={props.liveSiteLink} target="_blank" rel="noreferrer">
         <img
           src={props.image}
-          className="img-fluid text-center placeholder-img rounded projectImage enlarge-image"
+          className="img-fluid text-center placeholder-img rounded projectImage enlarge-image box-shadow"
           alt=""
         />
       </a>
