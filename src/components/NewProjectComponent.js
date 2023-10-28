@@ -3,25 +3,23 @@ import "../styles/FeaturedProjects.css";
 import ProjectComponent from "./ProjectComponent";
 import ProjectCarouselComponent from "./ProjectCarouselComponent";
 
-import ProjectTag from "./ProjectTag";
-
 import { Link } from "react-router-dom";
 
 //images import
-import ReactWeatherAppThumbnail from "../images/ReactWeatherApp1_Thumbnail.png";
-import WeatherAppThumbnail from "../images/WeatherApp_Thumbnail1.png";
-import DictionaryAppThumbnail from "../images/ReactDictApp1_Thumbnail.png";
-import LunarBirthdayCalendar_Thumbnail from "../images/LunarBirthdayCalendar1_Thumbnail.png";
-import Schindler2Thumbnail from "../images/Schindler01_Thumbnail.png";
-import Schindler3Thumbnail from "../images/Schindler02_Thumbnail.png";
-import SexualHealth1Thumbnail from "../images/Sexualhealth01_Thumbnail.png";
-import SexualHealth2Thumbnail from "../images/Sexualhealth02_Thumbnail.png";
-import Carandache1Thumbnail from "../images/Caradache01_Thumbnail.png";
-import Carandache2Thumbnail from "../images/Caradache02_Thumbnail.png";
-import Medicalpackaging1Thumbnail from "../images/Medical packaging01_Thumbnail.png";
-import Medicalpackaging2Thumbnail from "../images/Medical packaging02_Thumbnail.png";
-import BAThesis1Thumbnail from "../images/BAthesis01_Thumbnail.png";
-import BAThesis2Thumbnail from "../images/BAthesis02_Thumbnail.png";
+// import ReactWeatherAppThumbnail from "../images/ReactWeatherApp1_Thumbnail.png";
+// import WeatherAppThumbnail from "../images/WeatherApp_Thumbnail1.png";
+// import DictionaryAppThumbnail from "../images/ReactDictApp1_Thumbnail.png";
+// import LunarBirthdayCalendar_Thumbnail from "../images/LunarBirthdayCalendar1_Thumbnail.png";
+// import Schindler2Thumbnail from "../images/Schindler01_Thumbnail.png";
+// import Schindler3Thumbnail from "../images/Schindler02_Thumbnail.png";
+// import SexualHealth1Thumbnail from "../images/Sexualhealth01_Thumbnail.png";
+// import SexualHealth2Thumbnail from "../images/Sexualhealth02_Thumbnail.png";
+// import Carandache1Thumbnail from "../images/Caradache01_Thumbnail.png";
+// import Carandache2Thumbnail from "../images/Caradache02_Thumbnail.png";
+// import Medicalpackaging1Thumbnail from "../images/Medical packaging01_Thumbnail.png";
+// import Medicalpackaging2Thumbnail from "../images/Medical packaging02_Thumbnail.png";
+// import BAThesis1Thumbnail from "../images/BAthesis01_Thumbnail.png";
+// import BAThesis2Thumbnail from "../images/BAthesis02_Thumbnail.png";
 
 //New image imports
 import ReactWeatherAppThumbnaillNEW from "../images/Thumbnails/ReactWeatherApp1_Thumbnail_New.png";
@@ -50,7 +48,7 @@ export default function NewProjectComponent() {
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button box-shadow">
+          <div className="project-button">
             View Project
           </div>
         </div>

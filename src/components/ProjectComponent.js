@@ -3,10 +3,9 @@ import "../styles/FeaturedProjects.css";
 import GithubLink from "./GithubLink";
 
 // Phosphor icon import
-import { ArrowLineUpRight } from "phosphor-react";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGit } from "@fortawesome/free-brands-svg-icons";
+// import { ArrowLineUpRight } from "phosphor-react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGit } from "@fortawesome/free-brands-svg-icons";
 
 export default function ProjectComponent(props) {
   return (

@@ -19,6 +19,7 @@
 
 .Hero .flashing-text {
   animation: flash 1s infinite;
+  margin-bottom: 50px;
 }
 
 
