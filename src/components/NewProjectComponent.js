@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/FeaturedProjects.css";
 import ProjectComponent from "./ProjectComponent";
-import ProjectCarouselComponent from "./ProjectCarouselComponent";
+// import ProjectCarouselComponent from "./ProjectCarouselComponent";
 
 import { Link } from "react-router-dom";
 
@@ -38,37 +38,34 @@ export default function NewProjectComponent() {
           <Link to="/testPage2" rel="noreferrer">
             <img
               src={SchindlerThumbnailNEW}
-              className="projectThumbnail box-shadow"
+              className="projectThumbnail box-shadow enlarge-image"
               alt="STEM workshop for girls"
             ></img>
           </Link>
         </div>
         <div className="col-sm-6 px-5">
-          <div className="project-name">Motivating girls to join the STEM World</div>
+          <div className="project-name">
+            Motivating girls to join the STEM World
+          </div>
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button">
-            View Project
-          </div>
+          <div className="project-button">View Project</div>
         </div>
       </div>
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
-          <div className="project-name">Motivating girls to join the STEM World</div>
+          <div className="project-name">
+           Cradle-to-Cradle Acessment for Medical blisters
+          </div>
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button">
-            View Project
-          </div>
+          <div className="project-button">View Project</div>
         </div>
         <div className="col-sm-6 px-5">
-        <ProjectComponent
-            image={MedicalpackagingThumbnailNEW}
-            className=""
-          />
-        {/* <ProjectCarouselComponent
+          <ProjectComponent image={MedicalpackagingThumbnailNEW} className="" />
+          {/* <ProjectCarouselComponent
             imageOne={MedicalpackagingThumbnailNEW}
             imageTwo={Medicalpackaging2Thumbnail}
             alt="Medical packaging evaluation"
@@ -83,38 +80,35 @@ export default function NewProjectComponent() {
       </div>
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
-          <Link to="/testPage2" rel="noreferrer">
+          <Link to="/CaranDachePage" rel="noreferrer">
             <img
               src={CarandacheThumbnailNEW}
-              className="projectThumbnail"
-              alt="STEM workshop for girls"
+              className="projectThumbnail enlarge-image box-shadow"
+              alt="Caran D'ache Concept"
             ></img>
           </Link>
         </div>
         <div className="col-sm-6 px-5">
-          <div className="project-name">Motivating girls to join the STEM World</div>
+          <div className="project-name">Design for Sustainability Concept</div>
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button">
-            View Project
-          </div>
+          <div className="project-button">View Project</div>
         </div>
       </div>
 
       {/* <--Development projects--> */}
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
-          <div className="project-name">Motivating girls to join the STEM World</div>
+          <div className="project-name">Weather App</div>
           <div className="project-subtitle">
-            How can we devise a strategy to entice girls to explore S.T.E.M
+            Created using Vanilla Javascript with Openweathermap API integration
+            for live weather information
           </div>
-          <div className="project-button">
-            View Project
-          </div>
+          <a href="https://dazzling-meitner-238069.netlify.app/" className="project-button" target="_blank" rel="noreferrer">View Project</a>
         </div>
         <div className="col-sm-6 px-5">
-        <ProjectComponent
+          <ProjectComponent
             image={WeatherAppThumbnailNEW}
             projectName="Weather App"
             description="Weather application coded with Vanilla Javascript with Openweathermap API integration for live weather information. Features a day and night background which changes according to your local time."
@@ -127,7 +121,7 @@ export default function NewProjectComponent() {
       </div>
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
-        <ProjectComponent
+          <ProjectComponent
             image={ReactWeatherAppThumbnaillNEW}
             projectName="Weather App 2.0"
             description="Iterated version of the previous weather app but in React.js. It
@@ -140,27 +134,27 @@ export default function NewProjectComponent() {
           />
         </div>
         <div className="col-sm-6 px-5">
-          <div className="project-name">Motivating girls to join the STEM World</div>
+          <div className="project-name">Weather App 2.0</div>
           <div className="project-subtitle">
-            How can we devise a strategy to entice girls to explore S.T.E.M
+            Iterated version of the previous weather app but in React.js.
+            Includes geo location search and Celcius and Fahrenheit temperature
+            slider
           </div>
-          <div className="project-button">
-            View Project
-          </div>
+          <a href="https://hungry-yalow-e0bde5.netlify.app/" className="project-button" target="_blank" rel="noreferrer">View Project</a>
         </div>
       </div>
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
-          <div className="project-name">Motivating girls to join the STEM World</div>
+          <div className="project-name">Dictionary App</div>
           <div className="project-subtitle">
-            How can we devise a strategy to entice girls to explore S.T.E.M
+            Retro dictionary App that allows users to search for any word
+            definition and pronunciation. Includes pictures that are associated
+            with the searched word
           </div>
-          <div className="project-button">
-            View Project
-          </div>
+          <a href="https://loving-mccarthy-677ab0.netlify.app/" className="project-button" target="_blank" rel="noreferrer">View Project</a>
         </div>
         <div className="col-sm-6 px-5">
-        <ProjectComponent
+          <ProjectComponent
             image={DictionaryAppThumbnailNEW}
             projectName="Dictionary App"
             description="Retro dictionary App that allows users to search for any word definition and pronunciation. Includes pictures that are associated with the
@@ -174,7 +168,7 @@ export default function NewProjectComponent() {
       </div>
       <div className="row projectRow">
         <div className="col-sm-6 px-5">
-        <ProjectComponent
+          <ProjectComponent
             image={LunarCalendarThumbnailNEW}
             projectName="Lunar Calendar App"
             description="Ever wondered what your chinese zodiac is? Key in your birthday and find out what's your inner animal!"
@@ -185,18 +179,14 @@ export default function NewProjectComponent() {
           />
         </div>
         <div className="col-sm-6 px-5">
-          <div className="project-name">Motivating girls to join the STEM World</div>
+          <div className="project-name">Lunar Calendar App</div>
           <div className="project-subtitle">
-            How can we devise a strategy to entice girls to explore S.T.E.M
+            Ever wondered what your chinese zodiac is? Key in your birthday and
+            find out what's your inner animal!
           </div>
-          <div className="project-button">
-            View Project
-          </div>
+          <a href="https://birthday-lunar-calendar.netlify.app/" className="project-button" target="_blank" rel="noreferrer">View Project</a>
         </div>
       </div>
-
-
-
 
       {/* Old project layout */}
       {/* <div className="row projectRow">

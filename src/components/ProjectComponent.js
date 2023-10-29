@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/FeaturedProjects.css";
-import GithubLink from "./GithubLink";
 
 // Phosphor icon import
 // import { ArrowLineUpRight } from "phosphor-react";

@@ -18,8 +18,8 @@
 
 /* Initial style */
 .enlarge-image {
-  max-width: 78%;
-  max-height: 78%;
+  /* max-width: 78%;
+  max-height: 78%; */
   transition: transform 0.3s ease;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .FeaturedProjects .project-button {
-    padding: 13px 20px 13px 20px;
+    padding: 18px 25px 18px 25px;
     border-radius: 40px;
     transition: all 0.5s ease;
     margin-top: 30px;
@@ -159,6 +159,7 @@
     background-color: #EEF2F5;
     font-weight: 500;
     width: 165px;
+    color: black;
   }
 
 .FeaturedProjects .project-button:hover {

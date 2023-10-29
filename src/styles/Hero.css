@@ -155,10 +155,10 @@
 }
 @media (min-width: 900px) {
   .Hero h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .Hero h2 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 40px;
     margin-top: 0px;
   }
