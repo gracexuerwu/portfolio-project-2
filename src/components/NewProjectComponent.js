@@ -50,7 +50,7 @@ export default function NewProjectComponent() {
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button">View Project</div>
+          <a href="" className="project-button" target="_blank" rel="noreferrer">View Project</a>
         </div>
       </div>
       <div className="row projectRow">
@@ -61,7 +61,7 @@ export default function NewProjectComponent() {
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button">View Project</div>
+          <a href="" className="project-button" target="_blank" rel="noreferrer">View Project</a>
         </div>
         <div className="col-sm-6 px-5">
           <ProjectComponent image={MedicalpackagingThumbnailNEW} className="" />
@@ -93,7 +93,7 @@ export default function NewProjectComponent() {
           <div className="project-subtitle">
             How can we devise a strategy to entice girls to explore S.T.E.M
           </div>
-          <div className="project-button">View Project</div>
+          <a href="" className="project-button" target="_blank" rel="noreferrer">View Project</a>
         </div>
       </div>
 
